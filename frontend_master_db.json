@@ -1,19 +1,19 @@
 [
   {
-    "id": "middle_east_test_Dataset_Asia_main_image_10",
-    "region": "middle_east",
+    "id": "Europe_test_Dataset_Asia_main_image_10",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -41.5316,
-      "y": 50.6982
+      "x": -30.5244,
+      "y": -105.4837
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Dataset_Asia_main_image_10.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Dataset_Asia_main_image_10.png",
+      "image_url": "/assets/images/original/Europe_test_Dataset_Asia_main_image_10.png",
+      "depth_url": "/assets/images/depth/Europe_test_Dataset_Asia_main_image_10.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Dataset_Asia_main_image_10.png",
-        "body": "/assets/images/parts/body/middle_east_test_Dataset_Asia_main_image_10.png",
-        "base": "/assets/images/parts/base/middle_east_test_Dataset_Asia_main_image_10.png"
+        "neck": "/assets/images/parts/neck/Europe_test_Dataset_Asia_main_image_10.png",
+        "body": "/assets/images/parts/body/Europe_test_Dataset_Asia_main_image_10.png",
+        "base": "/assets/images/parts/base/Europe_test_Dataset_Asia_main_image_10.png"
       }
     }
   },
@@ -108,20 +108,20 @@
     }
   },
   {
-    "id": "middle_east_test_Dataset_Asia_main_image_39",
-    "region": "middle_east",
+    "id": "Europe_test_Dataset_Asia_main_image_39",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -257.1015,
-      "y": -23.5425
+      "x": -52.7522,
+      "y": 9.2351
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Dataset_Asia_main_image_39.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Dataset_Asia_main_image_39.png",
+      "image_url": "/assets/images/original/Europe_test_Dataset_Asia_main_image_39.png",
+      "depth_url": "/assets/images/depth/Europe_test_Dataset_Asia_main_image_39.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Dataset_Asia_main_image_39.png",
-        "body": "/assets/images/parts/body/middle_east_test_Dataset_Asia_main_image_39.png",
-        "base": "/assets/images/parts/base/middle_east_test_Dataset_Asia_main_image_39.png"
+        "neck": "/assets/images/parts/neck/Europe_test_Dataset_Asia_main_image_39.png",
+        "body": "/assets/images/parts/body/Europe_test_Dataset_Asia_main_image_39.png",
+        "base": "/assets/images/parts/base/Europe_test_Dataset_Asia_main_image_39.png"
       }
     }
   },
@@ -162,56 +162,56 @@
     }
   },
   {
-    "id": "middle_east_test_Dataset_Asia_main_image_7",
-    "region": "middle_east",
+    "id": "Europe_test_Dataset_Asia_main_image_7",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -259.1157,
-      "y": -131.1887
+      "x": -342.7802,
+      "y": 197.8397
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Dataset_Asia_main_image_7.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Dataset_Asia_main_image_7.png",
+      "image_url": "/assets/images/original/Europe_test_Dataset_Asia_main_image_7.png",
+      "depth_url": "/assets/images/depth/Europe_test_Dataset_Asia_main_image_7.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Dataset_Asia_main_image_7.png",
-        "body": "/assets/images/parts/body/middle_east_test_Dataset_Asia_main_image_7.png",
-        "base": "/assets/images/parts/base/middle_east_test_Dataset_Asia_main_image_7.png"
+        "neck": "/assets/images/parts/neck/Europe_test_Dataset_Asia_main_image_7.png",
+        "body": "/assets/images/parts/body/Europe_test_Dataset_Asia_main_image_7.png",
+        "base": "/assets/images/parts/base/Europe_test_Dataset_Asia_main_image_7.png"
       }
     }
   },
   {
-    "id": "East Asia_test_Dataset_Europe_main_image_13",
-    "region": "East Asia",
+    "id": "middle_east_test_Dataset_Europe_main_image_13",
+    "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -5.865,
-      "y": -328.255
+      "x": -253.6578,
+      "y": 72.3358
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_test_Dataset_Europe_main_image_13.png",
-      "depth_url": "/assets/images/depth/East Asia_test_Dataset_Europe_main_image_13.png",
+      "image_url": "/assets/images/original/middle_east_test_Dataset_Europe_main_image_13.png",
+      "depth_url": "/assets/images/depth/middle_east_test_Dataset_Europe_main_image_13.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_test_Dataset_Europe_main_image_13.png",
-        "body": "/assets/images/parts/body/East Asia_test_Dataset_Europe_main_image_13.png",
-        "base": "/assets/images/parts/base/East Asia_test_Dataset_Europe_main_image_13.png"
+        "neck": "/assets/images/parts/neck/middle_east_test_Dataset_Europe_main_image_13.png",
+        "body": "/assets/images/parts/body/middle_east_test_Dataset_Europe_main_image_13.png",
+        "base": "/assets/images/parts/base/middle_east_test_Dataset_Europe_main_image_13.png"
       }
     }
   },
   {
-    "id": "middle_east_test_Dataset_Europe_main_image_22",
-    "region": "middle_east",
+    "id": "Asia_test_Dataset_Europe_main_image_22",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -54.791,
-      "y": -105.2362
+      "x": -198.4974,
+      "y": 117.0975
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Dataset_Europe_main_image_22.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Dataset_Europe_main_image_22.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_Europe_main_image_22.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_Europe_main_image_22.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Dataset_Europe_main_image_22.png",
-        "body": "/assets/images/parts/body/middle_east_test_Dataset_Europe_main_image_22.png",
-        "base": "/assets/images/parts/base/middle_east_test_Dataset_Europe_main_image_22.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Dataset_Europe_main_image_22.png",
+        "body": "/assets/images/parts/body/Asia_test_Dataset_Europe_main_image_22.png",
+        "base": "/assets/images/parts/base/Asia_test_Dataset_Europe_main_image_22.png"
       }
     }
   },
@@ -252,20 +252,20 @@
     }
   },
   {
-    "id": "middle_east_test_Dataset_Europe_main_image_29",
-    "region": "middle_east",
+    "id": "Asia_test_Dataset_Europe_main_image_29",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -132.3956,
-      "y": -87.9936
+      "x": -119.2686,
+      "y": -25.1951
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Dataset_Europe_main_image_29.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Dataset_Europe_main_image_29.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_Europe_main_image_29.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_Europe_main_image_29.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Dataset_Europe_main_image_29.png",
-        "body": "/assets/images/parts/body/middle_east_test_Dataset_Europe_main_image_29.png",
-        "base": "/assets/images/parts/base/middle_east_test_Dataset_Europe_main_image_29.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Dataset_Europe_main_image_29.png",
+        "body": "/assets/images/parts/body/Asia_test_Dataset_Europe_main_image_29.png",
+        "base": "/assets/images/parts/base/Asia_test_Dataset_Europe_main_image_29.png"
       }
     }
   },
@@ -306,16 +306,16 @@
     }
   },
   {
-    "id": "East Asia_test_Dataset_Europe_main_image_8",
-    "region": "East Asia",
+    "id": "Asia_test_Dataset_Europe_main_image_8",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -7.843,
-      "y": -330.3638
+      "x": -5.5991,
+      "y": -340.7596
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_test_Dataset_Europe_main_image_8.png",
-      "depth_url": "/assets/images/depth/East Asia_test_Dataset_Europe_main_image_8.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_Europe_main_image_8.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_Europe_main_image_8.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -324,20 +324,20 @@
     }
   },
   {
-    "id": "East Asia_test_Dataset_middle_east_main_image_15",
-    "region": "East Asia",
+    "id": "Asia_test_Dataset_middle_east_main_image_15",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 30.8594,
-      "y": -273.862
+      "x": 12.8592,
+      "y": 194.3022
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_test_Dataset_middle_east_main_image_15.png",
-      "depth_url": "/assets/images/depth/East Asia_test_Dataset_middle_east_main_image_15.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_middle_east_main_image_15.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_middle_east_main_image_15.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_test_Dataset_middle_east_main_image_15.png",
-        "body": "/assets/images/parts/body/East Asia_test_Dataset_middle_east_main_image_15.png",
-        "base": "/assets/images/parts/base/East Asia_test_Dataset_middle_east_main_image_15.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Dataset_middle_east_main_image_15.png",
+        "body": "/assets/images/parts/body/Asia_test_Dataset_middle_east_main_image_15.png",
+        "base": "/assets/images/parts/base/Asia_test_Dataset_middle_east_main_image_15.png"
       }
     }
   },
@@ -360,20 +360,20 @@
     }
   },
   {
-    "id": "Europe_test_Dataset_middle_east_main_image_21",
-    "region": "Europe",
+    "id": "Asia_test_Dataset_middle_east_main_image_21",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 1.8651,
-      "y": -160.0646
+      "x": -28.0911,
+      "y": -236.2448
     },
     "assets": {
-      "image_url": "/assets/images/original/Europe_test_Dataset_middle_east_main_image_21.png",
-      "depth_url": "/assets/images/depth/Europe_test_Dataset_middle_east_main_image_21.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_middle_east_main_image_21.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_middle_east_main_image_21.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/Europe_test_Dataset_middle_east_main_image_21.png",
-        "body": "/assets/images/parts/body/Europe_test_Dataset_middle_east_main_image_21.png",
-        "base": "/assets/images/parts/base/Europe_test_Dataset_middle_east_main_image_21.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Dataset_middle_east_main_image_21.png",
+        "body": "/assets/images/parts/body/Asia_test_Dataset_middle_east_main_image_21.png",
+        "base": "/assets/images/parts/base/Asia_test_Dataset_middle_east_main_image_21.png"
       }
     }
   },
@@ -414,20 +414,20 @@
     }
   },
   {
-    "id": "East Asia_test_Dataset_middle_east_main_image_30",
-    "region": "East Asia",
+    "id": "Asia_test_Dataset_middle_east_main_image_30",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 186.4699,
-      "y": 121.9347
+      "x": 1.7106,
+      "y": 369.3557
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_test_Dataset_middle_east_main_image_30.png",
-      "depth_url": "/assets/images/depth/East Asia_test_Dataset_middle_east_main_image_30.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_middle_east_main_image_30.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_middle_east_main_image_30.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_test_Dataset_middle_east_main_image_30.png",
-        "body": "/assets/images/parts/body/East Asia_test_Dataset_middle_east_main_image_30.png",
-        "base": "/assets/images/parts/base/East Asia_test_Dataset_middle_east_main_image_30.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Dataset_middle_east_main_image_30.png",
+        "body": "/assets/images/parts/body/Asia_test_Dataset_middle_east_main_image_30.png",
+        "base": "/assets/images/parts/base/Asia_test_Dataset_middle_east_main_image_30.png"
       }
     }
   },
@@ -450,20 +450,20 @@
     }
   },
   {
-    "id": "East Asia_test_Dataset_middle_east_main_image_37",
-    "region": "East Asia",
+    "id": "Asia_test_Dataset_middle_east_main_image_37",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -33.5052,
-      "y": -205.8029
+      "x": -32.0333,
+      "y": -129.1861
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_test_Dataset_middle_east_main_image_37.png",
-      "depth_url": "/assets/images/depth/East Asia_test_Dataset_middle_east_main_image_37.png",
+      "image_url": "/assets/images/original/Asia_test_Dataset_middle_east_main_image_37.png",
+      "depth_url": "/assets/images/depth/Asia_test_Dataset_middle_east_main_image_37.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_test_Dataset_middle_east_main_image_37.png",
-        "body": "/assets/images/parts/body/East Asia_test_Dataset_middle_east_main_image_37.png",
-        "base": "/assets/images/parts/base/East Asia_test_Dataset_middle_east_main_image_37.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Dataset_middle_east_main_image_37.png",
+        "body": "/assets/images/parts/body/Asia_test_Dataset_middle_east_main_image_37.png",
+        "base": "/assets/images/parts/base/Asia_test_Dataset_middle_east_main_image_37.png"
       }
     }
   },
@@ -486,20 +486,20 @@
     }
   },
   {
-    "id": "middle_east_test_Data_East_Asia_main_image_11",
-    "region": "middle_east",
+    "id": "Asia_test_Data_East_Asia_main_image_11",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -136.977,
-      "y": -106.9073
+      "x": -63.6689,
+      "y": -110.6714
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Data_East_Asia_main_image_11.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Data_East_Asia_main_image_11.png",
+      "image_url": "/assets/images/original/Asia_test_Data_East_Asia_main_image_11.png",
+      "depth_url": "/assets/images/depth/Asia_test_Data_East_Asia_main_image_11.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Data_East_Asia_main_image_11.png",
-        "body": "/assets/images/parts/body/middle_east_test_Data_East_Asia_main_image_11.png",
-        "base": "/assets/images/parts/base/middle_east_test_Data_East_Asia_main_image_11.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Data_East_Asia_main_image_11.png",
+        "body": "/assets/images/parts/body/Asia_test_Data_East_Asia_main_image_11.png",
+        "base": "/assets/images/parts/base/Asia_test_Data_East_Asia_main_image_11.png"
       }
     }
   },
@@ -540,38 +540,38 @@
     }
   },
   {
-    "id": "middle_east_test_Data_East_Asia_main_image_29",
-    "region": "middle_east",
+    "id": "Asia_test_Data_East_Asia_main_image_29",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -132.3956,
-      "y": -87.9936
+      "x": -119.2686,
+      "y": -25.1951
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Data_East_Asia_main_image_29.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Data_East_Asia_main_image_29.png",
+      "image_url": "/assets/images/original/Asia_test_Data_East_Asia_main_image_29.png",
+      "depth_url": "/assets/images/depth/Asia_test_Data_East_Asia_main_image_29.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Data_East_Asia_main_image_29.png",
-        "body": "/assets/images/parts/body/middle_east_test_Data_East_Asia_main_image_29.png",
-        "base": "/assets/images/parts/base/middle_east_test_Data_East_Asia_main_image_29.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Data_East_Asia_main_image_29.png",
+        "body": "/assets/images/parts/body/Asia_test_Data_East_Asia_main_image_29.png",
+        "base": "/assets/images/parts/base/Asia_test_Data_East_Asia_main_image_29.png"
       }
     }
   },
   {
-    "id": "middle_east_test_Data_East_Asia_main_image_32",
-    "region": "middle_east",
+    "id": "Asia_test_Data_East_Asia_main_image_32",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 79.674,
-      "y": -70.5255
+      "x": -189.9808,
+      "y": 124.949
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Data_East_Asia_main_image_32.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Data_East_Asia_main_image_32.png",
+      "image_url": "/assets/images/original/Asia_test_Data_East_Asia_main_image_32.png",
+      "depth_url": "/assets/images/depth/Asia_test_Data_East_Asia_main_image_32.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Data_East_Asia_main_image_32.png",
-        "body": "/assets/images/parts/body/middle_east_test_Data_East_Asia_main_image_32.png",
-        "base": "/assets/images/parts/base/middle_east_test_Data_East_Asia_main_image_32.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Data_East_Asia_main_image_32.png",
+        "body": "/assets/images/parts/body/Asia_test_Data_East_Asia_main_image_32.png",
+        "base": "/assets/images/parts/base/Asia_test_Data_East_Asia_main_image_32.png"
       }
     }
   },
@@ -594,56 +594,56 @@
     }
   },
   {
-    "id": "middle_east_test_Data_East_Asia_main_image_35",
-    "region": "middle_east",
+    "id": "Asia_test_Data_East_Asia_main_image_35",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -146.7784,
-      "y": -98.8517
+      "x": 41.635,
+      "y": 244.2152
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Data_East_Asia_main_image_35.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Data_East_Asia_main_image_35.png",
+      "image_url": "/assets/images/original/Asia_test_Data_East_Asia_main_image_35.png",
+      "depth_url": "/assets/images/depth/Asia_test_Data_East_Asia_main_image_35.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Data_East_Asia_main_image_35.png",
-        "body": "/assets/images/parts/body/middle_east_test_Data_East_Asia_main_image_35.png",
-        "base": "/assets/images/parts/base/middle_east_test_Data_East_Asia_main_image_35.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Data_East_Asia_main_image_35.png",
+        "body": "/assets/images/parts/body/Asia_test_Data_East_Asia_main_image_35.png",
+        "base": "/assets/images/parts/base/Asia_test_Data_East_Asia_main_image_35.png"
       }
     }
   },
   {
-    "id": "middle_east_test_Data_East_Asia_main_image_39",
-    "region": "middle_east",
+    "id": "Europe_test_Data_East_Asia_main_image_39",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -257.1015,
-      "y": -23.5425
+      "x": -52.7522,
+      "y": 9.2351
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Data_East_Asia_main_image_39.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Data_East_Asia_main_image_39.png",
+      "image_url": "/assets/images/original/Europe_test_Data_East_Asia_main_image_39.png",
+      "depth_url": "/assets/images/depth/Europe_test_Data_East_Asia_main_image_39.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Data_East_Asia_main_image_39.png",
-        "body": "/assets/images/parts/body/middle_east_test_Data_East_Asia_main_image_39.png",
-        "base": "/assets/images/parts/base/middle_east_test_Data_East_Asia_main_image_39.png"
+        "neck": "/assets/images/parts/neck/Europe_test_Data_East_Asia_main_image_39.png",
+        "body": "/assets/images/parts/body/Europe_test_Data_East_Asia_main_image_39.png",
+        "base": "/assets/images/parts/base/Europe_test_Data_East_Asia_main_image_39.png"
       }
     }
   },
   {
-    "id": "middle_east_test_Data_East_Asia_main_image_43",
-    "region": "middle_east",
+    "id": "Asia_test_Data_East_Asia_main_image_43",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 62.2332,
-      "y": 22.2114
+      "x": 7.5238,
+      "y": -148.0028
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_test_Data_East_Asia_main_image_43.png",
-      "depth_url": "/assets/images/depth/middle_east_test_Data_East_Asia_main_image_43.png",
+      "image_url": "/assets/images/original/Asia_test_Data_East_Asia_main_image_43.png",
+      "depth_url": "/assets/images/depth/Asia_test_Data_East_Asia_main_image_43.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_test_Data_East_Asia_main_image_43.png",
-        "body": "/assets/images/parts/body/middle_east_test_Data_East_Asia_main_image_43.png",
-        "base": "/assets/images/parts/base/middle_east_test_Data_East_Asia_main_image_43.png"
+        "neck": "/assets/images/parts/neck/Asia_test_Data_East_Asia_main_image_43.png",
+        "body": "/assets/images/parts/body/Asia_test_Data_East_Asia_main_image_43.png",
+        "base": "/assets/images/parts/base/Asia_test_Data_East_Asia_main_image_43.png"
       }
     }
   },
@@ -2088,20 +2088,20 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_11",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_Asia_main_image_11",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -136.977,
-      "y": -106.9073
+      "x": -63.6689,
+      "y": -110.6714
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_11.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_11.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_11.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_11.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Asia_main_image_11.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Asia_main_image_11.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Asia_main_image_11.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_11.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_11.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_11.png"
       }
     }
   },
@@ -2214,38 +2214,38 @@
     }
   },
   {
-    "id": "Europe_train_Dataset_Asia_main_image_21",
-    "region": "Europe",
+    "id": "Asia_train_Dataset_Asia_main_image_21",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 1.8651,
-      "y": -160.0646
+      "x": -28.0911,
+      "y": -236.2448
     },
     "assets": {
-      "image_url": "/assets/images/original/Europe_train_Dataset_Asia_main_image_21.png",
-      "depth_url": "/assets/images/depth/Europe_train_Dataset_Asia_main_image_21.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_21.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_21.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Asia_main_image_21.png",
-        "body": "/assets/images/parts/body/Europe_train_Dataset_Asia_main_image_21.png",
-        "base": "/assets/images/parts/base/Europe_train_Dataset_Asia_main_image_21.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_21.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_21.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_21.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_22",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_Asia_main_image_22",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -54.791,
-      "y": -105.2362
+      "x": -198.4974,
+      "y": 117.0975
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_22.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_22.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_22.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_22.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Asia_main_image_22.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Asia_main_image_22.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Asia_main_image_22.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_22.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_22.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_22.png"
       }
     }
   },
@@ -2358,34 +2358,34 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_29",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_Asia_main_image_29",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -132.3956,
-      "y": -87.9936
+      "x": -119.2686,
+      "y": -25.1951
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_29.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_29.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_29.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_29.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Asia_main_image_29.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Asia_main_image_29.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Asia_main_image_29.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_29.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_29.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_29.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_3",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_Asia_main_image_3",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -297.8597,
-      "y": -154.2255
+      "x": -264.2225,
+      "y": 157.3004
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_3.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_3.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Asia_main_image_3.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Asia_main_image_3.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -2430,20 +2430,20 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_32",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_Asia_main_image_32",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 79.674,
-      "y": -70.5255
+      "x": -189.9808,
+      "y": 124.949
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_32.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_32.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_32.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_32.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Asia_main_image_32.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Asia_main_image_32.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Asia_main_image_32.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_32.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_32.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_32.png"
       }
     }
   },
@@ -2466,20 +2466,20 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_35",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_Asia_main_image_35",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -146.7784,
-      "y": -98.8517
+      "x": 41.635,
+      "y": 244.2152
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_35.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_35.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_35.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_35.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Asia_main_image_35.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Asia_main_image_35.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Asia_main_image_35.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_35.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_35.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_35.png"
       }
     }
   },
@@ -2516,24 +2516,6 @@
         "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Asia_main_image_37.png",
         "body": "/assets/images/parts/body/East Asia_train_Dataset_Asia_main_image_37.png",
         "base": "/assets/images/parts/base/East Asia_train_Dataset_Asia_main_image_37.png"
-      }
-    }
-  },
-  {
-    "id": "Asia_train_Dataset_Asia_main_image_4",
-    "region": "Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -4.1519,
-      "y": -301.6306
-    },
-    "assets": {
-      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_4.png",
-      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_4.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_4.png",
-        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_4.png",
-        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_4.png"
       }
     }
   },
@@ -2592,20 +2574,20 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image_43",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_Asia_main_image_43",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 62.2332,
-      "y": 22.2114
+      "x": 7.5238,
+      "y": -148.0028
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image_43.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image_43.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image_43.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image_43.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Asia_main_image_43.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Asia_main_image_43.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Asia_main_image_43.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_Asia_main_image_43.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_Asia_main_image_43.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_Asia_main_image_43.png"
       }
     }
   },
@@ -2790,16 +2772,34 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Asia_main_image",
+    "id": "Asia_train_Dataset_Asia_main_image",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -81.2119,
+      "y": -142.4265
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_Asia_main_image.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Asia_main_image.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "middle_east_train_Dataset_Europe_main_image_1",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 15.0982,
-      "y": 44.217
+      "x": -254.9499,
+      "y": -135.6146
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Asia_main_image.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Asia_main_image.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_1.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_1.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -2808,16 +2808,52 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_1",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_10",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 22.6018,
-      "y": -99.4278
+      "x": -30.5244,
+      "y": -105.4837
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_1.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_1.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_10.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_10.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_10.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_10.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_10.png"
+      }
+    }
+  },
+  {
+    "id": "Europe_train_Dataset_Europe_main_image_11",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -343.4514,
+      "y": 198.3298
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_11.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_11.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_11.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_11.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_11.png"
+      }
+    }
+  },
+  {
+    "id": "Europe_train_Dataset_Europe_main_image_12",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -267.5512,
+      "y": 124.1754
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_12.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_12.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -2826,106 +2862,52 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image_10",
+    "id": "middle_east_train_Dataset_Europe_main_image_14",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -41.5316,
-      "y": 50.6982
+      "x": -276.6437,
+      "y": 125.2576
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_10.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_10.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_14.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_14.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_10.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_10.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_10.png"
+        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_14.png",
+        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_14.png",
+        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_14.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image_11",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_Europe_main_image_15",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -136.977,
-      "y": -106.9073
+      "x": -326.4113,
+      "y": 187.9841
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_11.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_11.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_15.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_15.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_11.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_11.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_11.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_15.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_15.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_15.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_12",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_16",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 4.6658,
-      "y": -287.7032
+      "x": -280.5,
+      "y": 116.4897
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_12.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_12.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_Europe_main_image_14",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -1.7874,
-      "y": -372.2168
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_14.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_14.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Europe_main_image_14.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_Europe_main_image_14.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_Europe_main_image_14.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_Europe_main_image_15",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 30.8594,
-      "y": -273.862
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_15.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_15.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Europe_main_image_15.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_Europe_main_image_15.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_Europe_main_image_15.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_Europe_main_image_16",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -8.1648,
-      "y": -331.783
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_16.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_16.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_16.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_16.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -2934,16 +2916,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_17",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_17",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 1.7517,
-      "y": -340.3541
+      "x": -335.5008,
+      "y": 192.0391
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_17.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_17.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_17.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_17.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -2952,34 +2934,34 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_18",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_18",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -0.4311,
-      "y": -219.0874
+      "x": -301.5129,
+      "y": 180.9292
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_18.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_18.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_18.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_18.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Europe_main_image_18.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_Europe_main_image_18.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_Europe_main_image_18.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_18.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_18.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_18.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_19",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_19",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -7.3619,
-      "y": -325.9148
+      "x": -12.0473,
+      "y": -308.7023
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_19.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_19.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_19.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_19.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3006,16 +2988,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_20",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_20",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 31.0058,
-      "y": -292.7122
+      "x": -332.2219,
+      "y": 189.5076
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_20.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_20.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_20.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_20.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3042,16 +3024,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_23",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_23",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -81.9512,
-      "y": -28.4662
+      "x": -224.6648,
+      "y": 141.5338
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_23.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_23.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_23.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_23.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3060,16 +3042,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_24",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_Europe_main_image_24",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -0.1152,
-      "y": -389.254
+      "x": -3.2456,
+      "y": 373.9465
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_24.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_24.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Europe_main_image_24.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Europe_main_image_24.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3096,16 +3078,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_27",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_Europe_main_image_27",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -5.2016,
-      "y": -348.729
+      "x": 34.4827,
+      "y": 258.4877
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_27.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_27.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_Europe_main_image_27.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_Europe_main_image_27.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3114,16 +3096,16 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image_3",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_Europe_main_image_3",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -297.8597,
-      "y": -154.2255
+      "x": -264.2225,
+      "y": 157.3004
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_3.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_3.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_3.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_3.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3132,34 +3114,34 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_30",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_30",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 186.4699,
-      "y": 121.9347
+      "x": -209.6164,
+      "y": 63.2101
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_30.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_30.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_30.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_30.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Europe_main_image_30.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_Europe_main_image_30.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_Europe_main_image_30.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_30.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_30.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_30.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_31",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_31",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -264.8853,
-      "y": 115.0942
+      "x": -202.3654,
+      "y": -125.5261
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_31.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_31.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_31.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_31.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3168,34 +3150,34 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image_32",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_Europe_main_image_32",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 79.674,
-      "y": -70.5255
+      "x": -240.9596,
+      "y": 146.8838
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_32.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_32.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_32.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_32.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_32.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_32.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_32.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_32.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_32.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_32.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_33",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_33",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -6.2717,
-      "y": -298.182
+      "x": -63.8063,
+      "y": -66.4376
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_33.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_33.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_33.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_33.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3222,88 +3204,34 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image_35",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_Europe_main_image_35",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -146.7784,
-      "y": -98.8517
+      "x": -206.9157,
+      "y": 65.9763
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_35.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_35.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_35.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_35.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_35.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_35.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_35.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_35.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_35.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_35.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_36",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_36",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 11.0178,
-      "y": -328.6943
+      "x": -240.2018,
+      "y": 149.4792
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_36.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_36.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_Europe_main_image_37",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -33.5052,
-      "y": -205.8029
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_37.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_37.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Europe_main_image_37.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_Europe_main_image_37.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_Europe_main_image_37.png"
-      }
-    }
-  },
-  {
-    "id": "middle_east_train_Dataset_Europe_main_image_39",
-    "region": "middle_east",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -257.1015,
-      "y": -23.5425
-    },
-    "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_39.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_39.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_39.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_39.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_39.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_Europe_main_image_5",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 23.0698,
-      "y": -232.4146
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_5.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_5.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_36.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_36.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3312,52 +3240,52 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_6",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_37",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -21.5473,
-      "y": -291.8904
+      "x": -278.6911,
+      "y": 100.3542
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_6.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_6.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_37.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_37.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_Europe_main_image_6.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_Europe_main_image_6.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_Europe_main_image_6.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_37.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_37.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_37.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image_7",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_Europe_main_image_39",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -259.1157,
-      "y": -131.1887
+      "x": -52.7522,
+      "y": 9.2351
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_7.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_7.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_39.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_39.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_Europe_main_image_7.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_Europe_main_image_7.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_Europe_main_image_7.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_39.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_39.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_39.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_Europe_main_image_9",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_Europe_main_image_5",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -0.1397,
-      "y": -387.9122
+      "x": 180.4649,
+      "y": -133.1553
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_Europe_main_image_9.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_Europe_main_image_9.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_5.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_5.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3366,16 +3294,70 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_Europe_main_image",
+    "id": "Europe_train_Dataset_Europe_main_image_6",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -330.8779,
+      "y": 189.5088
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_6.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_6.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_6.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_6.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_6.png"
+      }
+    }
+  },
+  {
+    "id": "Europe_train_Dataset_Europe_main_image_7",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -342.7802,
+      "y": 197.8397
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image_7.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image_7.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_Europe_main_image_7.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_Europe_main_image_7.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_Europe_main_image_7.png"
+      }
+    }
+  },
+  {
+    "id": "middle_east_train_Dataset_Europe_main_image_9",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 15.0982,
-      "y": 44.217
+      "x": 6.6447,
+      "y": -260.7921
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_Europe_main_image_9.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_Europe_main_image_9.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "Europe_train_Dataset_Europe_main_image",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -70.0063,
+      "y": -173.7595
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_Europe_main_image.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_Europe_main_image.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3510,232 +3492,124 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_1",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 22.6018,
-      "y": -99.4278
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_1.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_1.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "middle_east_train_Dataset_middle_east_main_image_10",
+    "id": "middle_east_train_Dataset_middle_east_main_image_1",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -41.5316,
-      "y": 50.6982
+      "x": -254.9499,
+      "y": -135.6146
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_10.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_10.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_1.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_1.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_10.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_10.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_10.png"
+        "neck": "",
+        "body": "",
+        "base": ""
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_11",
+    "id": "Europe_train_Dataset_middle_east_main_image_10",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -30.5244,
+      "y": -105.4837
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_10.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_10.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_middle_east_main_image_10.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_middle_east_main_image_10.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_middle_east_main_image_10.png"
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_11",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -63.6689,
+      "y": -110.6714
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_11.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_11.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_middle_east_main_image_11.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_middle_east_main_image_11.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_middle_east_main_image_11.png"
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_12",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -37.7892,
+      "y": 19.444
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_12.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_12.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "middle_east_train_Dataset_middle_east_main_image_13",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -136.977,
-      "y": -106.9073
+      "x": -253.6578,
+      "y": 72.3358
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_11.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_11.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_13.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_13.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_11.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_11.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_11.png"
+        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_13.png",
+        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_13.png",
+        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_13.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_12",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 4.6658,
-      "y": -287.7032
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_12.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_12.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_13",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -5.865,
-      "y": -328.255
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_13.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_13.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_middle_east_main_image_13.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_middle_east_main_image_13.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_middle_east_main_image_13.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_14",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -1.7874,
-      "y": -372.2168
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_14.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_14.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_middle_east_main_image_14.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_middle_east_main_image_14.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_middle_east_main_image_14.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_16",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -8.1648,
-      "y": -331.783
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_16.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_16.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_17",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 1.7517,
-      "y": -340.3541
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_17.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_17.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_18",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -0.4311,
-      "y": -219.0874
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_18.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_18.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_middle_east_main_image_18.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_middle_east_main_image_18.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_middle_east_main_image_18.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_19",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -7.3619,
-      "y": -325.9148
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_19.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_19.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_20",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 31.0058,
-      "y": -292.7122
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_20.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_20.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "middle_east_train_Dataset_middle_east_main_image_22",
+    "id": "middle_east_train_Dataset_middle_east_main_image_14",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -54.791,
-      "y": -105.2362
+      "x": -276.6437,
+      "y": 125.2576
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_22.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_22.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_14.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_14.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_22.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_22.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_22.png"
+        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_14.png",
+        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_14.png",
+        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_14.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_23",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_middle_east_main_image_16",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -81.9512,
-      "y": -28.4662
+      "x": -280.5,
+      "y": 116.4897
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_23.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_23.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_16.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_16.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3744,16 +3618,124 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_24",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_middle_east_main_image_17",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -0.1152,
-      "y": -389.254
+      "x": -335.5008,
+      "y": 192.0391
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_24.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_24.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_17.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_17.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "Europe_train_Dataset_middle_east_main_image_18",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -301.5129,
+      "y": 180.9292
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_18.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_18.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_middle_east_main_image_18.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_middle_east_main_image_18.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_middle_east_main_image_18.png"
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_19",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": 43.8187,
+      "y": 67.3799
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_19.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_19.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_20",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -206.2883,
+      "y": -35.3156
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_20.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_20.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_22",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -198.4974,
+      "y": 117.0975
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_22.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_22.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_middle_east_main_image_22.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_middle_east_main_image_22.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_middle_east_main_image_22.png"
+      }
+    }
+  },
+  {
+    "id": "Europe_train_Dataset_middle_east_main_image_23",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -224.6648,
+      "y": 141.5338
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_23.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_23.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_24",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -3.2456,
+      "y": 373.9465
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_24.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_24.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3780,16 +3762,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_27",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_27",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -5.2016,
-      "y": -348.729
+      "x": 34.4827,
+      "y": 258.4877
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_27.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_27.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_27.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_27.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3798,52 +3780,34 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_29",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_middle_east_main_image_29",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -132.3956,
-      "y": -87.9936
+      "x": -119.2686,
+      "y": -25.1951
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_29.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_29.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_29.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_29.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_29.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_29.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_29.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_middle_east_main_image_29.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_middle_east_main_image_29.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_middle_east_main_image_29.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_3",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_middle_east_main_image_3",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -297.8597,
-      "y": -154.2255
+      "x": -264.2225,
+      "y": 157.3004
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_3.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_3.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_31",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -264.8853,
-      "y": 115.0942
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_31.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_31.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_3.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_3.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3852,34 +3816,16 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_32",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_middle_east_main_image_31",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 79.674,
-      "y": -70.5255
+      "x": -0.6753,
+      "y": -18.661
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_32.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_32.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_32.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_32.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_32.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_33",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -6.2717,
-      "y": -298.182
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_33.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_33.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_31.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_31.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3888,34 +3834,70 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_35",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_middle_east_main_image_32",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -146.7784,
-      "y": -98.8517
+      "x": -189.9808,
+      "y": 124.949
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_35.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_35.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_32.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_32.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_35.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_35.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_35.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_middle_east_main_image_32.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_middle_east_main_image_32.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_middle_east_main_image_32.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_36",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_33",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 11.0178,
-      "y": -328.6943
+      "x": -12.3484,
+      "y": 204.0002
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_36.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_36.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_33.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_33.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_35",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": 41.635,
+      "y": 244.2152
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_35.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_35.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_middle_east_main_image_35.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_middle_east_main_image_35.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_middle_east_main_image_35.png"
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_36",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": 8.1509,
+      "y": 327.8953
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_36.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_36.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3942,20 +3924,20 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_39",
-    "region": "middle_east",
+    "id": "Europe_train_Dataset_middle_east_main_image_39",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -257.1015,
-      "y": -23.5425
+      "x": -52.7522,
+      "y": 9.2351
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_39.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_39.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_39.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_39.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_39.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_39.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_39.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_middle_east_main_image_39.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_middle_east_main_image_39.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_middle_east_main_image_39.png"
       }
     }
   },
@@ -3978,16 +3960,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_40",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_40",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -7.3314,
-      "y": -372.3453
+      "x": -160.2148,
+      "y": 181.5545
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_40.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_40.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_40.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_40.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -3996,16 +3978,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_41",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_41",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -0.616,
-      "y": -387.8656
+      "x": 1.2024,
+      "y": 339.1614
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_41.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_41.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_41.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_41.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4014,16 +3996,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_42",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_42",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 1.2611,
-      "y": -376.326
+      "x": -3.6612,
+      "y": -353.0285
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_42.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_42.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_42.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_42.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4032,34 +4014,34 @@
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_43",
-    "region": "middle_east",
+    "id": "Asia_train_Dataset_middle_east_main_image_43",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 62.2332,
-      "y": 22.2114
+      "x": 7.5238,
+      "y": -148.0028
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_43.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_43.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_43.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_43.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_43.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_43.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_43.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Dataset_middle_east_main_image_43.png",
+        "body": "/assets/images/parts/body/Asia_train_Dataset_middle_east_main_image_43.png",
+        "base": "/assets/images/parts/base/Asia_train_Dataset_middle_east_main_image_43.png"
       }
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_44",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_44",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 93.1598,
-      "y": 50.8994
+      "x": -10.6118,
+      "y": 280.0229
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_44.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_44.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_44.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_44.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4086,16 +4068,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_47",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_47",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -118.711,
-      "y": -74.1527
+      "x": -335.7934,
+      "y": 193.5844
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_47.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_47.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_47.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_47.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4104,16 +4086,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_5",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image_5",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 23.0698,
-      "y": -232.4146
+      "x": -57.6306,
+      "y": -210.9909
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_5.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_5.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_5.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_5.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4122,52 +4104,70 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_6",
-    "region": "East Asia",
+    "id": "Europe_train_Dataset_middle_east_main_image_6",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -21.5473,
-      "y": -291.8904
+      "x": -330.8779,
+      "y": 189.5088
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_6.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_6.png",
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_6.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_6.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/East Asia_train_Dataset_middle_east_main_image_6.png",
-        "body": "/assets/images/parts/body/East Asia_train_Dataset_middle_east_main_image_6.png",
-        "base": "/assets/images/parts/base/East Asia_train_Dataset_middle_east_main_image_6.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_middle_east_main_image_6.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_middle_east_main_image_6.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_middle_east_main_image_6.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Dataset_middle_east_main_image_7",
+    "id": "Europe_train_Dataset_middle_east_main_image_7",
+    "region": "Europe",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -342.7802,
+      "y": 197.8397
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Europe_train_Dataset_middle_east_main_image_7.png",
+      "depth_url": "/assets/images/depth/Europe_train_Dataset_middle_east_main_image_7.png",
+      "parts": {
+        "neck": "/assets/images/parts/neck/Europe_train_Dataset_middle_east_main_image_7.png",
+        "body": "/assets/images/parts/body/Europe_train_Dataset_middle_east_main_image_7.png",
+        "base": "/assets/images/parts/base/Europe_train_Dataset_middle_east_main_image_7.png"
+      }
+    }
+  },
+  {
+    "id": "Asia_train_Dataset_middle_east_main_image_8",
+    "region": "Asia",
+    "period": "Unknown",
+    "globe_coordinates": {
+      "x": -5.5991,
+      "y": -340.7596
+    },
+    "assets": {
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image_8.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image_8.png",
+      "parts": {
+        "neck": "",
+        "body": "",
+        "base": ""
+      }
+    }
+  },
+  {
+    "id": "middle_east_train_Dataset_middle_east_main_image_9",
     "region": "middle_east",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -259.1157,
-      "y": -131.1887
+      "x": 6.6447,
+      "y": -260.7921
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_7.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_7.png",
-      "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Dataset_middle_east_main_image_7.png",
-        "body": "/assets/images/parts/body/middle_east_train_Dataset_middle_east_main_image_7.png",
-        "base": "/assets/images/parts/base/middle_east_train_Dataset_middle_east_main_image_7.png"
-      }
-    }
-  },
-  {
-    "id": "East Asia_train_Dataset_middle_east_main_image_8",
-    "region": "East Asia",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": -7.843,
-      "y": -330.3638
-    },
-    "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_8.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_8.png",
+      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image_9.png",
+      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image_9.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4176,34 +4176,16 @@
     }
   },
   {
-    "id": "East Asia_train_Dataset_middle_east_main_image_9",
-    "region": "East Asia",
+    "id": "Asia_train_Dataset_middle_east_main_image",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -0.1397,
-      "y": -387.9122
+      "x": -81.2119,
+      "y": -142.4265
     },
     "assets": {
-      "image_url": "/assets/images/original/East Asia_train_Dataset_middle_east_main_image_9.png",
-      "depth_url": "/assets/images/depth/East Asia_train_Dataset_middle_east_main_image_9.png",
-      "parts": {
-        "neck": "",
-        "body": "",
-        "base": ""
-      }
-    }
-  },
-  {
-    "id": "middle_east_train_Dataset_middle_east_main_image",
-    "region": "middle_east",
-    "period": "Unknown",
-    "globe_coordinates": {
-      "x": 15.0982,
-      "y": 44.217
-    },
-    "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Dataset_middle_east_main_image.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Dataset_middle_east_main_image.png",
+      "image_url": "/assets/images/original/Asia_train_Dataset_middle_east_main_image.png",
+      "depth_url": "/assets/images/depth/Asia_train_Dataset_middle_east_main_image.png",
       "parts": {
         "neck": "",
         "body": "",
@@ -4248,20 +4230,20 @@
     }
   },
   {
-    "id": "middle_east_train_Data_East_Asia_main_image_10",
-    "region": "middle_east",
+    "id": "Europe_train_Data_East_Asia_main_image_10",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -41.5316,
-      "y": 50.6982
+      "x": -30.5244,
+      "y": -105.4837
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Data_East_Asia_main_image_10.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Data_East_Asia_main_image_10.png",
+      "image_url": "/assets/images/original/Europe_train_Data_East_Asia_main_image_10.png",
+      "depth_url": "/assets/images/depth/Europe_train_Data_East_Asia_main_image_10.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Data_East_Asia_main_image_10.png",
-        "body": "/assets/images/parts/body/middle_east_train_Data_East_Asia_main_image_10.png",
-        "base": "/assets/images/parts/base/middle_east_train_Data_East_Asia_main_image_10.png"
+        "neck": "/assets/images/parts/neck/Europe_train_Data_East_Asia_main_image_10.png",
+        "body": "/assets/images/parts/body/Europe_train_Data_East_Asia_main_image_10.png",
+        "base": "/assets/images/parts/base/Europe_train_Data_East_Asia_main_image_10.png"
       }
     }
   },
@@ -4428,38 +4410,38 @@
     }
   },
   {
-    "id": "Europe_train_Data_East_Asia_main_image_21",
-    "region": "Europe",
+    "id": "Asia_train_Data_East_Asia_main_image_21",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": 1.8651,
-      "y": -160.0646
+      "x": -28.0911,
+      "y": -236.2448
     },
     "assets": {
-      "image_url": "/assets/images/original/Europe_train_Data_East_Asia_main_image_21.png",
-      "depth_url": "/assets/images/depth/Europe_train_Data_East_Asia_main_image_21.png",
+      "image_url": "/assets/images/original/Asia_train_Data_East_Asia_main_image_21.png",
+      "depth_url": "/assets/images/depth/Asia_train_Data_East_Asia_main_image_21.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/Europe_train_Data_East_Asia_main_image_21.png",
-        "body": "/assets/images/parts/body/Europe_train_Data_East_Asia_main_image_21.png",
-        "base": "/assets/images/parts/base/Europe_train_Data_East_Asia_main_image_21.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Data_East_Asia_main_image_21.png",
+        "body": "/assets/images/parts/body/Asia_train_Data_East_Asia_main_image_21.png",
+        "base": "/assets/images/parts/base/Asia_train_Data_East_Asia_main_image_21.png"
       }
     }
   },
   {
-    "id": "middle_east_train_Data_East_Asia_main_image_22",
-    "region": "middle_east",
+    "id": "Asia_train_Data_East_Asia_main_image_22",
+    "region": "Asia",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -54.791,
-      "y": -105.2362
+      "x": -198.4974,
+      "y": 117.0975
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Data_East_Asia_main_image_22.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Data_East_Asia_main_image_22.png",
+      "image_url": "/assets/images/original/Asia_train_Data_East_Asia_main_image_22.png",
+      "depth_url": "/assets/images/depth/Asia_train_Data_East_Asia_main_image_22.png",
       "parts": {
-        "neck": "/assets/images/parts/neck/middle_east_train_Data_East_Asia_main_image_22.png",
-        "body": "/assets/images/parts/body/middle_east_train_Data_East_Asia_main_image_22.png",
-        "base": "/assets/images/parts/base/middle_east_train_Data_East_Asia_main_image_22.png"
+        "neck": "/assets/images/parts/neck/Asia_train_Data_East_Asia_main_image_22.png",
+        "body": "/assets/images/parts/body/Asia_train_Data_East_Asia_main_image_22.png",
+        "base": "/assets/images/parts/base/Asia_train_Data_East_Asia_main_image_22.png"
       }
     }
   },
@@ -4554,16 +4536,16 @@
     }
   },
   {
-    "id": "middle_east_train_Data_East_Asia_main_image_3",
-    "region": "middle_east",
+    "id": "Europe_train_Data_East_Asia_main_image_3",
+    "region": "Europe",
     "period": "Unknown",
     "globe_coordinates": {
-      "x": -297.8597,
-      "y": -154.2255
+      "x": -264.2225,
+      "y": 157.3004
     },
     "assets": {
-      "image_url": "/assets/images/original/middle_east_train_Data_East_Asia_main_image_3.png",
-      "depth_url": "/assets/images/depth/middle_east_train_Data_East_Asia_main_image_3.png",
+      "image_url": "/assets/images/original/Europe_train_Data_East_Asia_main_image_3.png",
+      "depth_url": "/assets/images/depth/Europe_train_Data_East_Asia_main_image_3.png",
       "parts": {
         "neck": "",
         "body": "",

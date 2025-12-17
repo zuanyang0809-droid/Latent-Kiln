@@ -3,6 +3,7 @@ import shutil
 import json
 import csv
 import re
+import hashlib  # <--- 新增：用于计算文件指纹
 from pathlib import Path
 
 # ================= 配置区域 =================
@@ -27,6 +28,20 @@ DB_OUTPUT_PATH = PROJECT_ROOT / "frontend_master_db.json"
 
 # ==========================================
 
+def calculate_file_hash(filepath):
+    """
+    计算文件的 MD5 哈希值（数字指纹）。
+    如果两张图内容完全一样，哈希值就一样。
+    """
+    hasher = hashlib.md5()
+    with open(filepath, 'rb') as f:
+        # 分块读取，防止大文件撑爆内存
+        buf = f.read(65536)
+        while len(buf) > 0:
+            hasher.update(buf)
+            buf = f.read(65536)
+    return hasher.hexdigest()
+
 def clean_string(name):
     clean = re.sub(r'[^\w]', '_', name).strip('_')
     clean = re.sub(r'_+', '_', clean)
@@ -35,7 +50,10 @@ def clean_string(name):
 def load_csv_data(csv_path):
     data_map = {}
     if not csv_path.exists():
+        print(f"❌ 严重错误: 找不到 CSV 文件: {csv_path}")
         return data_map
+
+    print(f"📖 正在读取 CSV: {csv_path}")
     try:
         with open(csv_path, 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
@@ -48,13 +66,21 @@ def load_csv_data(csv_path):
                     ty = float(row.get('y', 0))
                 except ValueError:
                     tx, ty = 0, 0
-                data_map[key] = {
+                
+                entry = {
                     "region": row.get('region', 'Unknown'),
                     "x": tx,
                     "y": ty
                 }
-    except Exception:
-        pass
+                
+                if key not in data_map:
+                    data_map[key] = []
+                data_map[key].append(entry)
+                
+    except Exception as e:
+        print(f"❌ 读取 CSV 失败: {e}")
+    
+    print(f"✅ CSV 读取完毕，包含 {len(data_map)} 个唯一文件名索引。")
     return data_map
 
 def ensure_clean_dir(directory):
@@ -62,46 +88,41 @@ def ensure_clean_dir(directory):
         shutil.rmtree(directory)
     directory.mkdir(parents=True, exist_ok=True)
 
-# === 新增：建立文件索引 ===
 def build_file_index(directory):
-    """
-    遍历指定目录，建立一个字典：
-    Key: 文件名(不带后缀，小写)
-    Value: 文件的完整路径
-    """
     index = {}
-    print(f"🔍 正在索引文件夹: {directory.name} ...")
     if not directory.exists():
-        print(f"⚠️ 警告: 文件夹不存在 {directory}")
         return index
-
-    count = 0
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.lower().endswith(('.png', '.jpg', '.jpeg')):
-                # 获取文件名作为 Key (比如 'main-image_35')
                 stem = Path(file).stem.lower().strip()
-                # 记录完整路径
                 index[stem] = Path(root) / file
-                count += 1
-    print(f"   - 索引了 {count} 个文件")
     return index
 
-def main():
-    print("🚀 开始全量同步 (忽略文件夹结构差异)...")
+def determine_region_from_folder(folder_name):
+    lower = folder_name.lower()
+    if 'africa' in lower: return 'Africa'
+    if 'east asia' in lower or 'east_asia' in lower: return 'East Asia'
+    if 'asia' in lower: return 'East Asia'
+    if 'europe' in lower: return 'Europe'
+    if 'americas' in lower or 'america' in lower: return 'Americas'
+    if 'middle' in lower: return 'Middle East'
+    return 'Unknown'
 
-    csv_data = load_csv_data(CSV_PATH)
+def main():
+    print("🚀 开始全量同步 (基于内容去重 + CSV 匹配)...")
+
+    # 1. 读取 CSV
+    csv_data_map = load_csv_data(CSV_PATH)
+
+    # 2. 建立辅助索引
     path_root = Path(SOURCE_ROOT)
-    
-    # 1. 建立 Depth 和 Parts 的索引 (这就是魔法所在！)
-    # 不管深度图在 Depth/test 还是 Depth/train，只要名字对，就能找到
     depth_index = build_file_index(path_root / DIR_NAME_DEPTH)
-    
     parts_neck_index = build_file_index(path_root / DIR_NAME_PARTS / "neck")
     parts_body_index = build_file_index(path_root / DIR_NAME_PARTS / "body")
     parts_base_index = build_file_index(path_root / DIR_NAME_PARTS / "base")
 
-    # 2. 准备目录
+    # 3. 准备目录
     path_original = path_root / DIR_NAME_ORIGINAL
     if not path_original.exists():
         print(f"❌ 错误：找不到源图片文件夹: {path_original}")
@@ -116,49 +137,79 @@ def main():
 
     db_entries = []
     seen_ids = set()
-    stats = {"processed": 0, "kept": 0, "dropped_no_depth": 0}
+    
+    # === 新增：用于记录已处理图片的哈希值 ===
+    seen_image_hashes = set()
+    
+    stats = {
+        "processed": 0, 
+        "kept": 0, 
+        "dropped_no_depth": 0, 
+        "dropped_content_duplicate": 0, # 新增统计
+        "exact_match": 0, 
+        "fallback_coord": 0
+    }
 
-    # 3. 遍历原图
+    # 4. 遍历原图
     for root, dirs, files in os.walk(path_original):
-        # 仍然计算路径前缀，为了生成 ID
         rel_path_obj = Path(root).relative_to(path_original)
         rel_path_str = str(rel_path_obj)
         if rel_path_str == ".": path_prefix = ""
         else: path_prefix = clean_string(rel_path_str)
 
+        current_folder_region = determine_region_from_folder(os.path.basename(root))
+
         for file in files:
             if file.lower().endswith(('.png', '.jpg', '.jpeg')):
                 stats["processed"] += 1
                 
-                # 获取核心文件名 (Key)
+                src_orig = Path(root) / file
                 file_stem = Path(file).stem.lower().strip()
 
-                # === 核心修改：通过索引查找 Depth ===
-                found_depth_src = depth_index.get(file_stem)
+                # --- 0. 核心新增：基于图片内容去重 ---
+                # 计算当前图片的指纹
+                file_hash = calculate_file_hash(src_orig)
                 
+                if file_hash in seen_image_hashes:
+                    # 指纹已存在，说明是完全一样的图片
+                    stats["dropped_content_duplicate"] += 1
+                    # print(f"⚠️ 发现内容重复图片，跳过: {file}") # 调试用
+                    continue
+                
+                # 记录新指纹
+                seen_image_hashes.add(file_hash)
+                # ----------------------------------
+
+                # --- 1. 必须有 Depth ---
+                found_depth_src = depth_index.get(file_stem)
                 if not found_depth_src:
-                    # 如果在 Depth 文件夹的任何角落都找不到同名文件 -> 丢弃
-                    # print(f"丢弃: {file} (未找到对应 Depth)") # 调试用
                     stats["dropped_no_depth"] += 1
                     continue
-                # ===================================
 
-                # A. CSV 匹配
-                meta = csv_data.get(file_stem)
-                if meta:
-                    region = meta['region']
-                    coord = {"x": meta['x'], "y": meta['y']}
+                # --- 2. 匹配 CSV ---
+                matched_csv_entry = None
+                potential_entries = csv_data_map.get(file_stem, [])
+
+                if len(potential_entries) == 1:
+                    matched_csv_entry = potential_entries[0]
+                elif len(potential_entries) > 1:
+                    for entry in potential_entries:
+                        if entry['region'] == current_folder_region:
+                            matched_csv_entry = entry
+                            break
+                    if not matched_csv_entry:
+                        matched_csv_entry = potential_entries[0]
+                
+                if matched_csv_entry:
+                    region = matched_csv_entry['region']
+                    coord = {"x": matched_csv_entry['x'], "y": matched_csv_entry['y']}
+                    stats["exact_match"] += 1
                 else:
-                    folder_lower = os.path.basename(root).lower()
-                    if 'africa' in folder_lower: region = 'Africa'
-                    elif 'asia' in folder_lower: region = 'East Asia'
-                    elif 'europe' in folder_lower: region = 'Europe'
-                    elif 'americas' in folder_lower: region = 'Americas'
-                    elif 'middle' in folder_lower: region = 'Middle East'
-                    else: region = 'Unknown'
+                    region = current_folder_region
                     coord = {"x": 0, "y": 0}
+                    stats["fallback_coord"] += 1
 
-                # B. 生成 ID
+                # --- 3. 生成 ID ---
                 clean_name = clean_string(Path(file).stem)
                 if path_prefix: new_id = f"{region}_{path_prefix}_{clean_name}"
                 else: new_id = f"{region}_{clean_name}"
@@ -173,35 +224,30 @@ def main():
                 extension = Path(file).suffix
                 new_filename = f"{unique_id}{extension}"
 
-                # C. 复制 Original
-                src_orig = Path(root) / file
+                # --- 4. 复制文件 ---
                 dst_orig = TARGET_ORIGINAL / new_filename
                 shutil.copy2(src_orig, dst_orig)
 
-                # D. 复制 Depth (使用从索引里找到的路径)
                 dst_depth = TARGET_DEPTH / new_filename
                 shutil.copy2(found_depth_src, dst_depth)
                 final_depth_url = f"/assets/images/depth/{new_filename}"
 
-                # E. 查找 Parts (使用索引查找)
+                # --- 5. 查找 Parts ---
                 parts_urls = {"neck": "", "body": "", "base": ""}
                 
-                # Neck
                 if file_stem in parts_neck_index:
                     shutil.copy2(parts_neck_index[file_stem], TARGET_PARTS_NECK / new_filename)
                     parts_urls["neck"] = f"/assets/images/parts/neck/{new_filename}"
                 
-                # Body
                 if file_stem in parts_body_index:
                     shutil.copy2(parts_body_index[file_stem], TARGET_PARTS_BODY / new_filename)
                     parts_urls["body"] = f"/assets/images/parts/body/{new_filename}"
                 
-                # Base
                 if file_stem in parts_base_index:
                     shutil.copy2(parts_base_index[file_stem], TARGET_PARTS_BASE / new_filename)
                     parts_urls["base"] = f"/assets/images/parts/base/{new_filename}"
 
-                # F. 写入
+                # --- 6. 写入 ---
                 entry = {
                     "id": unique_id,
                     "region": region,
@@ -219,8 +265,12 @@ def main():
     print("-" * 30)
     print(f"📊 统计结果:")
     print(f"   - 扫描原图: {stats['processed']}")
-    print(f"   - ❌ 无Depth丢弃: {stats['dropped_no_depth']}")
+    print(f"   - 🚫 无Depth丢弃: {stats['dropped_no_depth']}")
+    print(f"   - ✂️  内容重复丢弃: {stats['dropped_content_duplicate']} (MD5 去重)")
     print(f"   - ✅ 最终保留: {stats['kept']}")
+    print(f"     ----------------")
+    print(f"     - 精准匹配 CSV: {stats['exact_match']}")
+    print(f"     - 未匹配 CSV (0,0): {stats['fallback_coord']}")
     
     with open(DB_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(db_entries, f, ensure_ascii=False, indent=2)
