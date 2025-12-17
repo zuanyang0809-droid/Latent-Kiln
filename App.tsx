@@ -5,7 +5,7 @@ import DrawingCanvas from './components/DrawingCanvas';
 import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
 import { Box, Layers, Info, Loader2 } from 'lucide-react'; // 引入 Loader 图标
-import { calculateAlignment, AlignmentData } from './utils/autoAlign'; // 【新增引入】
+import { calculateAlignment, AlignmentData } from './autoAlign'; // 【新增引入】
 
 // ==========================================
 // 核心修复区域：路径清洗机 (保持不变)
