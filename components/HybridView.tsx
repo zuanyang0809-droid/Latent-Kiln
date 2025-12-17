@@ -1,10 +1,10 @@
 import React from 'react';
 import { Vase } from '../types';
 import { Download, Loader2 } from 'lucide-react';
-import { AlignmentData } from '../utils/autoAlign'; // 确保路径正确，或者直接在这里定义接口
+//import { AlignmentData } from '../utils/autoAlign'; // 确保路径正确，或者直接在这里定义接口
 
 // 如果没法从 utils 导入，取消下面这行的注释使用本地定义
-// interface AlignmentData { neckScale: number; baseScale: number; }
+interface AlignmentData { neckScale: number; baseScale: number; }
 
 interface HybridViewProps {
   parts: {
