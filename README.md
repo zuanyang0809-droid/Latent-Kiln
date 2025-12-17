@@ -2,6 +2,8 @@
 
 > **"Unearthing the morphological universe of ceramics through the lens of machine vision."**
 
+[Latent Kiln Try it] Latent Kiln TryLatent Kiln TryLatent Kiln TrL(https:
+
 ## 📖 Abstract
 
 Traditional museum catalogs are static lists, flattening cultural artifacts into mere 2D images. **Latent Kiln** reimagines the archive as a dynamic, living system. 
