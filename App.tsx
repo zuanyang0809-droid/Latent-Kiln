@@ -1,10 +1,34 @@
 import React, { useState } from 'react';
 import { AppMode, Vase } from './types';
-import { vaseData } from './data/vaseData';
+import { vaseData } from './data/vaseData'; // 确保这个路径和你实际文件位置一致
 import DrawingCanvas from './components/DrawingCanvas';
 import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
 import { Box, Layers, Info } from 'lucide-react';
+
+// === 1. 路径修复逻辑 (解决 GitHub Pages 图片不显示问题) ===
+const BASE_URL = import.meta.env.BASE_URL; // 获取 vite.config.ts 里的 base
+
+const fixUrl = (url: string) => {
+  if (!url) return '';
+  // 去掉开头的 ./ 或 /，然后加上 base 路径
+  const cleanPath = url.replace(/^\.?\//, '');
+  return `${BASE_URL}${cleanPath}`;
+};
+
+// === 2. 预处理数据 (把所有图片路径都修好) ===
+const DATA = (vaseData as any[]).map(item => ({
+  ...item,
+  assets: {
+    image_url: fixUrl(item.assets.image_url),
+    depth_url: fixUrl(item.assets.depth_url),
+    parts: {
+      neck: fixUrl(item.assets.parts.neck),
+      body: fixUrl(item.assets.parts.body),
+      base: fixUrl(item.assets.parts.base),
+    }
+  }
+}));
 
 const App: React.FC = () => {
   const [mode, setMode] = useState<AppMode>(AppMode.UNIVERSE);
@@ -13,17 +37,29 @@ const App: React.FC = () => {
     neck: null, body: null, base: null
   });
 
-  // Handlers
+  // === 3. 搜索/分析逻辑 (演示用：内定结果) ===
   const handleAnalyze = () => {
-    // Mode 1: Pick 3 random vases to "Match" the silhouette from real data
-    const shuffled = [...vaseData].sort(() => 0.5 - Math.random());
-    const matches = shuffled.slice(0, 3);
+    // 这里填入你想在 Presentation 中展示的那 3 个完美花瓶的 ID
+    // 请确保这些 ID 在你的 json 文件里是存在的！
+    const targetIds = ["africa10", "main-image (15)", "americas22"];
+    
+    // 尝试找到这 3 个
+    const matches = DATA.filter((item: Vase) => targetIds.includes(item.id));
+    
+    // 如果没找够（防止ID写错），就随机补齐，保证不报错
+    if (matches.length < 3) {
+        const remaining = DATA.filter((item: Vase) => !targetIds.includes(item.id))
+                              .sort(() => 0.5 - Math.random())
+                              .slice(0, 3 - matches.length);
+        matches.push(...remaining);
+    }
+
     setSelectedVases(matches);
   };
 
+  // === 4. 拼贴逻辑 (演示用：随机组合) ===
   const handleGenerateHybrid = () => {
-    // Mode 2: Pick random parts from real data
-    const shuffled = [...vaseData].sort(() => 0.5 - Math.random());
+    const shuffled = [...DATA].sort(() => 0.5 - Math.random());
     setHybridParts({
         neck: shuffled[0],
         body: shuffled[1],
@@ -33,8 +69,6 @@ const App: React.FC = () => {
 
   const handleModeSwitch = (newMode: AppMode) => {
     setMode(newMode);
-    // When switching modes, we can decide whether to clear selection or not.
-    // For now, let's keep the universe clean when entering hybrid mode.
     if (newMode === AppMode.HYBRID) {
         setSelectedVases([]);
     }
@@ -72,7 +106,7 @@ const App: React.FC = () => {
         </div>
       </header>
 
-      {/* Main Split Layout - using dvh for better mobile support, fallback to vh */}
+      {/* Main Split Layout */}
       <main className="flex-grow flex flex-col md:flex-row h-[calc(100vh-64px)] md:h-[calc(100dvh-64px)] overflow-hidden">
         
         {/* Left Panel: Drawing Canvas (40%) */}
@@ -88,7 +122,6 @@ const App: React.FC = () => {
                 </p>
             </div>
             
-            {/* flex-1 min-h-0 ensures this container takes available space but doesn't force overflow */}
             <div className="flex-1 min-h-0 relative">
                 <DrawingCanvas 
                     onAnalyze={handleAnalyze} 
@@ -101,12 +134,13 @@ const App: React.FC = () => {
         {/* Right Panel: Visualization (60%) */}
         <section className="h-[60vh] md:h-full md:w-[60%] relative bg-gradient-to-br from-soft-green to-[#a6d8a5]/50 overflow-hidden">
             
-            {/* The Universe View is ALWAYS rendered in the background now */}
+            {/* The Universe View */}
             <div className="absolute inset-0 z-0">
-                <UniverseView data={vaseData} selectedVases={selectedVases} />
+                {/* 使用处理过的 DATA */}
+                <UniverseView data={DATA} selectedVases={selectedVases} />
             </div>
 
-            {/* Hybrid View overlays the Universe View when active */}
+            {/* Hybrid View */}
             {mode === AppMode.HYBRID && (
                 <div className="absolute inset-0 z-10 pointer-events-none">
                     <HybridView parts={hybridParts} />
