@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AppMode, Vase } from './types';
-import { vaseData } from './data/vaseData'; 
+import vaseData from './frontend_master_db.json';
 import DrawingCanvas from './components/DrawingCanvas';
 import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
