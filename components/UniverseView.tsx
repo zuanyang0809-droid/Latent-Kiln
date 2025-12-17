@@ -10,7 +10,7 @@ interface UniverseViewProps {
   selectedVases: Vase[];
 }
 
-// 简单的错误边界：如果纹理加载失败，显示替代内容
+// 简单的错误边界
 class TextureErrorBoundary extends React.Component<
   { children: React.ReactNode; fallback: React.ReactNode },
   { hasError: boolean }
@@ -21,7 +21,6 @@ class TextureErrorBoundary extends React.Component<
   }
 
   static getDerivedStateFromError(error: any) {
-    console.warn("Texture loading failed:", error);
     return { hasError: true };
   }
 
@@ -33,96 +32,94 @@ class TextureErrorBoundary extends React.Component<
   }
 }
 
-// --- VaseMesh 组件 ---
-// 这是一个“诚实”的 Mesh，完全根据图片比例生成几何体，杜绝裁剪
+// --- VaseMesh 组件 (核心修复区域) ---
 const VaseMesh = ({ url, opacity, maxSide = 4 }: { url: string; opacity: number; maxSide?: number }) => {
-  // 1. 加载纹理
   const texture = useTexture(url);
   
-  // 2. 获取图片的原始宽高 (优先使用 naturalWidth 以确保准确)
-  const imgW = texture.image.naturalWidth || texture.image.width || 1;
-  const imgH = texture.image.naturalHeight || texture.image.height || 1;
-  const ratio = imgW / imgH;
+  // 安全获取尺寸
+  const imgW = texture.image?.naturalWidth || texture.image?.width || 100;
+  const imgH = texture.image?.naturalHeight || texture.image?.height || 100;
+  
+  // 防止除以零
+  const ratio = imgH === 0 ? 1 : imgW / imgH;
 
-  // 3. 计算最终的 3D 尺寸 (Visual Normalization)
   let w, h;
   if (imgW >= imgH) {
-    // 宽图 (胖罐子) -> 宽度固定为 maxSide，高度按比例变小
     w = maxSide;
     h = maxSide / ratio;
   } else {
-    // 高图 (瘦瓶子) -> 高度固定为 maxSide，宽度按比例变小
     h = maxSide;
     w = maxSide * ratio;
+  }
+  
+  // 防止计算出 NaN
+  if (isNaN(w) || isNaN(h)) {
+    w = 4; h = 4;
   }
 
   return (
     <mesh scale={[w, h, 1]}>
-      {/* 基础平面是 1x1，通过上面的 scale 变成图片比例 */}
       <planeGeometry args={[1, 1]} />
-      {/* 材质设置：透明、双面渲染、AlphaTest解决透明边缘问题 */}
+      {/* 
+         核心修复：depthWrite={false} 
+         这告诉显卡：即使我是透明的，也请渲染我背后的东西！
+      */}
       <meshBasicMaterial 
         map={texture} 
-        transparent 
+        transparent={true}
         opacity={opacity} 
         side={DoubleSide} 
-        alphaTest={0.5} 
+        alphaTest={0.05} // 边缘处理
+        depthWrite={false} // <--- 关键！解决消失问题
+        depthTest={true}
+        toneMapped={false} // 让颜色更鲜艳
       />
     </mesh>
   );
 };
 
-// 将经纬度转换为 3D 球面坐标
 const getPositionFromGlobe = (lat: number, lon: number, radius: number): [number, number, number] => {
   const phi = (90 - lat) * (Math.PI / 180);
   const theta = (lon + 180) * (Math.PI / 180);
-
   const x = -(radius * Math.sin(phi) * Math.cos(theta));
   const z = (radius * Math.sin(phi) * Math.sin(theta));
   const y = (radius * Math.cos(phi));
-
   return [x, y, z];
 };
 
 const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boolean }> = ({ vase, isSelected, isAnySelected }) => {
   const meshRef = useRef<THREE.Group>(null);
   
-  // 计算坐标 (只计算一次)
   const position = useMemo(() => 
     getPositionFromGlobe(vase.globe_coordinates.y, vase.globe_coordinates.x, 12), 
   [vase.globe_coordinates]);
 
-  // 动画：选中时浮动
   useFrame((state) => {
     if (!meshRef.current) return;
-    
     const time = state.clock.getElapsedTime();
     
     if (isSelected) {
-        // 选中：浮动 + 放大
         meshRef.current.position.y = position[1] + Math.sin(time * 2) * 0.5;
         meshRef.current.scale.lerp(new THREE.Vector3(2.5, 2.5, 2.5), 0.1);
-        // 让它稍微靠前一点，不要被别的遮住
         meshRef.current.position.z = position[2] * 1.1; 
+        // 选中时，渲染顺序设为最高，保证在最前面
+        meshRef.current.renderOrder = 999;
     } else {
-        // 复位
         meshRef.current.position.y = position[1];
         meshRef.current.position.z = position[2];
         meshRef.current.scale.lerp(new THREE.Vector3(1, 1, 1), 0.1);
+        meshRef.current.renderOrder = 1;
     }
   });
 
-  // 透明度控制：没选中时变淡
-  const opacity = isAnySelected ? (isSelected ? 1 : 0.2) : 0.9;
+  // 修复：稍微调高未选中的透明度，防止太淡看不见
+  const opacity = isAnySelected ? (isSelected ? 1 : 0.35) : 1.0;
 
-  // 替补图形 (如果图片挂了)
   const FallbackMesh = (
     <mesh>
         <planeGeometry args={[3, 4]} />
-        <meshBasicMaterial color="#cccccc" transparent opacity={0.5} side={DoubleSide} />
-        <Text position={[0, 0, 0.1]} fontSize={0.5} color="#6E4D2E" anchorX="center" anchorY="middle">
-            ?
-        </Text>
+        <meshBasicMaterial color="#cccccc" transparent opacity={0.5} side={DoubleSide} depthWrite={false} />
+        <Text position={[0, 0, 0.1]} fontSize={0.5} color="#6E4D2E" anchorX="center" anchorY="middle">?</Text>
     </mesh>
   );
 
@@ -137,7 +134,6 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
           />
         </TextureErrorBoundary>
         
-        {/* 选中时显示地区名字 */}
         {isSelected && (
              <Text
              position={[0, -2.5, 0]}
@@ -145,6 +141,7 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
              color="#6E4D2E"
              anchorX="center"
              anchorY="middle"
+             renderOrder={1000} // 保证文字在最上层
            >
              {vase.region ? vase.region.toUpperCase() : "UNKNOWN"}
            </Text>
@@ -154,44 +151,29 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
   );
 };
 
-// 简单的相机控制器
-const CameraController: React.FC<{ selectedVases: Vase[] }> = ({ selectedVases }) => {
-    useFrame((state) => {
-        // 如果有选中物体，可以在这里加相机移动逻辑
-    });
-    return null;
-}
+const CameraController: React.FC<{ selectedVases: Vase[] }> = ({ selectedVases }) => { return null; }
 
 const UniverseView: React.FC<UniverseViewProps> = ({ data, selectedVases }) => {
   const isAnySelected = selectedVases.length > 0;
 
-  // --- 关键修改：去重逻辑 ---
-  // 使用 useMemo 确保只在 data 变化时计算，防止每一帧都重算
   const uniqueData = useMemo(() => {
     const seen = new Set();
     return data.filter(vase => {
-      // 检查 id 是否已经存在
-      // 如果 vase.id 为空，则暂时不过滤（防止误删），但建议数据源确保有 id
-      if (vase.id && seen.has(vase.id)) {
-        return false; // 如果已经见过这个 id，就丢弃
-      }
+      if (vase.id && seen.has(vase.id)) return false;
       if (vase.id) seen.add(vase.id);
-      return true; // 如果是新 id，保留
+      return true;
     });
   }, [data]);
 
   return (
     <div className="w-full h-full relative">
       <Canvas camera={{ position: [0, 0, 35], fov: 45 }}>
-        {/* 灯光环境 */}
         <ambientLight intensity={0.8} />
         <pointLight position={[10, 10, 10]} intensity={1} />
         <Stars radius={100} depth={50} count={3000} factor={4} saturation={0} fade speed={1} />
         
-        {/* 数据云 (花瓶集合) */}
         <Suspense fallback={null}>
             <group>
-                {/* 注意：这里改成了遍历 uniqueData */}
                 {uniqueData.map((vase, idx) => (
                 <VaseNode 
                     key={vase.id || idx}
@@ -213,7 +195,6 @@ const UniverseView: React.FC<UniverseViewProps> = ({ data, selectedVases }) => {
         <CameraController selectedVases={selectedVases} />
       </Canvas>
       
-      {/* 2D 信息面板 (当选中时显示) */}
       {isAnySelected && (
         <div className="absolute bottom-8 right-8 flex flex-col gap-4 pointer-events-none z-20">
             {selectedVases.map((vase, idx) => (
@@ -221,12 +202,9 @@ const UniverseView: React.FC<UniverseViewProps> = ({ data, selectedVases }) => {
                     <h3 className="font-serif font-bold text-lg text-earth-brown">
                         {vase.region || "Unknown Region"}
                     </h3>
-                    
-                    {/* 安全访问可选属性 */}
                     {(vase as any).period && (
                         <p className="font-sans text-sm text-earth-brown/80">{(vase as any).period}</p>
                     )}
-                    
                     <p className="font-sans text-xs text-earth-brown/60 mt-2 font-mono truncate">
                         ID: {vase.id ? vase.id.toUpperCase() : "N/A"}
                     </p>
