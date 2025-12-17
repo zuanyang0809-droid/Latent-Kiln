@@ -1,8 +1,8 @@
-import { Image, useTexture } from '@react-three/drei';
+import { useTexture, Billboard, Text, Stars, OrbitControls } from '@react-three/drei';
 import React, { useRef, useMemo, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Billboard, Text, Image as DreiImage, Stars } from '@react-three/drei';
 import * as THREE from 'three';
+import { DoubleSide } from 'three';
 import { Vase } from '../types';
 
 interface UniverseViewProps {
@@ -33,40 +33,46 @@ class TextureErrorBoundary extends React.Component<
   }
 }
 
-// 将经纬度转换为 3D 球面坐标
-// 新增的智能组件
-const AutoScaledImage = ({ url, opacity, maxSide = 4 }: { url: string; opacity: number; maxSide?: number }) => {
-  // 1. 加载纹理，这样我们就能获取图片的原始 width 和 height
+// --- 新增组件：VaseMesh ---
+// 这是一个“诚实”的 Mesh，完全根据图片比例生成几何体，杜绝裁剪
+const VaseMesh = ({ url, opacity, maxSide = 4 }: { url: string; opacity: number; maxSide?: number }) => {
+  // 1. 加载纹理
   const texture = useTexture(url);
   
-  // 2. 获取原始宽高
-  const { width, height } = texture.image;
-  const ratio = width / height;
+  // 2. 获取图片的原始宽高 (优先使用 naturalWidth 以确保准确)
+  const imgW = texture.image.naturalWidth || texture.image.width || 1;
+  const imgH = texture.image.naturalHeight || texture.image.height || 1;
+  const ratio = imgW / imgH;
 
-  // 3. 计算最终的 scale
+  // 3. 计算最终的 3D 尺寸 (Visual Normalization)
   let w, h;
-  if (width >= height) {
-    // 如果是【宽图】(胖罐子)：宽度 = maxSide，高度按比例缩放
+  if (imgW >= imgH) {
+    // 宽图 (胖罐子) -> 宽度固定为 maxSide，高度按比例变小
     w = maxSide;
     h = maxSide / ratio;
   } else {
-    // 如果是【高图】(瘦瓶子)：高度 = maxSide，宽度按比例缩放
+    // 高图 (瘦瓶子) -> 高度固定为 maxSide，宽度按比例变小
     h = maxSide;
     w = maxSide * ratio;
   }
 
-  // 4. 渲染图片，使用计算好的动态 scale
   return (
-    <Image 
-      url={url} 
-      transparent 
-      opacity={opacity} 
-      scale={[w, h]} // <--- 这里的 w, h 是动态计算出来的
-      radius={0}      // 既然是自适应，就不需要圆角了，保持图片原味
-    />
+    <mesh scale={[w, h, 1]}>
+      {/* 基础平面是 1x1，通过上面的 scale 变成图片比例 */}
+      <planeGeometry args={[1, 1]} />
+      {/* 材质设置：透明、双面渲染、AlphaTest解决透明边缘问题 */}
+      <meshBasicMaterial 
+        map={texture} 
+        transparent 
+        opacity={opacity} 
+        side={DoubleSide} 
+        alphaTest={0.5} 
+      />
+    </mesh>
   );
 };
 
+// 将经纬度转换为 3D 球面坐标
 const getPositionFromGlobe = (lat: number, lon: number, radius: number): [number, number, number] => {
   const phi = (90 - lat) * (Math.PI / 180);
   const theta = (lon + 180) * (Math.PI / 180);
@@ -113,7 +119,7 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
   const FallbackMesh = (
     <mesh>
         <planeGeometry args={[3, 4]} />
-        <meshBasicMaterial color="#cccccc" transparent opacity={0.5} side={THREE.DoubleSide} />
+        <meshBasicMaterial color="#cccccc" transparent opacity={0.5} side={DoubleSide} />
         <Text position={[0, 0, 0.1]} fontSize={0.5} color="#6E4D2E" anchorX="center" anchorY="middle">
             ?
         </Text>
@@ -124,12 +130,12 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
     <group ref={meshRef} position={position as [number, number, number]}>
       <Billboard follow={true}>
         <TextureErrorBoundary fallback={FallbackMesh}>
-          {/* 使用 Suspense 包裹是因为 useTexture 是异步加载的，虽然外层通常已有 Suspense，但为了保险可以不加，直接替换 */}
-<AutoScaledImage 
-    url={vase.assets.image_url} 
-    opacity={opacity}
-    maxSide={4} // 这里定义所有花瓶的“最大边”都是 4
-/>
+          {/* 这里替换为新的 VaseMesh */}
+          <VaseMesh 
+            url={vase.assets.image_url} 
+            opacity={opacity}
+            maxSide={4} 
+          />
         </TextureErrorBoundary>
         
         {/* 选中时显示地区名字 */}
@@ -138,7 +144,6 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
              position={[0, -2.5, 0]}
              fontSize={0.5}
              color="#6E4D2E"
-             // 使用一个肯定能加载的字体，或者移除 font 属性使用默认字体
              anchorX="center"
              anchorY="middle"
            >
@@ -154,7 +159,6 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
 const CameraController: React.FC<{ selectedVases: Vase[] }> = ({ selectedVases }) => {
     useFrame((state) => {
         // 如果有选中物体，可以在这里加相机移动逻辑
-        // 目前先留空，让 OrbitControls 处理
     });
     return null;
 }
