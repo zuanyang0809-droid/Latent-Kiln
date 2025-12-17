@@ -1,3 +1,4 @@
+import { Image, useTexture } from '@react-three/drei';
 import React, { useRef, useMemo, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Billboard, Text, Image as DreiImage, Stars } from '@react-three/drei';
@@ -33,6 +34,39 @@ class TextureErrorBoundary extends React.Component<
 }
 
 // 将经纬度转换为 3D 球面坐标
+// 新增的智能组件
+const AutoScaledImage = ({ url, opacity, maxSide = 4 }: { url: string; opacity: number; maxSide?: number }) => {
+  // 1. 加载纹理，这样我们就能获取图片的原始 width 和 height
+  const texture = useTexture(url);
+  
+  // 2. 获取原始宽高
+  const { width, height } = texture.image;
+  const ratio = width / height;
+
+  // 3. 计算最终的 scale
+  let w, h;
+  if (width >= height) {
+    // 如果是【宽图】(胖罐子)：宽度 = maxSide，高度按比例缩放
+    w = maxSide;
+    h = maxSide / ratio;
+  } else {
+    // 如果是【高图】(瘦瓶子)：高度 = maxSide，宽度按比例缩放
+    h = maxSide;
+    w = maxSide * ratio;
+  }
+
+  // 4. 渲染图片，使用计算好的动态 scale
+  return (
+    <Image 
+      url={url} 
+      transparent 
+      opacity={opacity} 
+      scale={[w, h]} // <--- 这里的 w, h 是动态计算出来的
+      radius={0}      // 既然是自适应，就不需要圆角了，保持图片原味
+    />
+  );
+};
+
 const getPositionFromGlobe = (lat: number, lon: number, radius: number): [number, number, number] => {
   const phi = (90 - lat) * (Math.PI / 180);
   const theta = (lon + 180) * (Math.PI / 180);
@@ -90,14 +124,12 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
     <group ref={meshRef} position={position as [number, number, number]}>
       <Billboard follow={true}>
         <TextureErrorBoundary fallback={FallbackMesh}>
-            <DreiImage 
-                url={vase.assets.image_url} 
-                transparent 
-                opacity={opacity}
-                scale={[4, 4]} 
-                radius={0.1}
-                // 如果图片路径不对，这里会抛出错误被 ErrorBoundary 捕获
-            />
+          {/* 使用 Suspense 包裹是因为 useTexture 是异步加载的，虽然外层通常已有 Suspense，但为了保险可以不加，直接替换 */}
+<AutoScaledImage 
+    url={vase.assets.image_url} 
+    opacity={opacity}
+    maxSide={4} // 这里定义所有花瓶的“最大边”都是 4
+/>
         </TextureErrorBoundary>
         
         {/* 选中时显示地区名字 */}

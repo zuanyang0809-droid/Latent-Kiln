@@ -4,44 +4,26 @@ import vaseData from './frontend_master_db.json';
 import DrawingCanvas from './components/DrawingCanvas';
 import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
-import { Box, Layers, Info } from 'lucide-react';
+import { Box, Layers, Info, Loader2 } from 'lucide-react'; // 引入 Loader 图标
+import { calculateAlignment, AlignmentData } from './utils/autoAlign'; // 【新增引入】
 
 // ==========================================
-// 核心修复区域：路径清洗机
+// 核心修复区域：路径清洗机 (保持不变)
 // ==========================================
-
-// 1. 设置 Base URL (GitHub Pages 必须)
 const BASE_URL = "/Latent-Kiln/"; 
-
 const fixUrl = (url: string) => {
   if (!url) return '';
-  
-  // A. 去掉开头的 ./ 或 /
   let cleanPath = url.replace(/^\.?\//, '');
-
-  // B. 【强制修复后缀】如果碰到 .jpg/.jpeg，强行变成 .png
-  // 因为去背景后的图全是 png
   cleanPath = cleanPath.replace(/\.jpg$/i, '.png').replace(/\.jpeg$/i, '.png');
-
-  // C. 【强制修复文件名】如果文件名里有空格或括号，替换成下划线 _
-  // (假设你之前运行过 sanitize_assets.py，文件名已经是下划线了)
-  // 如果你没运行过那个脚本，这一步可以保留原样，用 encodeURIComponent
-  // 为了保险，我们先假设文件名还是乱的，用编码方式处理：
   const parts = cleanPath.split('/');
-  const filename = parts.pop(); // 拿到文件名
+  const filename = parts.pop();
   const folderPath = parts.join('/');
-  
-  // 对文件名进行 URL 编码 (处理空格 %20 和括号)
-  // 如果你的文件名已经全是下划线了，这步也不会报错
   const encodedFilename = encodeURIComponent(filename || '');
-  
-  // D. 拼接最终路径
   return `${BASE_URL}${folderPath}/${encodedFilename}`;
 };
 
 // ==========================================
-
-// 2. 预处理数据
+// 数据预处理 (保持不变)
 const DATA = (vaseData as any[]).map(item => ({
   ...item,
   assets: {
@@ -58,18 +40,20 @@ const DATA = (vaseData as any[]).map(item => ({
 const App: React.FC = () => {
   const [mode, setMode] = useState<AppMode>(AppMode.UNIVERSE);
   const [selectedVases, setSelectedVases] = useState<Vase[]>([]);
+  
+  // 零件状态
   const [hybridParts, setHybridParts] = useState<{ neck: Vase | null; body: Vase | null; base: Vase | null }>({
     neck: null, body: null, base: null
   });
 
-  // Mode 1: 搜索逻辑 (内定演示)
+  // 【新增状态】对齐参数 & 计算加载状态
+  const [alignment, setAlignment] = useState<AlignmentData>({ neckScale: 1, baseScale: 1 });
+  const [isAligning, setIsAligning] = useState(false);
+
+  // Mode 1: 搜索逻辑 (保持不变)
   const handleAnalyze = () => {
-    // 确保这些 ID 对应的图片在你的 public/assets/images/original 里是存在的！
-    // 建议改成你确定存在的文件名（不带后缀）
     const targetIds = ["africa10", "main-image (15)", "americas22"]; 
-    
     const matches = DATA.filter((item: Vase) => targetIds.includes(item.id));
-    
     if (matches.length < 3) {
         const remaining = DATA.filter((item: Vase) => !targetIds.includes(item.id))
                               .sort(() => 0.5 - Math.random())
@@ -79,48 +63,50 @@ const App: React.FC = () => {
     setSelectedVases(matches);
   };
 
-// === Mode 2: 智能拼贴逻辑 (自动过滤缺失零件) ===
-  const handleGenerateHybrid = () => {
-    // 1. 筛选出所有拥有 "Neck" (瓶口) 的花瓶
-    // 逻辑：检查路径是否为空，且不仅是 Base URL
+  // === Mode 2: 智能拼贴逻辑 (修改为异步函数) ===
+  const handleGenerateHybrid = async () => {
+    // 1. 筛选逻辑 (保持不变)
     const validNecks = DATA.filter((v: Vase) => 
-        v.assets.parts.neck && 
-        v.assets.parts.neck.length > BASE_URL.length &&
-        !v.assets.parts.neck.endsWith('/') // 防止只有路径没有文件名
+        v.assets.parts.neck && v.assets.parts.neck.length > BASE_URL.length && !v.assets.parts.neck.endsWith('/')
     );
-
-    // 2. 筛选出所有拥有 "Body" (瓶身) 的花瓶
     const validBodies = DATA.filter((v: Vase) => 
-        v.assets.parts.body && 
-        v.assets.parts.body.length > BASE_URL.length &&
-        !v.assets.parts.body.endsWith('/')
+        v.assets.parts.body && v.assets.parts.body.length > BASE_URL.length && !v.assets.parts.body.endsWith('/')
     );
-
-    // 3. 筛选出所有拥有 "Base" (底座) 的花瓶
     const validBases = DATA.filter((v: Vase) => 
-        v.assets.parts.base && 
-        v.assets.parts.base.length > BASE_URL.length &&
-        !v.assets.parts.base.endsWith('/')
+        v.assets.parts.base && v.assets.parts.base.length > BASE_URL.length && !v.assets.parts.base.endsWith('/')
     );
 
-    // 如果数据太少，防止崩溃
     if (validNecks.length === 0 || validBodies.length === 0 || validBases.length === 0) {
         console.error("没有足够的零件库！");
         return;
     }
 
-    // 4. 从各自的池子里随机抽取
-    // 这样即使花瓶A没有头，它的身子依然可以被用在拼贴里
+    // 2. 随机抽取
     const randomNeck = validNecks[Math.floor(Math.random() * validNecks.length)];
     const randomBody = validBodies[Math.floor(Math.random() * validBodies.length)];
     const randomBase = validBases[Math.floor(Math.random() * validBases.length)];
 
+    // 3. 先更新零件，让用户看到变化
     setHybridParts({
         neck: randomNeck,
         body: randomBody,
         base: randomBase
     });
+
+    // 4. 【核心修改】计算对齐
+    setIsAligning(true); // 开始加载
+    
+    // 调用我们在 utils 里写的算法
+    const alignResult = await calculateAlignment(
+        randomNeck.assets.parts.neck, 
+        randomBody.assets.parts.body, 
+        randomBase.assets.parts.base
+    );
+    
+    setAlignment(alignResult); // 更新对齐数据
+    setIsAligning(false); // 结束加载
   };
+
   const handleModeSwitch = (newMode: AppMode) => {
     setMode(newMode);
     if (newMode === AppMode.HYBRID) {
@@ -186,8 +172,24 @@ const App: React.FC = () => {
             </div>
 
             {mode === AppMode.HYBRID && (
-                <div className="absolute inset-0 z-10 pointer-events-none">
-                    <HybridView parts={hybridParts} />
+                <div className="absolute inset-0 z-10 pointer-events-none w-full h-full">
+                    {/* 【修改】在这里处理 HybridView 的 Props */}
+                    {/* 注意：你需要修改 HybridView 组件来接收 alignment 和 isAligning */}
+                    {/* 如果无法修改 HybridView 内部代码，你需要在这里用 div 包装样式 */}
+                    
+                    <HybridView 
+                        parts={hybridParts} 
+                        // @ts-ignore (如果 HybridView 还没加这个类型定义，暂时忽略 TS 报错)
+                        alignment={alignment} 
+                        isAligning={isAligning}
+                    />
+
+                    {/* 显示加载指示器 */}
+                    {isAligning && (
+                        <div className="absolute top-4 right-4 bg-white/80 p-2 rounded-full shadow-md animate-spin">
+                            <Loader2 size={24} className="text-earth-brown" />
+                        </div>
+                    )}
                 </div>
             )}
         </section>
