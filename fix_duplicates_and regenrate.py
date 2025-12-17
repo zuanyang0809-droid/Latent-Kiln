@@ -97,10 +97,18 @@ for row in csv_data:
                 parts_paths[part_name] = f"/assets/images/parts/{part_name}/{unique_name}"
 
     # 4. 写入 JSON
+# === 5. 构建 JSON 条目 ===
+    # 让 ID 变成 "Europe_main_image_15" 这样的唯一ID
+    unique_id = f"{region}_{clean_stem}" 
+    
     entry = {
-        "id": clean_stem,
+        "id": unique_id, 
         "region": region,
-        "globe_coordinates": { "x": float(row['x']), "y": float(row['y']) },
+        "globe_coordinates": {
+            "x": float(row['x']),
+            "y": float(row['y'])
+        },
+        # ... assets 部分保持不变 ...
         "assets": {
             "image_url": f"/assets/images/original/{unique_name}",
             "depth_url": f"/assets/images/depth/{unique_name}",

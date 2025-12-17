@@ -1,6 +1,6 @@
 [
     {
-        "id": "africa10",
+        "id": "Africa_africa10",
         "region": "Africa",
         "globe_coordinates": {
             "x": -28.6609,
@@ -17,7 +17,7 @@
         }
     },
     {
-        "id": "africa11",
+        "id": "Africa_africa11",
         "region": "Africa",
         "globe_coordinates": {
             "x": -192.093,
@@ -34,7 +34,7 @@
         }
     },
     {
-        "id": "africa14",
+        "id": "Africa_africa14",
         "region": "Africa",
         "globe_coordinates": {
             "x": 15.4768,
@@ -51,7 +51,7 @@
         }
     },
     {
-        "id": "africa16",
+        "id": "Africa_africa16",
         "region": "Africa",
         "globe_coordinates": {
             "x": 287.878,
@@ -68,7 +68,7 @@
         }
     },
     {
-        "id": "africa18",
+        "id": "Africa_africa18",
         "region": "Africa",
         "globe_coordinates": {
             "x": 311.6558,
@@ -85,7 +85,7 @@
         }
     },
     {
-        "id": "africa2",
+        "id": "Africa_africa2",
         "region": "Africa",
         "globe_coordinates": {
             "x": -272.9703,
@@ -102,7 +102,7 @@
         }
     },
     {
-        "id": "africa20",
+        "id": "Africa_africa20",
         "region": "Africa",
         "globe_coordinates": {
             "x": -31.0582,
@@ -119,7 +119,7 @@
         }
     },
     {
-        "id": "africa21",
+        "id": "Africa_africa21",
         "region": "Africa",
         "globe_coordinates": {
             "x": 205.4866,
@@ -136,7 +136,7 @@
         }
     },
     {
-        "id": "africa22",
+        "id": "Africa_africa22",
         "region": "Africa",
         "globe_coordinates": {
             "x": 272.7661,
@@ -153,7 +153,7 @@
         }
     },
     {
-        "id": "africa23",
+        "id": "Africa_africa23",
         "region": "Africa",
         "globe_coordinates": {
             "x": 86.3475,
@@ -170,7 +170,7 @@
         }
     },
     {
-        "id": "africa24",
+        "id": "Africa_africa24",
         "region": "Africa",
         "globe_coordinates": {
             "x": -273.8246,
@@ -187,7 +187,7 @@
         }
     },
     {
-        "id": "africa25",
+        "id": "Africa_africa25",
         "region": "Africa",
         "globe_coordinates": {
             "x": 254.4512,
@@ -204,7 +204,7 @@
         }
     },
     {
-        "id": "africa26",
+        "id": "Africa_africa26",
         "region": "Africa",
         "globe_coordinates": {
             "x": 204.0796,
@@ -221,7 +221,7 @@
         }
     },
     {
-        "id": "africa28",
+        "id": "Africa_africa28",
         "region": "Africa",
         "globe_coordinates": {
             "x": 249.0523,
@@ -238,7 +238,7 @@
         }
     },
     {
-        "id": "africa30",
+        "id": "Africa_africa30",
         "region": "Africa",
         "globe_coordinates": {
             "x": 106.003,
@@ -255,7 +255,7 @@
         }
     },
     {
-        "id": "africa31",
+        "id": "Africa_africa31",
         "region": "Africa",
         "globe_coordinates": {
             "x": -147.0172,
@@ -272,7 +272,7 @@
         }
     },
     {
-        "id": "africa34",
+        "id": "Africa_africa34",
         "region": "Africa",
         "globe_coordinates": {
             "x": 212.375,
@@ -289,7 +289,7 @@
         }
     },
     {
-        "id": "africa35",
+        "id": "Africa_africa35",
         "region": "Africa",
         "globe_coordinates": {
             "x": 229.5549,
@@ -306,7 +306,7 @@
         }
     },
     {
-        "id": "africa37",
+        "id": "Africa_africa37",
         "region": "Africa",
         "globe_coordinates": {
             "x": 127.4297,
@@ -323,7 +323,7 @@
         }
     },
     {
-        "id": "africa38",
+        "id": "Africa_africa38",
         "region": "Africa",
         "globe_coordinates": {
             "x": 194.928,
@@ -340,7 +340,7 @@
         }
     },
     {
-        "id": "africa40",
+        "id": "Africa_africa40",
         "region": "Africa",
         "globe_coordinates": {
             "x": 81.8013,
@@ -357,7 +357,7 @@
         }
     },
     {
-        "id": "africa41",
+        "id": "Africa_africa41",
         "region": "Africa",
         "globe_coordinates": {
             "x": 166.9698,
@@ -374,7 +374,7 @@
         }
     },
     {
-        "id": "africa42",
+        "id": "Africa_africa42",
         "region": "Africa",
         "globe_coordinates": {
             "x": 136.292,
@@ -391,7 +391,7 @@
         }
     },
     {
-        "id": "africa47",
+        "id": "Africa_africa47",
         "region": "Africa",
         "globe_coordinates": {
             "x": 125.0106,
@@ -408,7 +408,7 @@
         }
     },
     {
-        "id": "africa48",
+        "id": "Africa_africa48",
         "region": "Africa",
         "globe_coordinates": {
             "x": 102.7877,
@@ -425,7 +425,7 @@
         }
     },
     {
-        "id": "africa49",
+        "id": "Africa_africa49",
         "region": "Africa",
         "globe_coordinates": {
             "x": 16.5279,
@@ -442,7 +442,7 @@
         }
     },
     {
-        "id": "africa5",
+        "id": "Africa_africa5",
         "region": "Africa",
         "globe_coordinates": {
             "x": -243.2739,
@@ -459,7 +459,7 @@
         }
     },
     {
-        "id": "africa50",
+        "id": "Africa_africa50",
         "region": "Africa",
         "globe_coordinates": {
             "x": -54.2308,
@@ -476,7 +476,7 @@
         }
     },
     {
-        "id": "africa6",
+        "id": "Africa_africa6",
         "region": "Africa",
         "globe_coordinates": {
             "x": 243.1496,
@@ -493,7 +493,7 @@
         }
     },
     {
-        "id": "africa7",
+        "id": "Africa_africa7",
         "region": "Africa",
         "globe_coordinates": {
             "x": 266.6949,
@@ -510,7 +510,7 @@
         }
     },
     {
-        "id": "africa8",
+        "id": "Africa_africa8",
         "region": "Africa",
         "globe_coordinates": {
             "x": 208.8532,
@@ -527,7 +527,7 @@
         }
     },
     {
-        "id": "africa9",
+        "id": "Africa_africa9",
         "region": "Africa",
         "globe_coordinates": {
             "x": -125.9092,
@@ -544,7 +544,7 @@
         }
     },
     {
-        "id": "americas1",
+        "id": "Americas_americas1",
         "region": "Americas",
         "globe_coordinates": {
             "x": -261.8357,
@@ -561,7 +561,7 @@
         }
     },
     {
-        "id": "americas13",
+        "id": "Americas_americas13",
         "region": "Americas",
         "globe_coordinates": {
             "x": 58.4664,
@@ -578,7 +578,7 @@
         }
     },
     {
-        "id": "americas14",
+        "id": "Americas_americas14",
         "region": "Americas",
         "globe_coordinates": {
             "x": 94.9577,
@@ -595,7 +595,7 @@
         }
     },
     {
-        "id": "americas16",
+        "id": "Americas_americas16",
         "region": "Americas",
         "globe_coordinates": {
             "x": 149.5913,
@@ -612,7 +612,7 @@
         }
     },
     {
-        "id": "americas17",
+        "id": "Americas_americas17",
         "region": "Americas",
         "globe_coordinates": {
             "x": 151.9251,
@@ -629,7 +629,7 @@
         }
     },
     {
-        "id": "americas18",
+        "id": "Americas_americas18",
         "region": "Americas",
         "globe_coordinates": {
             "x": 284.5208,
@@ -646,7 +646,7 @@
         }
     },
     {
-        "id": "americas19",
+        "id": "Americas_americas19",
         "region": "Americas",
         "globe_coordinates": {
             "x": 175.1315,
@@ -663,7 +663,7 @@
         }
     },
     {
-        "id": "americas21",
+        "id": "Americas_americas21",
         "region": "Americas",
         "globe_coordinates": {
             "x": 146.897,
@@ -680,7 +680,7 @@
         }
     },
     {
-        "id": "americas22",
+        "id": "Americas_americas22",
         "region": "Americas",
         "globe_coordinates": {
             "x": 243.0025,
@@ -697,7 +697,7 @@
         }
     },
     {
-        "id": "americas24",
+        "id": "Americas_americas24",
         "region": "Americas",
         "globe_coordinates": {
             "x": 261.6679,
@@ -714,7 +714,7 @@
         }
     },
     {
-        "id": "americas25",
+        "id": "Americas_americas25",
         "region": "Americas",
         "globe_coordinates": {
             "x": 252.4807,
@@ -731,7 +731,7 @@
         }
     },
     {
-        "id": "americas26",
+        "id": "Americas_americas26",
         "region": "Americas",
         "globe_coordinates": {
             "x": 237.1139,
@@ -748,7 +748,7 @@
         }
     },
     {
-        "id": "americas27",
+        "id": "Americas_americas27",
         "region": "Americas",
         "globe_coordinates": {
             "x": 242.4692,
@@ -765,7 +765,7 @@
         }
     },
     {
-        "id": "americas28",
+        "id": "Americas_americas28",
         "region": "Americas",
         "globe_coordinates": {
             "x": 260.0488,
@@ -782,7 +782,7 @@
         }
     },
     {
-        "id": "americas3",
+        "id": "Americas_americas3",
         "region": "Americas",
         "globe_coordinates": {
             "x": -51.22,
@@ -799,7 +799,7 @@
         }
     },
     {
-        "id": "americas30",
+        "id": "Americas_americas30",
         "region": "Americas",
         "globe_coordinates": {
             "x": 144.4706,
@@ -816,7 +816,7 @@
         }
     },
     {
-        "id": "americas31",
+        "id": "Americas_americas31",
         "region": "Americas",
         "globe_coordinates": {
             "x": 291.4739,
@@ -833,7 +833,7 @@
         }
     },
     {
-        "id": "americas32",
+        "id": "Americas_americas32",
         "region": "Americas",
         "globe_coordinates": {
             "x": 284.2697,
@@ -850,7 +850,7 @@
         }
     },
     {
-        "id": "americas33",
+        "id": "Americas_americas33",
         "region": "Americas",
         "globe_coordinates": {
             "x": 230.4011,
@@ -867,7 +867,7 @@
         }
     },
     {
-        "id": "americas34",
+        "id": "Americas_americas34",
         "region": "Americas",
         "globe_coordinates": {
             "x": 116.1838,
@@ -884,7 +884,7 @@
         }
     },
     {
-        "id": "americas36",
+        "id": "Americas_americas36",
         "region": "Americas",
         "globe_coordinates": {
             "x": 217.8844,
@@ -901,7 +901,7 @@
         }
     },
     {
-        "id": "americas38",
+        "id": "Americas_americas38",
         "region": "Americas",
         "globe_coordinates": {
             "x": 242.2137,
@@ -918,7 +918,7 @@
         }
     },
     {
-        "id": "americas39",
+        "id": "Americas_americas39",
         "region": "Americas",
         "globe_coordinates": {
             "x": 313.9894,
@@ -935,7 +935,7 @@
         }
     },
     {
-        "id": "americas40",
+        "id": "Americas_americas40",
         "region": "Americas",
         "globe_coordinates": {
             "x": 186.6541,
@@ -952,7 +952,7 @@
         }
     },
     {
-        "id": "americas42",
+        "id": "Americas_americas42",
         "region": "Americas",
         "globe_coordinates": {
             "x": 129.1815,
@@ -969,7 +969,7 @@
         }
     },
     {
-        "id": "americas45",
+        "id": "Americas_americas45",
         "region": "Americas",
         "globe_coordinates": {
             "x": 196.4783,
@@ -986,7 +986,7 @@
         }
     },
     {
-        "id": "americas46",
+        "id": "Americas_americas46",
         "region": "Americas",
         "globe_coordinates": {
             "x": 180.39,
@@ -1003,7 +1003,7 @@
         }
     },
     {
-        "id": "americas47",
+        "id": "Americas_americas47",
         "region": "Americas",
         "globe_coordinates": {
             "x": 262.6357,
@@ -1020,7 +1020,7 @@
         }
     },
     {
-        "id": "americas49",
+        "id": "Americas_americas49",
         "region": "Americas",
         "globe_coordinates": {
             "x": 245.2014,
@@ -1037,7 +1037,7 @@
         }
     },
     {
-        "id": "americas5",
+        "id": "Americas_americas5",
         "region": "Americas",
         "globe_coordinates": {
             "x": 316.9661,
@@ -1054,7 +1054,7 @@
         }
     },
     {
-        "id": "americas7",
+        "id": "Americas_americas7",
         "region": "Americas",
         "globe_coordinates": {
             "x": 262.1285,
@@ -1071,7 +1071,7 @@
         }
     },
     {
-        "id": "americas9",
+        "id": "Americas_americas9",
         "region": "Americas",
         "globe_coordinates": {
             "x": 260.0132,
@@ -1088,7 +1088,7 @@
         }
     },
     {
-        "id": "main-image_11",
+        "id": "Asia_main-image_11",
         "region": "Asia",
         "globe_coordinates": {
             "x": -63.6689,
@@ -1105,7 +1105,7 @@
         }
     },
     {
-        "id": "main-image_12",
+        "id": "Asia_main-image_12",
         "region": "Asia",
         "globe_coordinates": {
             "x": -37.7892,
@@ -1122,7 +1122,7 @@
         }
     },
     {
-        "id": "main-image_15",
+        "id": "Asia_main-image_15",
         "region": "Asia",
         "globe_coordinates": {
             "x": 12.8592,
@@ -1139,7 +1139,7 @@
         }
     },
     {
-        "id": "main-image_19",
+        "id": "Asia_main-image_19",
         "region": "Asia",
         "globe_coordinates": {
             "x": 43.8187,
@@ -1156,7 +1156,7 @@
         }
     },
     {
-        "id": "main-image_20",
+        "id": "Asia_main-image_20",
         "region": "Asia",
         "globe_coordinates": {
             "x": -206.2883,
@@ -1173,7 +1173,7 @@
         }
     },
     {
-        "id": "main-image_21",
+        "id": "Asia_main-image_21",
         "region": "Asia",
         "globe_coordinates": {
             "x": -28.0911,
@@ -1190,7 +1190,7 @@
         }
     },
     {
-        "id": "main-image_22",
+        "id": "Asia_main-image_22",
         "region": "Asia",
         "globe_coordinates": {
             "x": -198.4974,
@@ -1207,7 +1207,7 @@
         }
     },
     {
-        "id": "main-image_24",
+        "id": "Asia_main-image_24",
         "region": "Asia",
         "globe_coordinates": {
             "x": -3.2456,
@@ -1224,7 +1224,7 @@
         }
     },
     {
-        "id": "main-image_25",
+        "id": "Asia_main-image_25",
         "region": "Asia",
         "globe_coordinates": {
             "x": -31.0191,
@@ -1241,7 +1241,7 @@
         }
     },
     {
-        "id": "main-image_27",
+        "id": "Asia_main-image_27",
         "region": "Asia",
         "globe_coordinates": {
             "x": 34.4827,
@@ -1258,7 +1258,7 @@
         }
     },
     {
-        "id": "main-image_29",
+        "id": "Asia_main-image_29",
         "region": "Asia",
         "globe_coordinates": {
             "x": -119.2686,
@@ -1275,7 +1275,7 @@
         }
     },
     {
-        "id": "main-image_30",
+        "id": "Asia_main-image_30",
         "region": "Asia",
         "globe_coordinates": {
             "x": 1.7106,
@@ -1292,7 +1292,7 @@
         }
     },
     {
-        "id": "main-image_31",
+        "id": "Asia_main-image_31",
         "region": "Asia",
         "globe_coordinates": {
             "x": -0.6753,
@@ -1309,7 +1309,7 @@
         }
     },
     {
-        "id": "main-image_32",
+        "id": "Asia_main-image_32",
         "region": "Asia",
         "globe_coordinates": {
             "x": -189.9808,
@@ -1326,7 +1326,7 @@
         }
     },
     {
-        "id": "main-image_33",
+        "id": "Asia_main-image_33",
         "region": "Asia",
         "globe_coordinates": {
             "x": -12.3484,
@@ -1343,7 +1343,7 @@
         }
     },
     {
-        "id": "main-image_35",
+        "id": "Asia_main-image_35",
         "region": "Asia",
         "globe_coordinates": {
             "x": 41.635,
@@ -1360,7 +1360,7 @@
         }
     },
     {
-        "id": "main-image_36",
+        "id": "Asia_main-image_36",
         "region": "Asia",
         "globe_coordinates": {
             "x": 8.1509,
@@ -1377,7 +1377,7 @@
         }
     },
     {
-        "id": "main-image_37",
+        "id": "Asia_main-image_37",
         "region": "Asia",
         "globe_coordinates": {
             "x": -32.0333,
@@ -1394,7 +1394,7 @@
         }
     },
     {
-        "id": "main-image_4",
+        "id": "Asia_main-image_4",
         "region": "Asia",
         "globe_coordinates": {
             "x": -4.1519,
@@ -1411,7 +1411,7 @@
         }
     },
     {
-        "id": "main-image_40",
+        "id": "Asia_main-image_40",
         "region": "Asia",
         "globe_coordinates": {
             "x": -160.2148,
@@ -1428,7 +1428,7 @@
         }
     },
     {
-        "id": "main-image_41",
+        "id": "Asia_main-image_41",
         "region": "Asia",
         "globe_coordinates": {
             "x": 1.2024,
@@ -1445,7 +1445,7 @@
         }
     },
     {
-        "id": "main-image_42",
+        "id": "Asia_main-image_42",
         "region": "Asia",
         "globe_coordinates": {
             "x": -3.6612,
@@ -1462,7 +1462,7 @@
         }
     },
     {
-        "id": "main-image_43",
+        "id": "Asia_main-image_43",
         "region": "Asia",
         "globe_coordinates": {
             "x": 7.5238,
@@ -1479,7 +1479,7 @@
         }
     },
     {
-        "id": "main-image_44",
+        "id": "Asia_main-image_44",
         "region": "Asia",
         "globe_coordinates": {
             "x": -10.6118,
@@ -1496,7 +1496,7 @@
         }
     },
     {
-        "id": "main-image_46",
+        "id": "Asia_main-image_46",
         "region": "Asia",
         "globe_coordinates": {
             "x": 153.2242,
@@ -1513,7 +1513,7 @@
         }
     },
     {
-        "id": "main-image_47",
+        "id": "Asia_main-image_47",
         "region": "Asia",
         "globe_coordinates": {
             "x": -335.7934,
@@ -1530,7 +1530,7 @@
         }
     },
     {
-        "id": "main-image_5",
+        "id": "Asia_main-image_5",
         "region": "Asia",
         "globe_coordinates": {
             "x": -57.6306,
@@ -1547,7 +1547,7 @@
         }
     },
     {
-        "id": "main-image_50",
+        "id": "Asia_main-image_50",
         "region": "Asia",
         "globe_coordinates": {
             "x": -1.2817,
@@ -1564,7 +1564,7 @@
         }
     },
     {
-        "id": "main-image_51",
+        "id": "Asia_main-image_51",
         "region": "Asia",
         "globe_coordinates": {
             "x": 67.3614,
@@ -1581,7 +1581,7 @@
         }
     },
     {
-        "id": "main-image_52",
+        "id": "Asia_main-image_52",
         "region": "Asia",
         "globe_coordinates": {
             "x": -98.3776,
@@ -1598,7 +1598,7 @@
         }
     },
     {
-        "id": "main-image_8",
+        "id": "Asia_main-image_8",
         "region": "Asia",
         "globe_coordinates": {
             "x": -5.5991,
@@ -1615,7 +1615,7 @@
         }
     },
     {
-        "id": "main-image",
+        "id": "Asia_main-image",
         "region": "Asia",
         "globe_coordinates": {
             "x": -81.2119,
@@ -1632,7 +1632,7 @@
         }
     },
     {
-        "id": "main-image_10",
+        "id": "Europe_main-image_10",
         "region": "Europe",
         "globe_coordinates": {
             "x": -30.5244,
@@ -1649,7 +1649,7 @@
         }
     },
     {
-        "id": "main-image_11",
+        "id": "Europe_main-image_11",
         "region": "Europe",
         "globe_coordinates": {
             "x": -343.4514,
@@ -1666,7 +1666,7 @@
         }
     },
     {
-        "id": "main-image_12",
+        "id": "Europe_main-image_12",
         "region": "Europe",
         "globe_coordinates": {
             "x": -267.5512,
@@ -1683,7 +1683,7 @@
         }
     },
     {
-        "id": "main-image_15",
+        "id": "Europe_main-image_15",
         "region": "Europe",
         "globe_coordinates": {
             "x": -326.4113,
@@ -1700,7 +1700,7 @@
         }
     },
     {
-        "id": "main-image_16",
+        "id": "Europe_main-image_16",
         "region": "Europe",
         "globe_coordinates": {
             "x": -280.5,
@@ -1717,7 +1717,7 @@
         }
     },
     {
-        "id": "main-image_17",
+        "id": "Europe_main-image_17",
         "region": "Europe",
         "globe_coordinates": {
             "x": -335.5008,
@@ -1734,7 +1734,7 @@
         }
     },
     {
-        "id": "main-image_18",
+        "id": "Europe_main-image_18",
         "region": "Europe",
         "globe_coordinates": {
             "x": -301.5129,
@@ -1751,7 +1751,7 @@
         }
     },
     {
-        "id": "main-image_19",
+        "id": "Europe_main-image_19",
         "region": "Europe",
         "globe_coordinates": {
             "x": -12.0473,
@@ -1768,7 +1768,7 @@
         }
     },
     {
-        "id": "main-image_2",
+        "id": "Europe_main-image_2",
         "region": "Europe",
         "globe_coordinates": {
             "x": -246.1416,
@@ -1785,7 +1785,7 @@
         }
     },
     {
-        "id": "main-image_20",
+        "id": "Europe_main-image_20",
         "region": "Europe",
         "globe_coordinates": {
             "x": -332.2219,
@@ -1802,7 +1802,7 @@
         }
     },
     {
-        "id": "main-image_21",
+        "id": "Europe_main-image_21",
         "region": "Europe",
         "globe_coordinates": {
             "x": 1.8651,
@@ -1819,7 +1819,7 @@
         }
     },
     {
-        "id": "main-image_23",
+        "id": "Europe_main-image_23",
         "region": "Europe",
         "globe_coordinates": {
             "x": -224.6648,
@@ -1836,7 +1836,7 @@
         }
     },
     {
-        "id": "main-image_26",
+        "id": "Europe_main-image_26",
         "region": "Europe",
         "globe_coordinates": {
             "x": -238.0889,
@@ -1853,7 +1853,7 @@
         }
     },
     {
-        "id": "main-image_3",
+        "id": "Europe_main-image_3",
         "region": "Europe",
         "globe_coordinates": {
             "x": -264.2225,
@@ -1870,7 +1870,7 @@
         }
     },
     {
-        "id": "main-image_30",
+        "id": "Europe_main-image_30",
         "region": "Europe",
         "globe_coordinates": {
             "x": -209.6164,
@@ -1887,7 +1887,7 @@
         }
     },
     {
-        "id": "main-image_31",
+        "id": "Europe_main-image_31",
         "region": "Europe",
         "globe_coordinates": {
             "x": -202.3654,
@@ -1904,7 +1904,7 @@
         }
     },
     {
-        "id": "main-image_32",
+        "id": "Europe_main-image_32",
         "region": "Europe",
         "globe_coordinates": {
             "x": -240.9596,
@@ -1921,7 +1921,7 @@
         }
     },
     {
-        "id": "main-image_33",
+        "id": "Europe_main-image_33",
         "region": "Europe",
         "globe_coordinates": {
             "x": -63.8063,
@@ -1938,7 +1938,7 @@
         }
     },
     {
-        "id": "main-image_35",
+        "id": "Europe_main-image_35",
         "region": "Europe",
         "globe_coordinates": {
             "x": -206.9157,
@@ -1955,7 +1955,7 @@
         }
     },
     {
-        "id": "main-image_36",
+        "id": "Europe_main-image_36",
         "region": "Europe",
         "globe_coordinates": {
             "x": -240.2018,
@@ -1972,7 +1972,7 @@
         }
     },
     {
-        "id": "main-image_37",
+        "id": "Europe_main-image_37",
         "region": "Europe",
         "globe_coordinates": {
             "x": -278.6911,
@@ -1989,7 +1989,7 @@
         }
     },
     {
-        "id": "main-image_39",
+        "id": "Europe_main-image_39",
         "region": "Europe",
         "globe_coordinates": {
             "x": -52.7522,
@@ -2006,7 +2006,7 @@
         }
     },
     {
-        "id": "main-image_5",
+        "id": "Europe_main-image_5",
         "region": "Europe",
         "globe_coordinates": {
             "x": 180.4649,
@@ -2023,7 +2023,7 @@
         }
     },
     {
-        "id": "main-image_6",
+        "id": "Europe_main-image_6",
         "region": "Europe",
         "globe_coordinates": {
             "x": -330.8779,
@@ -2040,7 +2040,7 @@
         }
     },
     {
-        "id": "main-image_7",
+        "id": "Europe_main-image_7",
         "region": "Europe",
         "globe_coordinates": {
             "x": -342.7802,
@@ -2057,7 +2057,7 @@
         }
     },
     {
-        "id": "main-image",
+        "id": "Europe_main-image",
         "region": "Europe",
         "globe_coordinates": {
             "x": -70.0063,
@@ -2074,7 +2074,7 @@
         }
     },
     {
-        "id": "restricted_3",
+        "id": "Europe_restricted_3",
         "region": "Europe",
         "globe_coordinates": {
             "x": -69.1172,
@@ -2091,7 +2091,7 @@
         }
     },
     {
-        "id": "restricted_5",
+        "id": "Europe_restricted_5",
         "region": "Europe",
         "globe_coordinates": {
             "x": -55.7141,
@@ -2108,7 +2108,7 @@
         }
     },
     {
-        "id": "restricted_6",
+        "id": "Europe_restricted_6",
         "region": "Europe",
         "globe_coordinates": {
             "x": -276.4403,
@@ -2125,7 +2125,7 @@
         }
     },
     {
-        "id": "restricted_7",
+        "id": "Europe_restricted_7",
         "region": "Europe",
         "globe_coordinates": {
             "x": -213.6966,
@@ -2142,7 +2142,7 @@
         }
     },
     {
-        "id": "restricted_8",
+        "id": "Europe_restricted_8",
         "region": "Europe",
         "globe_coordinates": {
             "x": -321.1093,
@@ -2159,7 +2159,7 @@
         }
     },
     {
-        "id": "restricted",
+        "id": "Europe_restricted",
         "region": "Europe",
         "globe_coordinates": {
             "x": -339.4093,
@@ -2176,7 +2176,7 @@
         }
     },
     {
-        "id": "main-image_1",
+        "id": "middle_east_main-image_1",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -254.9499,
@@ -2193,7 +2193,7 @@
         }
     },
     {
-        "id": "main-image_10",
+        "id": "middle_east_main-image_10",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -41.5316,
@@ -2210,7 +2210,7 @@
         }
     },
     {
-        "id": "main-image_11",
+        "id": "middle_east_main-image_11",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -136.977,
@@ -2227,7 +2227,7 @@
         }
     },
     {
-        "id": "main-image_13",
+        "id": "middle_east_main-image_13",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -253.6578,
@@ -2244,7 +2244,7 @@
         }
     },
     {
-        "id": "main-image_14",
+        "id": "middle_east_main-image_14",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -276.6437,
@@ -2261,7 +2261,7 @@
         }
     },
     {
-        "id": "main-image_17",
+        "id": "middle_east_main-image_17",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -101.9716,
@@ -2278,7 +2278,7 @@
         }
     },
     {
-        "id": "main-image_18",
+        "id": "middle_east_main-image_18",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 167.5295,
@@ -2295,7 +2295,7 @@
         }
     },
     {
-        "id": "main-image_19",
+        "id": "middle_east_main-image_19",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -46.9723,
@@ -2312,7 +2312,7 @@
         }
     },
     {
-        "id": "main-image_20",
+        "id": "middle_east_main-image_20",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -115.5071,
@@ -2329,7 +2329,7 @@
         }
     },
     {
-        "id": "main-image_22",
+        "id": "middle_east_main-image_22",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -54.791,
@@ -2346,7 +2346,7 @@
         }
     },
     {
-        "id": "main-image_23",
+        "id": "middle_east_main-image_23",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -305.6355,
@@ -2363,7 +2363,7 @@
         }
     },
     {
-        "id": "main-image_24",
+        "id": "middle_east_main-image_24",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 281.9096,
@@ -2380,7 +2380,7 @@
         }
     },
     {
-        "id": "main-image_29",
+        "id": "middle_east_main-image_29",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -132.3956,
@@ -2397,7 +2397,7 @@
         }
     },
     {
-        "id": "main-image_3",
+        "id": "middle_east_main-image_3",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -297.8597,
@@ -2414,7 +2414,7 @@
         }
     },
     {
-        "id": "main-image_31",
+        "id": "middle_east_main-image_31",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 17.6028,
@@ -2431,7 +2431,7 @@
         }
     },
     {
-        "id": "main-image_32",
+        "id": "middle_east_main-image_32",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 79.674,
@@ -2448,7 +2448,7 @@
         }
     },
     {
-        "id": "main-image_33",
+        "id": "middle_east_main-image_33",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 51.5608,
@@ -2465,7 +2465,7 @@
         }
     },
     {
-        "id": "main-image_35",
+        "id": "middle_east_main-image_35",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -146.7784,
@@ -2482,7 +2482,7 @@
         }
     },
     {
-        "id": "main-image_36",
+        "id": "middle_east_main-image_36",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -59.3634,
@@ -2499,7 +2499,7 @@
         }
     },
     {
-        "id": "main-image_39",
+        "id": "middle_east_main-image_39",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -257.1015,
@@ -2516,7 +2516,7 @@
         }
     },
     {
-        "id": "main-image_40",
+        "id": "middle_east_main-image_40",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -236.4264,
@@ -2533,7 +2533,7 @@
         }
     },
     {
-        "id": "main-image_41",
+        "id": "middle_east_main-image_41",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -67.0338,
@@ -2550,7 +2550,7 @@
         }
     },
     {
-        "id": "main-image_42",
+        "id": "middle_east_main-image_42",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -160.0273,
@@ -2567,7 +2567,7 @@
         }
     },
     {
-        "id": "main-image_43",
+        "id": "middle_east_main-image_43",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 62.2332,
@@ -2584,7 +2584,7 @@
         }
     },
     {
-        "id": "main-image_44",
+        "id": "middle_east_main-image_44",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -33.6547,
@@ -2601,7 +2601,7 @@
         }
     },
     {
-        "id": "main-image_47",
+        "id": "middle_east_main-image_47",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -295.7218,
@@ -2618,7 +2618,7 @@
         }
     },
     {
-        "id": "main-image_5",
+        "id": "middle_east_main-image_5",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -191.8674,
@@ -2635,7 +2635,7 @@
         }
     },
     {
-        "id": "main-image_6",
+        "id": "middle_east_main-image_6",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 23.4269,
@@ -2652,7 +2652,7 @@
         }
     },
     {
-        "id": "main-image_7",
+        "id": "middle_east_main-image_7",
         "region": "middle_east",
         "globe_coordinates": {
             "x": -259.1157,
@@ -2669,7 +2669,7 @@
         }
     },
     {
-        "id": "main-image_8",
+        "id": "middle_east_main-image_8",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 104.3858,
@@ -2686,7 +2686,7 @@
         }
     },
     {
-        "id": "main-image_9",
+        "id": "middle_east_main-image_9",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 6.6447,
@@ -2703,7 +2703,7 @@
         }
     },
     {
-        "id": "main-image",
+        "id": "middle_east_main-image",
         "region": "middle_east",
         "globe_coordinates": {
             "x": 15.0982,
@@ -2720,7 +2720,7 @@
         }
     },
     {
-        "id": "h1_1987.424.4",
+        "id": "East Asia_h1_1987.424.4",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -6.6706,
@@ -2737,7 +2737,7 @@
         }
     },
     {
-        "id": "main-image_1",
+        "id": "East Asia_main-image_1",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 22.6018,
@@ -2754,7 +2754,7 @@
         }
     },
     {
-        "id": "main-image_12",
+        "id": "East Asia_main-image_12",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 4.6658,
@@ -2771,7 +2771,7 @@
         }
     },
     {
-        "id": "main-image_13",
+        "id": "East Asia_main-image_13",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -5.865,
@@ -2788,7 +2788,7 @@
         }
     },
     {
-        "id": "main-image_14",
+        "id": "East Asia_main-image_14",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -1.7874,
@@ -2805,7 +2805,7 @@
         }
     },
     {
-        "id": "main-image_15",
+        "id": "East Asia_main-image_15",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 30.8594,
@@ -2822,7 +2822,7 @@
         }
     },
     {
-        "id": "main-image_16",
+        "id": "East Asia_main-image_16",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -8.1648,
@@ -2839,7 +2839,7 @@
         }
     },
     {
-        "id": "main-image_17",
+        "id": "East Asia_main-image_17",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 1.7517,
@@ -2856,7 +2856,7 @@
         }
     },
     {
-        "id": "main-image_18",
+        "id": "East Asia_main-image_18",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -0.4311,
@@ -2873,7 +2873,7 @@
         }
     },
     {
-        "id": "main-image_19",
+        "id": "East Asia_main-image_19",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -7.3619,
@@ -2890,7 +2890,7 @@
         }
     },
     {
-        "id": "main-image_20",
+        "id": "East Asia_main-image_20",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 31.0058,
@@ -2907,7 +2907,7 @@
         }
     },
     {
-        "id": "main-image_23",
+        "id": "East Asia_main-image_23",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -81.9512,
@@ -2924,7 +2924,7 @@
         }
     },
     {
-        "id": "main-image_24",
+        "id": "East Asia_main-image_24",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -0.1152,
@@ -2941,7 +2941,7 @@
         }
     },
     {
-        "id": "main-image_27",
+        "id": "East Asia_main-image_27",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -5.2016,
@@ -2958,7 +2958,7 @@
         }
     },
     {
-        "id": "main-image_30",
+        "id": "East Asia_main-image_30",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 186.4699,
@@ -2975,7 +2975,7 @@
         }
     },
     {
-        "id": "main-image_31",
+        "id": "East Asia_main-image_31",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -264.8853,
@@ -2992,7 +2992,7 @@
         }
     },
     {
-        "id": "main-image_33",
+        "id": "East Asia_main-image_33",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -6.2717,
@@ -3009,7 +3009,7 @@
         }
     },
     {
-        "id": "main-image_36",
+        "id": "East Asia_main-image_36",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 11.0178,
@@ -3026,7 +3026,7 @@
         }
     },
     {
-        "id": "main-image_37",
+        "id": "East Asia_main-image_37",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -33.5052,
@@ -3043,7 +3043,7 @@
         }
     },
     {
-        "id": "main-image_38",
+        "id": "East Asia_main-image_38",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 7.9664,
@@ -3060,7 +3060,7 @@
         }
     },
     {
-        "id": "main-image_40",
+        "id": "East Asia_main-image_40",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -7.3314,
@@ -3077,7 +3077,7 @@
         }
     },
     {
-        "id": "main-image_41",
+        "id": "East Asia_main-image_41",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -0.616,
@@ -3094,7 +3094,7 @@
         }
     },
     {
-        "id": "main-image_42",
+        "id": "East Asia_main-image_42",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 1.2611,
@@ -3111,7 +3111,7 @@
         }
     },
     {
-        "id": "main-image_44",
+        "id": "East Asia_main-image_44",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 93.1598,
@@ -3128,7 +3128,7 @@
         }
     },
     {
-        "id": "main-image_45",
+        "id": "East Asia_main-image_45",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 56.8902,
@@ -3145,7 +3145,7 @@
         }
     },
     {
-        "id": "main-image_47",
+        "id": "East Asia_main-image_47",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -118.711,
@@ -3162,7 +3162,7 @@
         }
     },
     {
-        "id": "main-image_5",
+        "id": "East Asia_main-image_5",
         "region": "East Asia",
         "globe_coordinates": {
             "x": 23.0698,
@@ -3179,7 +3179,7 @@
         }
     },
     {
-        "id": "main-image_6",
+        "id": "East Asia_main-image_6",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -21.5473,
@@ -3196,7 +3196,7 @@
         }
     },
     {
-        "id": "main-image_8",
+        "id": "East Asia_main-image_8",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -7.843,
@@ -3213,7 +3213,7 @@
         }
     },
     {
-        "id": "main-image_9",
+        "id": "East Asia_main-image_9",
         "region": "East Asia",
         "globe_coordinates": {
             "x": -0.1397,
