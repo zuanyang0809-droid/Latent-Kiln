@@ -1,0 +1,3234 @@
+import { Vase } from '../types';
+
+export const vaseData: Vase[] = [
+    {
+        "id": "africa10",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -28.6609,
+            "y": -23.68
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa10.jpg",
+            "depth_url": "/assets/images/depth/africa10.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa10.png",
+                "body": "/assets/images/parts/body/africa10.png",
+                "base": "/assets/images/parts/base/africa10.png"
+            }
+        }
+    },
+    {
+        "id": "africa11",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -192.093,
+            "y": 103.5829
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa11.jpg",
+            "depth_url": "/assets/images/depth/africa11.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa11.png",
+                "body": "/assets/images/parts/body/africa11.png",
+                "base": "/assets/images/parts/base/africa11.png"
+            }
+        }
+    },
+    {
+        "id": "africa14",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 15.4768,
+            "y": -201.8352
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa14.jpg",
+            "depth_url": "/assets/images/depth/africa14.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa14.png",
+                "body": "/assets/images/parts/body/africa14.png",
+                "base": "/assets/images/parts/base/africa14.png"
+            }
+        }
+    },
+    {
+        "id": "africa16",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 287.878,
+            "y": -168.4631
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa16.jpg",
+            "depth_url": "/assets/images/depth/africa16.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa16.png",
+                "body": "/assets/images/parts/body/africa16.png",
+                "base": "/assets/images/parts/base/africa16.png"
+            }
+        }
+    },
+    {
+        "id": "africa18",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 311.6558,
+            "y": -185.8543
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa18.jpg",
+            "depth_url": "/assets/images/depth/africa18.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa18.png",
+                "body": "/assets/images/parts/body/africa18.png",
+                "base": "/assets/images/parts/base/africa18.png"
+            }
+        }
+    },
+    {
+        "id": "africa2",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -272.9703,
+            "y": 166.3493
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa2.jpg",
+            "depth_url": "/assets/images/depth/africa2.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa2.png",
+                "body": "/assets/images/parts/body/africa2.png",
+                "base": "/assets/images/parts/base/africa2.png"
+            }
+        }
+    },
+    {
+        "id": "africa20",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -31.0582,
+            "y": -42.9193
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa20.jpg",
+            "depth_url": "/assets/images/depth/africa20.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa20.png",
+                "body": "/assets/images/parts/body/africa20.png",
+                "base": "/assets/images/parts/base/africa20.png"
+            }
+        }
+    },
+    {
+        "id": "africa21",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 205.4866,
+            "y": -189.7846
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa21.jpg",
+            "depth_url": "/assets/images/depth/africa21.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa21.png",
+                "body": "/assets/images/parts/body/africa21.png",
+                "base": "/assets/images/parts/base/africa21.png"
+            }
+        }
+    },
+    {
+        "id": "africa22",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 272.7661,
+            "y": -175.1962
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa22.jpg",
+            "depth_url": "/assets/images/depth/africa22.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa22.png",
+                "body": "/assets/images/parts/body/africa22.png",
+                "base": "/assets/images/parts/base/africa22.png"
+            }
+        }
+    },
+    {
+        "id": "africa23",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 86.3475,
+            "y": -101.4067
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa23.jpg",
+            "depth_url": "/assets/images/depth/africa23.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa23.png",
+                "body": "/assets/images/parts/body/africa23.png",
+                "base": "/assets/images/parts/base/africa23.png"
+            }
+        }
+    },
+    {
+        "id": "africa24",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -273.8246,
+            "y": 119.0706
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa24.jpg",
+            "depth_url": "/assets/images/depth/africa24.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa24.png",
+                "body": "/assets/images/parts/body/africa24.png",
+                "base": "/assets/images/parts/base/africa24.png"
+            }
+        }
+    },
+    {
+        "id": "africa25",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 254.4512,
+            "y": -161.1409
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa25.jpg",
+            "depth_url": "/assets/images/depth/africa25.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa25.png",
+                "body": "/assets/images/parts/body/africa25.png",
+                "base": "/assets/images/parts/base/africa25.png"
+            }
+        }
+    },
+    {
+        "id": "africa26",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 204.0796,
+            "y": -140.2328
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa26.jpg",
+            "depth_url": "/assets/images/depth/africa26.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa26.png",
+                "body": "/assets/images/parts/body/africa26.png",
+                "base": "/assets/images/parts/base/africa26.png"
+            }
+        }
+    },
+    {
+        "id": "africa28",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 249.0523,
+            "y": -170.1366
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa28.jpg",
+            "depth_url": "/assets/images/depth/africa28.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa28.png",
+                "body": "/assets/images/parts/body/africa28.png",
+                "base": "/assets/images/parts/base/africa28.png"
+            }
+        }
+    },
+    {
+        "id": "africa30",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 106.003,
+            "y": -116.2158
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa30.jpg",
+            "depth_url": "/assets/images/depth/africa30.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa30.png",
+                "body": "/assets/images/parts/body/africa30.png",
+                "base": "/assets/images/parts/base/africa30.png"
+            }
+        }
+    },
+    {
+        "id": "africa31",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -147.0172,
+            "y": 33.8149
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa31.jpg",
+            "depth_url": "/assets/images/depth/africa31.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa31.png",
+                "body": "/assets/images/parts/body/africa31.png",
+                "base": "/assets/images/parts/base/africa31.png"
+            }
+        }
+    },
+    {
+        "id": "africa34",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 212.375,
+            "y": 76.9575
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa34.jpg",
+            "depth_url": "/assets/images/depth/africa34.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa34.png",
+                "body": "/assets/images/parts/body/africa34.png",
+                "base": "/assets/images/parts/base/africa34.png"
+            }
+        }
+    },
+    {
+        "id": "africa35",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 229.5549,
+            "y": -153.6137
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa35.jpg",
+            "depth_url": "/assets/images/depth/africa35.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa35.png",
+                "body": "/assets/images/parts/body/africa35.png",
+                "base": "/assets/images/parts/base/africa35.png"
+            }
+        }
+    },
+    {
+        "id": "africa37",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 127.4297,
+            "y": 20.7532
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa37.jpg",
+            "depth_url": "/assets/images/depth/africa37.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa37.png",
+                "body": "/assets/images/parts/body/africa37.png",
+                "base": "/assets/images/parts/base/africa37.png"
+            }
+        }
+    },
+    {
+        "id": "africa38",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 194.928,
+            "y": 28.4187
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa38.jpg",
+            "depth_url": "/assets/images/depth/africa38.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa38.png",
+                "body": "/assets/images/parts/body/africa38.png",
+                "base": "/assets/images/parts/base/africa38.png"
+            }
+        }
+    },
+    {
+        "id": "africa40",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 81.8013,
+            "y": -106.909
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa40.jpg",
+            "depth_url": "/assets/images/depth/africa40.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa40.png",
+                "body": "/assets/images/parts/body/africa40.png",
+                "base": "/assets/images/parts/base/africa40.png"
+            }
+        }
+    },
+    {
+        "id": "africa41",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 166.9698,
+            "y": 40.4134
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa41.jpg",
+            "depth_url": "/assets/images/depth/africa41.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa41.png",
+                "body": "/assets/images/parts/body/africa41.png",
+                "base": "/assets/images/parts/base/africa41.png"
+            }
+        }
+    },
+    {
+        "id": "africa42",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 136.292,
+            "y": -14.1022
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa42.jpg",
+            "depth_url": "/assets/images/depth/africa42.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa42.png",
+                "body": "/assets/images/parts/body/africa42.png",
+                "base": "/assets/images/parts/base/africa42.png"
+            }
+        }
+    },
+    {
+        "id": "africa47",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 125.0106,
+            "y": 1.6908
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa47.jpg",
+            "depth_url": "/assets/images/depth/africa47.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa47.png",
+                "body": "/assets/images/parts/body/africa47.png",
+                "base": "/assets/images/parts/base/africa47.png"
+            }
+        }
+    },
+    {
+        "id": "africa48",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 102.7877,
+            "y": -142.2226
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa48.jpg",
+            "depth_url": "/assets/images/depth/africa48.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa48.png",
+                "body": "/assets/images/parts/body/africa48.png",
+                "base": "/assets/images/parts/base/africa48.png"
+            }
+        }
+    },
+    {
+        "id": "africa49",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 16.5279,
+            "y": -113.8934
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa49.jpg",
+            "depth_url": "/assets/images/depth/africa49.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa49.png",
+                "body": "/assets/images/parts/body/africa49.png",
+                "base": "/assets/images/parts/base/africa49.png"
+            }
+        }
+    },
+    {
+        "id": "africa5",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -243.2739,
+            "y": -96.1824
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa5.jpg",
+            "depth_url": "/assets/images/depth/africa5.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa5.png",
+                "body": "/assets/images/parts/body/africa5.png",
+                "base": "/assets/images/parts/base/africa5.png"
+            }
+        }
+    },
+    {
+        "id": "africa50",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -54.2308,
+            "y": -6.3768
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa50.jpg",
+            "depth_url": "/assets/images/depth/africa50.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa50.png",
+                "body": "/assets/images/parts/body/africa50.png",
+                "base": "/assets/images/parts/base/africa50.png"
+            }
+        }
+    },
+    {
+        "id": "africa6",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 243.1496,
+            "y": -167.3971
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa6.jpg",
+            "depth_url": "/assets/images/depth/africa6.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa6.png",
+                "body": "/assets/images/parts/body/africa6.png",
+                "base": "/assets/images/parts/base/africa6.png"
+            }
+        }
+    },
+    {
+        "id": "africa7",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 266.6949,
+            "y": -179.3003
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa7.jpg",
+            "depth_url": "/assets/images/depth/africa7.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa7.png",
+                "body": "/assets/images/parts/body/africa7.png",
+                "base": "/assets/images/parts/base/africa7.png"
+            }
+        }
+    },
+    {
+        "id": "africa8",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": 208.8532,
+            "y": -142.354
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa8.jpg",
+            "depth_url": "/assets/images/depth/africa8.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa8.png",
+                "body": "/assets/images/parts/body/africa8.png",
+                "base": "/assets/images/parts/base/africa8.png"
+            }
+        }
+    },
+    {
+        "id": "africa9",
+        "region": "Africa",
+        "globe_coordinates": {
+            "x": -125.9092,
+            "y": -101.917
+        },
+        "assets": {
+            "image_url": "/assets/images/original/africa9.jpg",
+            "depth_url": "/assets/images/depth/africa9.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/africa9.png",
+                "body": "/assets/images/parts/body/africa9.png",
+                "base": "/assets/images/parts/base/africa9.png"
+            }
+        }
+    },
+    {
+        "id": "americas1",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": -261.8357,
+            "y": 95.6052
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas1.jpg",
+            "depth_url": "/assets/images/depth/americas1.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas1.png",
+                "body": "/assets/images/parts/body/americas1.png",
+                "base": "/assets/images/parts/base/americas1.png"
+            }
+        }
+    },
+    {
+        "id": "americas13",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 58.4664,
+            "y": -150.8394
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas13.jpg",
+            "depth_url": "/assets/images/depth/americas13.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas13.png",
+                "body": "/assets/images/parts/body/americas13.png",
+                "base": "/assets/images/parts/base/americas13.png"
+            }
+        }
+    },
+    {
+        "id": "americas14",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 94.9577,
+            "y": 71.6174
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas14.jpg",
+            "depth_url": "/assets/images/depth/americas14.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas14.png",
+                "body": "/assets/images/parts/body/americas14.png",
+                "base": "/assets/images/parts/base/americas14.png"
+            }
+        }
+    },
+    {
+        "id": "americas16",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 149.5913,
+            "y": 15.9448
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas16.jpg",
+            "depth_url": "/assets/images/depth/americas16.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas16.png",
+                "body": "/assets/images/parts/body/americas16.png",
+                "base": "/assets/images/parts/base/americas16.png"
+            }
+        }
+    },
+    {
+        "id": "americas17",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 151.9251,
+            "y": 44.8502
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas17.jpg",
+            "depth_url": "/assets/images/depth/americas17.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas17.png",
+                "body": "/assets/images/parts/body/americas17.png",
+                "base": "/assets/images/parts/base/americas17.png"
+            }
+        }
+    },
+    {
+        "id": "americas18",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 284.5208,
+            "y": 167.8724
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas18.jpg",
+            "depth_url": "/assets/images/depth/americas18.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas18.png",
+                "body": "/assets/images/parts/body/americas18.png",
+                "base": "/assets/images/parts/base/americas18.png"
+            }
+        }
+    },
+    {
+        "id": "americas19",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 175.1315,
+            "y": 116.4038
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas19.jpg",
+            "depth_url": "/assets/images/depth/americas19.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas19.png",
+                "body": "/assets/images/parts/body/americas19.png",
+                "base": "/assets/images/parts/base/americas19.png"
+            }
+        }
+    },
+    {
+        "id": "americas21",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 146.897,
+            "y": -24.3582
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas21.jpg",
+            "depth_url": "/assets/images/depth/americas21.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas21.png",
+                "body": "/assets/images/parts/body/americas21.png",
+                "base": "/assets/images/parts/base/americas21.png"
+            }
+        }
+    },
+    {
+        "id": "americas22",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 243.0025,
+            "y": 119.8053
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas22.jpg",
+            "depth_url": "/assets/images/depth/americas22.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas22.png",
+                "body": "/assets/images/parts/body/americas22.png",
+                "base": "/assets/images/parts/base/americas22.png"
+            }
+        }
+    },
+    {
+        "id": "americas24",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 261.6679,
+            "y": 120.2663
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas24.jpg",
+            "depth_url": "/assets/images/depth/americas24.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas24.png",
+                "body": "/assets/images/parts/body/americas24.png",
+                "base": "/assets/images/parts/base/americas24.png"
+            }
+        }
+    },
+    {
+        "id": "americas25",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 252.4807,
+            "y": 122.428
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas25.jpg",
+            "depth_url": "/assets/images/depth/americas25.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas25.png",
+                "body": "/assets/images/parts/body/americas25.png",
+                "base": "/assets/images/parts/base/americas25.png"
+            }
+        }
+    },
+    {
+        "id": "americas26",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 237.1139,
+            "y": 81.1098
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas26.jpg",
+            "depth_url": "/assets/images/depth/americas26.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas26.png",
+                "body": "/assets/images/parts/body/americas26.png",
+                "base": "/assets/images/parts/base/americas26.png"
+            }
+        }
+    },
+    {
+        "id": "americas27",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 242.4692,
+            "y": 136.5159
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas27.jpg",
+            "depth_url": "/assets/images/depth/americas27.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas27.png",
+                "body": "/assets/images/parts/body/americas27.png",
+                "base": "/assets/images/parts/base/americas27.png"
+            }
+        }
+    },
+    {
+        "id": "americas28",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 260.0488,
+            "y": 145.6471
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas28.jpg",
+            "depth_url": "/assets/images/depth/americas28.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas28.png",
+                "body": "/assets/images/parts/body/americas28.png",
+                "base": "/assets/images/parts/base/americas28.png"
+            }
+        }
+    },
+    {
+        "id": "americas3",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": -51.22,
+            "y": -209.706
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas3.jpg",
+            "depth_url": "/assets/images/depth/americas3.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas3.png",
+                "body": "/assets/images/parts/body/americas3.png",
+                "base": "/assets/images/parts/base/americas3.png"
+            }
+        }
+    },
+    {
+        "id": "americas30",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 144.4706,
+            "y": 60.9884
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas30.jpg",
+            "depth_url": "/assets/images/depth/americas30.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas30.png",
+                "body": "/assets/images/parts/body/americas30.png",
+                "base": "/assets/images/parts/base/americas30.png"
+            }
+        }
+    },
+    {
+        "id": "americas31",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 291.4739,
+            "y": 146.6251
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas31.jpg",
+            "depth_url": "/assets/images/depth/americas31.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas31.png",
+                "body": "/assets/images/parts/body/americas31.png",
+                "base": "/assets/images/parts/base/americas31.png"
+            }
+        }
+    },
+    {
+        "id": "americas32",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 284.2697,
+            "y": 123.6914
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas32.jpg",
+            "depth_url": "/assets/images/depth/americas32.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas32.png",
+                "body": "/assets/images/parts/body/americas32.png",
+                "base": "/assets/images/parts/base/americas32.png"
+            }
+        }
+    },
+    {
+        "id": "americas33",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 230.4011,
+            "y": 28.5484
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas33.jpg",
+            "depth_url": "/assets/images/depth/americas33.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas33.png",
+                "body": "/assets/images/parts/body/americas33.png",
+                "base": "/assets/images/parts/base/americas33.png"
+            }
+        }
+    },
+    {
+        "id": "americas34",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 116.1838,
+            "y": 67.1536
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas34.jpg",
+            "depth_url": "/assets/images/depth/americas34.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas34.png",
+                "body": "/assets/images/parts/body/americas34.png",
+                "base": "/assets/images/parts/base/americas34.png"
+            }
+        }
+    },
+    {
+        "id": "americas36",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 217.8844,
+            "y": 110.7888
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas36.jpg",
+            "depth_url": "/assets/images/depth/americas36.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas36.png",
+                "body": "/assets/images/parts/body/americas36.png",
+                "base": "/assets/images/parts/base/americas36.png"
+            }
+        }
+    },
+    {
+        "id": "americas38",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 242.2137,
+            "y": 112.212
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas38.jpg",
+            "depth_url": "/assets/images/depth/americas38.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas38.png",
+                "body": "/assets/images/parts/body/americas38.png",
+                "base": "/assets/images/parts/base/americas38.png"
+            }
+        }
+    },
+    {
+        "id": "americas39",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 313.9894,
+            "y": 180.898
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas39.jpg",
+            "depth_url": "/assets/images/depth/americas39.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas39.png",
+                "body": "/assets/images/parts/body/americas39.png",
+                "base": "/assets/images/parts/base/americas39.png"
+            }
+        }
+    },
+    {
+        "id": "americas40",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 186.6541,
+            "y": 101.3152
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas40.jpg",
+            "depth_url": "/assets/images/depth/americas40.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas40.png",
+                "body": "/assets/images/parts/body/americas40.png",
+                "base": "/assets/images/parts/base/americas40.png"
+            }
+        }
+    },
+    {
+        "id": "americas42",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 129.1815,
+            "y": 50.3363
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas42.jpg",
+            "depth_url": "/assets/images/depth/americas42.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas42.png",
+                "body": "/assets/images/parts/body/americas42.png",
+                "base": "/assets/images/parts/base/americas42.png"
+            }
+        }
+    },
+    {
+        "id": "americas45",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 196.4783,
+            "y": 148.3669
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas45.jpg",
+            "depth_url": "/assets/images/depth/americas45.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas45.png",
+                "body": "/assets/images/parts/body/americas45.png",
+                "base": "/assets/images/parts/base/americas45.png"
+            }
+        }
+    },
+    {
+        "id": "americas46",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 180.39,
+            "y": -17.1494
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas46.jpg",
+            "depth_url": "/assets/images/depth/americas46.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas46.png",
+                "body": "/assets/images/parts/body/americas46.png",
+                "base": "/assets/images/parts/base/americas46.png"
+            }
+        }
+    },
+    {
+        "id": "americas47",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 262.6357,
+            "y": 150.6002
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas47.jpg",
+            "depth_url": "/assets/images/depth/americas47.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas47.png",
+                "body": "/assets/images/parts/body/americas47.png",
+                "base": "/assets/images/parts/base/americas47.png"
+            }
+        }
+    },
+    {
+        "id": "americas49",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 245.2014,
+            "y": 133.483
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas49.jpg",
+            "depth_url": "/assets/images/depth/americas49.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas49.png",
+                "body": "/assets/images/parts/body/americas49.png",
+                "base": "/assets/images/parts/base/americas49.png"
+            }
+        }
+    },
+    {
+        "id": "americas5",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 316.9661,
+            "y": 182.7337
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas5.jpg",
+            "depth_url": "/assets/images/depth/americas5.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas5.png",
+                "body": "/assets/images/parts/body/americas5.png",
+                "base": "/assets/images/parts/base/americas5.png"
+            }
+        }
+    },
+    {
+        "id": "americas7",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 262.1285,
+            "y": 117.1594
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas7.jpg",
+            "depth_url": "/assets/images/depth/americas7.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas7.png",
+                "body": "/assets/images/parts/body/americas7.png",
+                "base": "/assets/images/parts/base/americas7.png"
+            }
+        }
+    },
+    {
+        "id": "americas9",
+        "region": "Americas",
+        "globe_coordinates": {
+            "x": 260.0132,
+            "y": 162.1464
+        },
+        "assets": {
+            "image_url": "/assets/images/original/americas9.jpg",
+            "depth_url": "/assets/images/depth/americas9.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/americas9.png",
+                "body": "/assets/images/parts/body/americas9.png",
+                "base": "/assets/images/parts/base/americas9.png"
+            }
+        }
+    },
+    {
+        "id": "main-image (11)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -63.6689,
+            "y": -110.6714
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (11).jpg",
+            "depth_url": "/assets/images/depth/main-image (11).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (11).png",
+                "body": "/assets/images/parts/body/main-image (11).png",
+                "base": "/assets/images/parts/base/main-image (11).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (12)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -37.7892,
+            "y": 19.444
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (12).jpg",
+            "depth_url": "/assets/images/depth/main-image (12).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (12).png",
+                "body": "/assets/images/parts/body/main-image (12).png",
+                "base": "/assets/images/parts/base/main-image (12).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (15)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 12.8592,
+            "y": 194.3022
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (15).jpg",
+            "depth_url": "/assets/images/depth/main-image (15).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (15).png",
+                "body": "/assets/images/parts/body/main-image (15).png",
+                "base": "/assets/images/parts/base/main-image (15).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (19)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 43.8187,
+            "y": 67.3799
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (19).jpg",
+            "depth_url": "/assets/images/depth/main-image (19).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (19).png",
+                "body": "/assets/images/parts/body/main-image (19).png",
+                "base": "/assets/images/parts/base/main-image (19).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (20)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -206.2883,
+            "y": -35.3156
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (20).jpg",
+            "depth_url": "/assets/images/depth/main-image (20).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (20).png",
+                "body": "/assets/images/parts/body/main-image (20).png",
+                "base": "/assets/images/parts/base/main-image (20).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (21)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -28.0911,
+            "y": -236.2448
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (21).jpg",
+            "depth_url": "/assets/images/depth/main-image (21).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (21).png",
+                "body": "/assets/images/parts/body/main-image (21).png",
+                "base": "/assets/images/parts/base/main-image (21).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (22)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -198.4974,
+            "y": 117.0975
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (22).jpg",
+            "depth_url": "/assets/images/depth/main-image (22).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (22).png",
+                "body": "/assets/images/parts/body/main-image (22).png",
+                "base": "/assets/images/parts/base/main-image (22).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (24)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -3.2456,
+            "y": 373.9465
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (24).jpg",
+            "depth_url": "/assets/images/depth/main-image (24).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (24).png",
+                "body": "/assets/images/parts/body/main-image (24).png",
+                "base": "/assets/images/parts/base/main-image (24).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (25)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -31.0191,
+            "y": -46.6375
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (25).jpg",
+            "depth_url": "/assets/images/depth/main-image (25).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (25).png",
+                "body": "/assets/images/parts/body/main-image (25).png",
+                "base": "/assets/images/parts/base/main-image (25).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (27)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 34.4827,
+            "y": 258.4877
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (27).jpg",
+            "depth_url": "/assets/images/depth/main-image (27).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (27).png",
+                "body": "/assets/images/parts/body/main-image (27).png",
+                "base": "/assets/images/parts/base/main-image (27).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (29)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -119.2686,
+            "y": -25.1951
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (29).jpg",
+            "depth_url": "/assets/images/depth/main-image (29).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (29).png",
+                "body": "/assets/images/parts/body/main-image (29).png",
+                "base": "/assets/images/parts/base/main-image (29).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (30)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 1.7106,
+            "y": 369.3557
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (30).jpg",
+            "depth_url": "/assets/images/depth/main-image (30).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (30).png",
+                "body": "/assets/images/parts/body/main-image (30).png",
+                "base": "/assets/images/parts/base/main-image (30).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (31)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -0.6753,
+            "y": -18.661
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (31).jpg",
+            "depth_url": "/assets/images/depth/main-image (31).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (31).png",
+                "body": "/assets/images/parts/body/main-image (31).png",
+                "base": "/assets/images/parts/base/main-image (31).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (32)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -189.9808,
+            "y": 124.949
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (32).jpg",
+            "depth_url": "/assets/images/depth/main-image (32).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (32).png",
+                "body": "/assets/images/parts/body/main-image (32).png",
+                "base": "/assets/images/parts/base/main-image (32).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (33)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -12.3484,
+            "y": 204.0002
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (33).jpg",
+            "depth_url": "/assets/images/depth/main-image (33).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (33).png",
+                "body": "/assets/images/parts/body/main-image (33).png",
+                "base": "/assets/images/parts/base/main-image (33).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (35)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 41.635,
+            "y": 244.2152
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (35).jpg",
+            "depth_url": "/assets/images/depth/main-image (35).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (35).png",
+                "body": "/assets/images/parts/body/main-image (35).png",
+                "base": "/assets/images/parts/base/main-image (35).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (36)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 8.1509,
+            "y": 327.8953
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (36).jpg",
+            "depth_url": "/assets/images/depth/main-image (36).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (36).png",
+                "body": "/assets/images/parts/body/main-image (36).png",
+                "base": "/assets/images/parts/base/main-image (36).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (37)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -32.0333,
+            "y": -129.1861
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (37).jpg",
+            "depth_url": "/assets/images/depth/main-image (37).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (37).png",
+                "body": "/assets/images/parts/body/main-image (37).png",
+                "base": "/assets/images/parts/base/main-image (37).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (4)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -4.1519,
+            "y": -301.6306
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (4).jpg",
+            "depth_url": "/assets/images/depth/main-image (4).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (4).png",
+                "body": "/assets/images/parts/body/main-image (4).png",
+                "base": "/assets/images/parts/base/main-image (4).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (40)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -160.2148,
+            "y": 181.5545
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (40).jpg",
+            "depth_url": "/assets/images/depth/main-image (40).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (40).png",
+                "body": "/assets/images/parts/body/main-image (40).png",
+                "base": "/assets/images/parts/base/main-image (40).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (41)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 1.2024,
+            "y": 339.1614
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (41).jpg",
+            "depth_url": "/assets/images/depth/main-image (41).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (41).png",
+                "body": "/assets/images/parts/body/main-image (41).png",
+                "base": "/assets/images/parts/base/main-image (41).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (42)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -3.6612,
+            "y": -353.0285
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (42).jpg",
+            "depth_url": "/assets/images/depth/main-image (42).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (42).png",
+                "body": "/assets/images/parts/body/main-image (42).png",
+                "base": "/assets/images/parts/base/main-image (42).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (43)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 7.5238,
+            "y": -148.0028
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (43).jpg",
+            "depth_url": "/assets/images/depth/main-image (43).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (43).png",
+                "body": "/assets/images/parts/body/main-image (43).png",
+                "base": "/assets/images/parts/base/main-image (43).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (44)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -10.6118,
+            "y": 280.0229
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (44).jpg",
+            "depth_url": "/assets/images/depth/main-image (44).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (44).png",
+                "body": "/assets/images/parts/body/main-image (44).png",
+                "base": "/assets/images/parts/base/main-image (44).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (46)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 153.2242,
+            "y": 135.0768
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (46).jpg",
+            "depth_url": "/assets/images/depth/main-image (46).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (46).png",
+                "body": "/assets/images/parts/body/main-image (46).png",
+                "base": "/assets/images/parts/base/main-image (46).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (47)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -335.7934,
+            "y": 193.5844
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (47).jpg",
+            "depth_url": "/assets/images/depth/main-image (47).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (47).png",
+                "body": "/assets/images/parts/body/main-image (47).png",
+                "base": "/assets/images/parts/base/main-image (47).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (5)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -57.6306,
+            "y": -210.9909
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (5).jpg",
+            "depth_url": "/assets/images/depth/main-image (5).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (5).png",
+                "body": "/assets/images/parts/body/main-image (5).png",
+                "base": "/assets/images/parts/base/main-image (5).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (50)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -1.2817,
+            "y": 332.6875
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (50).jpg",
+            "depth_url": "/assets/images/depth/main-image (50).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (50).png",
+                "body": "/assets/images/parts/body/main-image (50).png",
+                "base": "/assets/images/parts/base/main-image (50).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (51)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": 67.3614,
+            "y": -142.8362
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (51).jpg",
+            "depth_url": "/assets/images/depth/main-image (51).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (51).png",
+                "body": "/assets/images/parts/body/main-image (51).png",
+                "base": "/assets/images/parts/base/main-image (51).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (52)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -98.3776,
+            "y": 239.0599
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (52).jpg",
+            "depth_url": "/assets/images/depth/main-image (52).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (52).png",
+                "body": "/assets/images/parts/body/main-image (52).png",
+                "base": "/assets/images/parts/base/main-image (52).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (8)",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -5.5991,
+            "y": -340.7596
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (8).jpg",
+            "depth_url": "/assets/images/depth/main-image (8).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (8).png",
+                "body": "/assets/images/parts/body/main-image (8).png",
+                "base": "/assets/images/parts/base/main-image (8).png"
+            }
+        }
+    },
+    {
+        "id": "main-image",
+        "region": "Asia",
+        "globe_coordinates": {
+            "x": -81.2119,
+            "y": -142.4265
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image.jpg",
+            "depth_url": "/assets/images/depth/main-image.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image.png",
+                "body": "/assets/images/parts/body/main-image.png",
+                "base": "/assets/images/parts/base/main-image.png"
+            }
+        }
+    },
+    {
+        "id": "main-image (10)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -30.5244,
+            "y": -105.4837
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (10).jpg",
+            "depth_url": "/assets/images/depth/main-image (10).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (10).png",
+                "body": "/assets/images/parts/body/main-image (10).png",
+                "base": "/assets/images/parts/base/main-image (10).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (11)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -343.4514,
+            "y": 198.3298
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (11).jpg",
+            "depth_url": "/assets/images/depth/main-image (11).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (11).png",
+                "body": "/assets/images/parts/body/main-image (11).png",
+                "base": "/assets/images/parts/base/main-image (11).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (12)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -267.5512,
+            "y": 124.1754
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (12).jpg",
+            "depth_url": "/assets/images/depth/main-image (12).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (12).png",
+                "body": "/assets/images/parts/body/main-image (12).png",
+                "base": "/assets/images/parts/base/main-image (12).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (15)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -326.4113,
+            "y": 187.9841
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (15).jpg",
+            "depth_url": "/assets/images/depth/main-image (15).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (15).png",
+                "body": "/assets/images/parts/body/main-image (15).png",
+                "base": "/assets/images/parts/base/main-image (15).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (16)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -280.5,
+            "y": 116.4897
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (16).jpg",
+            "depth_url": "/assets/images/depth/main-image (16).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (16).png",
+                "body": "/assets/images/parts/body/main-image (16).png",
+                "base": "/assets/images/parts/base/main-image (16).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (17)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -335.5008,
+            "y": 192.0391
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (17).jpg",
+            "depth_url": "/assets/images/depth/main-image (17).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (17).png",
+                "body": "/assets/images/parts/body/main-image (17).png",
+                "base": "/assets/images/parts/base/main-image (17).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (18)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -301.5129,
+            "y": 180.9292
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (18).jpg",
+            "depth_url": "/assets/images/depth/main-image (18).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (18).png",
+                "body": "/assets/images/parts/body/main-image (18).png",
+                "base": "/assets/images/parts/base/main-image (18).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (19)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -12.0473,
+            "y": -308.7023
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (19).jpg",
+            "depth_url": "/assets/images/depth/main-image (19).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (19).png",
+                "body": "/assets/images/parts/body/main-image (19).png",
+                "base": "/assets/images/parts/base/main-image (19).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (2)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -246.1416,
+            "y": 111.9041
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (2).jpg",
+            "depth_url": "/assets/images/depth/main-image (2).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (2).png",
+                "body": "/assets/images/parts/body/main-image (2).png",
+                "base": "/assets/images/parts/base/main-image (2).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (20)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -332.2219,
+            "y": 189.5076
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (20).jpg",
+            "depth_url": "/assets/images/depth/main-image (20).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (20).png",
+                "body": "/assets/images/parts/body/main-image (20).png",
+                "base": "/assets/images/parts/base/main-image (20).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (21)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": 1.8651,
+            "y": -160.0646
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (21).jpg",
+            "depth_url": "/assets/images/depth/main-image (21).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (21).png",
+                "body": "/assets/images/parts/body/main-image (21).png",
+                "base": "/assets/images/parts/base/main-image (21).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (23)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -224.6648,
+            "y": 141.5338
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (23).jpg",
+            "depth_url": "/assets/images/depth/main-image (23).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (23).png",
+                "body": "/assets/images/parts/body/main-image (23).png",
+                "base": "/assets/images/parts/base/main-image (23).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (26)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -238.0889,
+            "y": 131.0394
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (26).jpg",
+            "depth_url": "/assets/images/depth/main-image (26).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (26).png",
+                "body": "/assets/images/parts/body/main-image (26).png",
+                "base": "/assets/images/parts/base/main-image (26).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (3)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -264.2225,
+            "y": 157.3004
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (3).jpg",
+            "depth_url": "/assets/images/depth/main-image (3).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (3).png",
+                "body": "/assets/images/parts/body/main-image (3).png",
+                "base": "/assets/images/parts/base/main-image (3).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (30)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -209.6164,
+            "y": 63.2101
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (30).jpg",
+            "depth_url": "/assets/images/depth/main-image (30).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (30).png",
+                "body": "/assets/images/parts/body/main-image (30).png",
+                "base": "/assets/images/parts/base/main-image (30).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (31)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -202.3654,
+            "y": -125.5261
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (31).jpg",
+            "depth_url": "/assets/images/depth/main-image (31).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (31).png",
+                "body": "/assets/images/parts/body/main-image (31).png",
+                "base": "/assets/images/parts/base/main-image (31).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (32)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -240.9596,
+            "y": 146.8838
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (32).jpg",
+            "depth_url": "/assets/images/depth/main-image (32).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (32).png",
+                "body": "/assets/images/parts/body/main-image (32).png",
+                "base": "/assets/images/parts/base/main-image (32).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (33)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -63.8063,
+            "y": -66.4376
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (33).jpg",
+            "depth_url": "/assets/images/depth/main-image (33).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (33).png",
+                "body": "/assets/images/parts/body/main-image (33).png",
+                "base": "/assets/images/parts/base/main-image (33).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (35)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -206.9157,
+            "y": 65.9763
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (35).jpg",
+            "depth_url": "/assets/images/depth/main-image (35).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (35).png",
+                "body": "/assets/images/parts/body/main-image (35).png",
+                "base": "/assets/images/parts/base/main-image (35).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (36)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -240.2018,
+            "y": 149.4792
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (36).jpg",
+            "depth_url": "/assets/images/depth/main-image (36).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (36).png",
+                "body": "/assets/images/parts/body/main-image (36).png",
+                "base": "/assets/images/parts/base/main-image (36).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (37)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -278.6911,
+            "y": 100.3542
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (37).jpg",
+            "depth_url": "/assets/images/depth/main-image (37).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (37).png",
+                "body": "/assets/images/parts/body/main-image (37).png",
+                "base": "/assets/images/parts/base/main-image (37).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (39)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -52.7522,
+            "y": 9.2351
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (39).jpg",
+            "depth_url": "/assets/images/depth/main-image (39).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (39).png",
+                "body": "/assets/images/parts/body/main-image (39).png",
+                "base": "/assets/images/parts/base/main-image (39).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (5)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": 180.4649,
+            "y": -133.1553
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (5).jpg",
+            "depth_url": "/assets/images/depth/main-image (5).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (5).png",
+                "body": "/assets/images/parts/body/main-image (5).png",
+                "base": "/assets/images/parts/base/main-image (5).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (6)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -330.8779,
+            "y": 189.5088
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (6).jpg",
+            "depth_url": "/assets/images/depth/main-image (6).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (6).png",
+                "body": "/assets/images/parts/body/main-image (6).png",
+                "base": "/assets/images/parts/base/main-image (6).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (7)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -342.7802,
+            "y": 197.8397
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (7).jpg",
+            "depth_url": "/assets/images/depth/main-image (7).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (7).png",
+                "body": "/assets/images/parts/body/main-image (7).png",
+                "base": "/assets/images/parts/base/main-image (7).png"
+            }
+        }
+    },
+    {
+        "id": "main-image",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -70.0063,
+            "y": -173.7595
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image.jpg",
+            "depth_url": "/assets/images/depth/main-image.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image.png",
+                "body": "/assets/images/parts/body/main-image.png",
+                "base": "/assets/images/parts/base/main-image.png"
+            }
+        }
+    },
+    {
+        "id": "restricted (3)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -69.1172,
+            "y": 14.8038
+        },
+        "assets": {
+            "image_url": "/assets/images/original/restricted (3).jpg",
+            "depth_url": "/assets/images/depth/restricted (3).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/restricted (3).png",
+                "body": "/assets/images/parts/body/restricted (3).png",
+                "base": "/assets/images/parts/base/restricted (3).png"
+            }
+        }
+    },
+    {
+        "id": "restricted (5)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -55.7141,
+            "y": -187.7744
+        },
+        "assets": {
+            "image_url": "/assets/images/original/restricted (5).jpg",
+            "depth_url": "/assets/images/depth/restricted (5).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/restricted (5).png",
+                "body": "/assets/images/parts/body/restricted (5).png",
+                "base": "/assets/images/parts/base/restricted (5).png"
+            }
+        }
+    },
+    {
+        "id": "restricted (6)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -276.4403,
+            "y": 157.8435
+        },
+        "assets": {
+            "image_url": "/assets/images/original/restricted (6).jpg",
+            "depth_url": "/assets/images/depth/restricted (6).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/restricted (6).png",
+                "body": "/assets/images/parts/body/restricted (6).png",
+                "base": "/assets/images/parts/base/restricted (6).png"
+            }
+        }
+    },
+    {
+        "id": "restricted (7)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -213.6966,
+            "y": 76.9846
+        },
+        "assets": {
+            "image_url": "/assets/images/original/restricted (7).jpg",
+            "depth_url": "/assets/images/depth/restricted (7).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/restricted (7).png",
+                "body": "/assets/images/parts/body/restricted (7).png",
+                "base": "/assets/images/parts/base/restricted (7).png"
+            }
+        }
+    },
+    {
+        "id": "restricted (8)",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -321.1093,
+            "y": 185.9781
+        },
+        "assets": {
+            "image_url": "/assets/images/original/restricted (8).jpg",
+            "depth_url": "/assets/images/depth/restricted (8).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/restricted (8).png",
+                "body": "/assets/images/parts/body/restricted (8).png",
+                "base": "/assets/images/parts/base/restricted (8).png"
+            }
+        }
+    },
+    {
+        "id": "restricted",
+        "region": "Europe",
+        "globe_coordinates": {
+            "x": -339.4093,
+            "y": 195.4158
+        },
+        "assets": {
+            "image_url": "/assets/images/original/restricted.jpg",
+            "depth_url": "/assets/images/depth/restricted.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/restricted.png",
+                "body": "/assets/images/parts/body/restricted.png",
+                "base": "/assets/images/parts/base/restricted.png"
+            }
+        }
+    },
+    {
+        "id": "main-image (1)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -254.9499,
+            "y": -135.6146
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (1).jpg",
+            "depth_url": "/assets/images/depth/main-image (1).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (1).png",
+                "body": "/assets/images/parts/body/main-image (1).png",
+                "base": "/assets/images/parts/base/main-image (1).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (10)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -41.5316,
+            "y": 50.6982
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (10).jpg",
+            "depth_url": "/assets/images/depth/main-image (10).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (10).png",
+                "body": "/assets/images/parts/body/main-image (10).png",
+                "base": "/assets/images/parts/base/main-image (10).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (11)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -136.977,
+            "y": -106.9073
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (11).jpg",
+            "depth_url": "/assets/images/depth/main-image (11).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (11).png",
+                "body": "/assets/images/parts/body/main-image (11).png",
+                "base": "/assets/images/parts/base/main-image (11).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (13)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -253.6578,
+            "y": 72.3358
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (13).jpg",
+            "depth_url": "/assets/images/depth/main-image (13).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (13).png",
+                "body": "/assets/images/parts/body/main-image (13).png",
+                "base": "/assets/images/parts/base/main-image (13).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (14)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -276.6437,
+            "y": 125.2576
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (14).jpg",
+            "depth_url": "/assets/images/depth/main-image (14).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (14).png",
+                "body": "/assets/images/parts/body/main-image (14).png",
+                "base": "/assets/images/parts/base/main-image (14).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (17)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -101.9716,
+            "y": -65.7933
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (17).jpg",
+            "depth_url": "/assets/images/depth/main-image (17).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (17).png",
+                "body": "/assets/images/parts/body/main-image (17).png",
+                "base": "/assets/images/parts/base/main-image (17).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (18)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 167.5295,
+            "y": 88.2865
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (18).jpg",
+            "depth_url": "/assets/images/depth/main-image (18).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (18).png",
+                "body": "/assets/images/parts/body/main-image (18).png",
+                "base": "/assets/images/parts/base/main-image (18).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (19)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -46.9723,
+            "y": -78.8272
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (19).jpg",
+            "depth_url": "/assets/images/depth/main-image (19).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (19).png",
+                "body": "/assets/images/parts/body/main-image (19).png",
+                "base": "/assets/images/parts/base/main-image (19).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (20)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -115.5071,
+            "y": -39.3474
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (20).jpg",
+            "depth_url": "/assets/images/depth/main-image (20).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (20).png",
+                "body": "/assets/images/parts/body/main-image (20).png",
+                "base": "/assets/images/parts/base/main-image (20).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (22)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -54.791,
+            "y": -105.2362
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (22).jpg",
+            "depth_url": "/assets/images/depth/main-image (22).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (22).png",
+                "body": "/assets/images/parts/body/main-image (22).png",
+                "base": "/assets/images/parts/base/main-image (22).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (23)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -305.6355,
+            "y": -178.3628
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (23).jpg",
+            "depth_url": "/assets/images/depth/main-image (23).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (23).png",
+                "body": "/assets/images/parts/body/main-image (23).png",
+                "base": "/assets/images/parts/base/main-image (23).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (24)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 281.9096,
+            "y": -169.9884
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (24).jpg",
+            "depth_url": "/assets/images/depth/main-image (24).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (24).png",
+                "body": "/assets/images/parts/body/main-image (24).png",
+                "base": "/assets/images/parts/base/main-image (24).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (29)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -132.3956,
+            "y": -87.9936
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (29).jpg",
+            "depth_url": "/assets/images/depth/main-image (29).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (29).png",
+                "body": "/assets/images/parts/body/main-image (29).png",
+                "base": "/assets/images/parts/base/main-image (29).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (3)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -297.8597,
+            "y": -154.2255
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (3).jpg",
+            "depth_url": "/assets/images/depth/main-image (3).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (3).png",
+                "body": "/assets/images/parts/body/main-image (3).png",
+                "base": "/assets/images/parts/base/main-image (3).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (31)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 17.6028,
+            "y": 39.6074
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (31).jpg",
+            "depth_url": "/assets/images/depth/main-image (31).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (31).png",
+                "body": "/assets/images/parts/body/main-image (31).png",
+                "base": "/assets/images/parts/base/main-image (31).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (32)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 79.674,
+            "y": -70.5255
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (32).jpg",
+            "depth_url": "/assets/images/depth/main-image (32).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (32).png",
+                "body": "/assets/images/parts/body/main-image (32).png",
+                "base": "/assets/images/parts/base/main-image (32).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (33)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 51.5608,
+            "y": -148.1152
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (33).jpg",
+            "depth_url": "/assets/images/depth/main-image (33).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (33).png",
+                "body": "/assets/images/parts/body/main-image (33).png",
+                "base": "/assets/images/parts/base/main-image (33).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (35)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -146.7784,
+            "y": -98.8517
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (35).jpg",
+            "depth_url": "/assets/images/depth/main-image (35).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (35).png",
+                "body": "/assets/images/parts/body/main-image (35).png",
+                "base": "/assets/images/parts/base/main-image (35).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (36)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -59.3634,
+            "y": 24.0645
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (36).jpg",
+            "depth_url": "/assets/images/depth/main-image (36).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (36).png",
+                "body": "/assets/images/parts/body/main-image (36).png",
+                "base": "/assets/images/parts/base/main-image (36).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (39)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -257.1015,
+            "y": -23.5425
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (39).jpg",
+            "depth_url": "/assets/images/depth/main-image (39).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (39).png",
+                "body": "/assets/images/parts/body/main-image (39).png",
+                "base": "/assets/images/parts/base/main-image (39).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (40)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -236.4264,
+            "y": -86.6625
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (40).jpg",
+            "depth_url": "/assets/images/depth/main-image (40).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (40).png",
+                "body": "/assets/images/parts/body/main-image (40).png",
+                "base": "/assets/images/parts/base/main-image (40).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (41)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -67.0338,
+            "y": -35.4956
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (41).jpg",
+            "depth_url": "/assets/images/depth/main-image (41).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (41).png",
+                "body": "/assets/images/parts/body/main-image (41).png",
+                "base": "/assets/images/parts/base/main-image (41).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (42)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -160.0273,
+            "y": -106.3329
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (42).jpg",
+            "depth_url": "/assets/images/depth/main-image (42).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (42).png",
+                "body": "/assets/images/parts/body/main-image (42).png",
+                "base": "/assets/images/parts/base/main-image (42).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (43)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 62.2332,
+            "y": 22.2114
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (43).jpg",
+            "depth_url": "/assets/images/depth/main-image (43).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (43).png",
+                "body": "/assets/images/parts/body/main-image (43).png",
+                "base": "/assets/images/parts/base/main-image (43).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (44)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -33.6547,
+            "y": -221.0714
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (44).jpg",
+            "depth_url": "/assets/images/depth/main-image (44).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (44).png",
+                "body": "/assets/images/parts/body/main-image (44).png",
+                "base": "/assets/images/parts/base/main-image (44).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (47)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -295.7218,
+            "y": -181.2589
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (47).jpg",
+            "depth_url": "/assets/images/depth/main-image (47).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (47).png",
+                "body": "/assets/images/parts/body/main-image (47).png",
+                "base": "/assets/images/parts/base/main-image (47).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (5)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -191.8674,
+            "y": -120.4089
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (5).jpg",
+            "depth_url": "/assets/images/depth/main-image (5).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (5).png",
+                "body": "/assets/images/parts/body/main-image (5).png",
+                "base": "/assets/images/parts/base/main-image (5).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (6)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 23.4269,
+            "y": -142.2015
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (6).jpg",
+            "depth_url": "/assets/images/depth/main-image (6).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (6).png",
+                "body": "/assets/images/parts/body/main-image (6).png",
+                "base": "/assets/images/parts/base/main-image (6).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (7)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": -259.1157,
+            "y": -131.1887
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (7).jpg",
+            "depth_url": "/assets/images/depth/main-image (7).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (7).png",
+                "body": "/assets/images/parts/body/main-image (7).png",
+                "base": "/assets/images/parts/base/main-image (7).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (8)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 104.3858,
+            "y": -47.7613
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (8).jpg",
+            "depth_url": "/assets/images/depth/main-image (8).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (8).png",
+                "body": "/assets/images/parts/body/main-image (8).png",
+                "base": "/assets/images/parts/base/main-image (8).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (9)",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 6.6447,
+            "y": -260.7921
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (9).jpg",
+            "depth_url": "/assets/images/depth/main-image (9).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (9).png",
+                "body": "/assets/images/parts/body/main-image (9).png",
+                "base": "/assets/images/parts/base/main-image (9).png"
+            }
+        }
+    },
+    {
+        "id": "main-image",
+        "region": "middle_east",
+        "globe_coordinates": {
+            "x": 15.0982,
+            "y": 44.217
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image.jpg",
+            "depth_url": "/assets/images/depth/main-image.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image.png",
+                "body": "/assets/images/parts/body/main-image.png",
+                "base": "/assets/images/parts/base/main-image.png"
+            }
+        }
+    },
+    {
+        "id": "h1_1987.424.4.2",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -6.6706,
+            "y": -326.6753
+        },
+        "assets": {
+            "image_url": "/assets/images/original/h1_1987.424.4.2.jpg",
+            "depth_url": "/assets/images/depth/h1_1987.424.4.2.png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/h1_1987.424.4.2.png",
+                "body": "/assets/images/parts/body/h1_1987.424.4.2.png",
+                "base": "/assets/images/parts/base/h1_1987.424.4.2.png"
+            }
+        }
+    },
+    {
+        "id": "main-image (1)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 22.6018,
+            "y": -99.4278
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (1).jpg",
+            "depth_url": "/assets/images/depth/main-image (1).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (1).png",
+                "body": "/assets/images/parts/body/main-image (1).png",
+                "base": "/assets/images/parts/base/main-image (1).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (12)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 4.6658,
+            "y": -287.7032
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (12).jpg",
+            "depth_url": "/assets/images/depth/main-image (12).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (12).png",
+                "body": "/assets/images/parts/body/main-image (12).png",
+                "base": "/assets/images/parts/base/main-image (12).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (13)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -5.865,
+            "y": -328.255
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (13).jpg",
+            "depth_url": "/assets/images/depth/main-image (13).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (13).png",
+                "body": "/assets/images/parts/body/main-image (13).png",
+                "base": "/assets/images/parts/base/main-image (13).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (14)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -1.7874,
+            "y": -372.2168
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (14).jpg",
+            "depth_url": "/assets/images/depth/main-image (14).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (14).png",
+                "body": "/assets/images/parts/body/main-image (14).png",
+                "base": "/assets/images/parts/base/main-image (14).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (15)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 30.8594,
+            "y": -273.862
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (15).jpg",
+            "depth_url": "/assets/images/depth/main-image (15).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (15).png",
+                "body": "/assets/images/parts/body/main-image (15).png",
+                "base": "/assets/images/parts/base/main-image (15).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (16)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -8.1648,
+            "y": -331.783
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (16).jpg",
+            "depth_url": "/assets/images/depth/main-image (16).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (16).png",
+                "body": "/assets/images/parts/body/main-image (16).png",
+                "base": "/assets/images/parts/base/main-image (16).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (17)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 1.7517,
+            "y": -340.3541
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (17).jpg",
+            "depth_url": "/assets/images/depth/main-image (17).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (17).png",
+                "body": "/assets/images/parts/body/main-image (17).png",
+                "base": "/assets/images/parts/base/main-image (17).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (18)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -0.4311,
+            "y": -219.0874
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (18).jpg",
+            "depth_url": "/assets/images/depth/main-image (18).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (18).png",
+                "body": "/assets/images/parts/body/main-image (18).png",
+                "base": "/assets/images/parts/base/main-image (18).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (19)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -7.3619,
+            "y": -325.9148
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (19).jpg",
+            "depth_url": "/assets/images/depth/main-image (19).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (19).png",
+                "body": "/assets/images/parts/body/main-image (19).png",
+                "base": "/assets/images/parts/base/main-image (19).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (20)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 31.0058,
+            "y": -292.7122
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (20).jpg",
+            "depth_url": "/assets/images/depth/main-image (20).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (20).png",
+                "body": "/assets/images/parts/body/main-image (20).png",
+                "base": "/assets/images/parts/base/main-image (20).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (23)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -81.9512,
+            "y": -28.4662
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (23).jpg",
+            "depth_url": "/assets/images/depth/main-image (23).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (23).png",
+                "body": "/assets/images/parts/body/main-image (23).png",
+                "base": "/assets/images/parts/base/main-image (23).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (24)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -0.1152,
+            "y": -389.254
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (24).jpg",
+            "depth_url": "/assets/images/depth/main-image (24).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (24).png",
+                "body": "/assets/images/parts/body/main-image (24).png",
+                "base": "/assets/images/parts/base/main-image (24).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (27)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -5.2016,
+            "y": -348.729
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (27).jpg",
+            "depth_url": "/assets/images/depth/main-image (27).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (27).png",
+                "body": "/assets/images/parts/body/main-image (27).png",
+                "base": "/assets/images/parts/base/main-image (27).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (30)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 186.4699,
+            "y": 121.9347
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (30).jpg",
+            "depth_url": "/assets/images/depth/main-image (30).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (30).png",
+                "body": "/assets/images/parts/body/main-image (30).png",
+                "base": "/assets/images/parts/base/main-image (30).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (31)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -264.8853,
+            "y": 115.0942
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (31).jpg",
+            "depth_url": "/assets/images/depth/main-image (31).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (31).png",
+                "body": "/assets/images/parts/body/main-image (31).png",
+                "base": "/assets/images/parts/base/main-image (31).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (33)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -6.2717,
+            "y": -298.182
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (33).jpg",
+            "depth_url": "/assets/images/depth/main-image (33).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (33).png",
+                "body": "/assets/images/parts/body/main-image (33).png",
+                "base": "/assets/images/parts/base/main-image (33).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (36)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 11.0178,
+            "y": -328.6943
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (36).jpg",
+            "depth_url": "/assets/images/depth/main-image (36).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (36).png",
+                "body": "/assets/images/parts/body/main-image (36).png",
+                "base": "/assets/images/parts/base/main-image (36).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (37)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -33.5052,
+            "y": -205.8029
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (37).jpg",
+            "depth_url": "/assets/images/depth/main-image (37).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (37).png",
+                "body": "/assets/images/parts/body/main-image (37).png",
+                "base": "/assets/images/parts/base/main-image (37).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (38)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 7.9664,
+            "y": -224.5003
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (38).jpg",
+            "depth_url": "/assets/images/depth/main-image (38).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (38).png",
+                "body": "/assets/images/parts/body/main-image (38).png",
+                "base": "/assets/images/parts/base/main-image (38).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (40)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -7.3314,
+            "y": -372.3453
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (40).jpg",
+            "depth_url": "/assets/images/depth/main-image (40).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (40).png",
+                "body": "/assets/images/parts/body/main-image (40).png",
+                "base": "/assets/images/parts/base/main-image (40).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (41)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -0.616,
+            "y": -387.8656
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (41).jpg",
+            "depth_url": "/assets/images/depth/main-image (41).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (41).png",
+                "body": "/assets/images/parts/body/main-image (41).png",
+                "base": "/assets/images/parts/base/main-image (41).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (42)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 1.2611,
+            "y": -376.326
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (42).jpg",
+            "depth_url": "/assets/images/depth/main-image (42).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (42).png",
+                "body": "/assets/images/parts/body/main-image (42).png",
+                "base": "/assets/images/parts/base/main-image (42).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (44)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 93.1598,
+            "y": 50.8994
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (44).jpg",
+            "depth_url": "/assets/images/depth/main-image (44).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (44).png",
+                "body": "/assets/images/parts/body/main-image (44).png",
+                "base": "/assets/images/parts/base/main-image (44).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (45)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 56.8902,
+            "y": -183.8825
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (45).jpg",
+            "depth_url": "/assets/images/depth/main-image (45).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (45).png",
+                "body": "/assets/images/parts/body/main-image (45).png",
+                "base": "/assets/images/parts/base/main-image (45).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (47)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -118.711,
+            "y": -74.1527
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (47).jpg",
+            "depth_url": "/assets/images/depth/main-image (47).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (47).png",
+                "body": "/assets/images/parts/body/main-image (47).png",
+                "base": "/assets/images/parts/base/main-image (47).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (5)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": 23.0698,
+            "y": -232.4146
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (5).jpg",
+            "depth_url": "/assets/images/depth/main-image (5).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (5).png",
+                "body": "/assets/images/parts/body/main-image (5).png",
+                "base": "/assets/images/parts/base/main-image (5).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (6)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -21.5473,
+            "y": -291.8904
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (6).jpg",
+            "depth_url": "/assets/images/depth/main-image (6).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (6).png",
+                "body": "/assets/images/parts/body/main-image (6).png",
+                "base": "/assets/images/parts/base/main-image (6).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (8)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -7.843,
+            "y": -330.3638
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (8).jpg",
+            "depth_url": "/assets/images/depth/main-image (8).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (8).png",
+                "body": "/assets/images/parts/body/main-image (8).png",
+                "base": "/assets/images/parts/base/main-image (8).png"
+            }
+        }
+    },
+    {
+        "id": "main-image (9)",
+        "region": "East Asia",
+        "globe_coordinates": {
+            "x": -0.1397,
+            "y": -387.9122
+        },
+        "assets": {
+            "image_url": "/assets/images/original/main-image (9).jpg",
+            "depth_url": "/assets/images/depth/main-image (9).png",
+            "parts": {
+                "neck": "/assets/images/parts/neck/main-image (9).png",
+                "body": "/assets/images/parts/body/main-image (9).png",
+                "base": "/assets/images/parts/base/main-image (9).png"
+            }
+        }
+    }
+];

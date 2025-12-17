@@ -11,13 +11,14 @@ export interface VaseParts {
 
 export interface VaseAssets {
   image_url: string;
+  depth_url?: string;
   parts: VaseParts;
 }
 
 export interface Vase {
   id: string;
   region: string;
-  period: string;
+  period?: string;
   globe_coordinates: Coordinates;
   assets: VaseAssets;
 }

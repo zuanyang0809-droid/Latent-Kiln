@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AppMode, Vase } from './types';
-import { MOCK_DB } from './constants';
+import { vaseData } from './data/vaseData';
 import DrawingCanvas from './components/DrawingCanvas';
 import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
@@ -15,15 +15,15 @@ const App: React.FC = () => {
 
   // Handlers
   const handleAnalyze = () => {
-    // Mode 1: Pick 3 random vases to "Match" the silhouette
-    const shuffled = [...MOCK_DB].sort(() => 0.5 - Math.random());
+    // Mode 1: Pick 3 random vases to "Match" the silhouette from real data
+    const shuffled = [...vaseData].sort(() => 0.5 - Math.random());
     const matches = shuffled.slice(0, 3);
     setSelectedVases(matches);
   };
 
   const handleGenerateHybrid = () => {
-    // Mode 2: Pick random parts
-    const shuffled = [...MOCK_DB].sort(() => 0.5 - Math.random());
+    // Mode 2: Pick random parts from real data
+    const shuffled = [...vaseData].sort(() => 0.5 - Math.random());
     setHybridParts({
         neck: shuffled[0],
         body: shuffled[1],
@@ -103,7 +103,7 @@ const App: React.FC = () => {
             
             {/* The Universe View is ALWAYS rendered in the background now */}
             <div className="absolute inset-0 z-0">
-                <UniverseView data={MOCK_DB} selectedVases={selectedVases} />
+                <UniverseView data={vaseData} selectedVases={selectedVases} />
             </div>
 
             {/* Hybrid View overlays the Universe View when active */}

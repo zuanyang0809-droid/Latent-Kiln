@@ -9,6 +9,30 @@ interface UniverseViewProps {
   selectedVases: Vase[];
 }
 
+// Simple Error Boundary for Texture Loading
+class TextureErrorBoundary extends React.Component<
+  { children: React.ReactNode; fallback: React.ReactNode },
+  { hasError: boolean }
+> {
+  constructor(props: any) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error: any) {
+    // Log the error nicely and show fallback
+    console.warn("Texture loading failed (likely missing file), showing fallback.");
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return this.props.fallback;
+    }
+    return this.props.children;
+  }
+}
+
 // Helper to convert lat/lon to 3D position
 const getPositionFromGlobe = (lat: number, lon: number, radius: number): [number, number, number] => {
   const phi = (90 - lat) * (Math.PI / 180);
@@ -51,17 +75,31 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
   // Previous opacity was 0.1, increased to 0.35 so the cloud remains a visible backdrop.
   const opacity = isAnySelected ? (isSelected ? 1 : 0.35) : 0.8;
 
+  // Fallback placeholder if image fails to load
+  const FallbackMesh = (
+    <mesh>
+        <planeGeometry args={[3, 4]} />
+        <meshBasicMaterial color="#e0e0e0" transparent opacity={0.3} side={THREE.DoubleSide} />
+        <Text position={[0, 0, 0.1]} fontSize={0.5} color="#6E4D2E" anchorX="center" anchorY="middle">
+            ?
+        </Text>
+    </mesh>
+  );
+
   return (
     <group ref={meshRef} position={position as [number, number, number]}>
       <Billboard follow={true}>
-        <DreiImage 
-            url={vase.assets.image_url} 
-            transparent 
-            opacity={opacity}
-            scale={[3, 4]} // Aspect ratio rough guess
-            radius={0.2}
-            color={isAnySelected && !isSelected ? "#aaaaaa" : "white"} // Slightly tint unselected
-        />
+        <TextureErrorBoundary fallback={FallbackMesh}>
+            <DreiImage 
+                url={vase.assets.image_url} 
+                transparent 
+                opacity={opacity}
+                scale={[3, 4]} // Aspect ratio rough guess
+                radius={0.2}
+                color={isAnySelected && !isSelected ? "#aaaaaa" : "white"} // Slightly tint unselected
+            />
+        </TextureErrorBoundary>
+        
         {isSelected && (
              <Text
              position={[0, -2.5, 0]}
@@ -131,7 +169,7 @@ const UniverseView: React.FC<UniverseViewProps> = ({ data, selectedVases }) => {
             {selectedVases.map((vase, idx) => (
                 <div key={vase.id} className="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-earth-brown w-64 animate-fade-in-up" style={{ animationDelay: `${idx * 100}ms`}}>
                     <h3 className="font-serif font-bold text-lg text-earth-brown">{vase.region}</h3>
-                    <p className="font-sans text-sm text-earth-brown/80">{vase.period}</p>
+                    {vase.period && <p className="font-sans text-sm text-earth-brown/80">{vase.period}</p>}
                     <p className="font-sans text-xs text-earth-brown/60 mt-2 font-mono">ID: {vase.id.toUpperCase()}</p>
                 </div>
             ))}

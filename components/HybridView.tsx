@@ -15,6 +15,11 @@ const HybridView: React.FC<HybridViewProps> = ({ parts }) => {
 
   const hasHybrid = neck && body && base;
 
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    // Fallback to a placeholder image or hide it
+    e.currentTarget.src = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22100%22%20height%3D%22100%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20dy%3D%2210.5%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3E%3F%3C%2Ftext%3E%3C%2Fsvg%3E';
+  };
+
   return (
     // Outer container is transparent. Added pointer-events-none in parent, but we need auto here for interactions if we had them outside the center box. 
     // Actually, let's keep the layout simple. The parent passes pointer-events-none.
@@ -49,6 +54,7 @@ const HybridView: React.FC<HybridViewProps> = ({ parts }) => {
                         src={neck.assets.parts.neck} 
                         alt="Neck Fragment"
                         className="h-32 object-contain w-32" 
+                        onError={handleImageError}
                      />
                      <div className="absolute top-0 right-[-140px] bg-white/90 p-2 text-xs font-mono text-earth-brown border-l-2 border-earth-brown hidden md:block opacity-0 group-hover:opacity-100 transition-opacity shadow-sm">
                         NECK: {neck.region}
@@ -63,6 +69,7 @@ const HybridView: React.FC<HybridViewProps> = ({ parts }) => {
                         src={body.assets.parts.body} 
                         alt="Body Fragment"
                         className="h-48 object-contain w-56" 
+                        onError={handleImageError}
                      />
                      <div className="absolute top-1/2 right-[-160px] bg-white/90 p-2 text-xs font-mono text-earth-brown border-l-2 border-earth-brown hidden md:block opacity-0 group-hover:opacity-100 transition-opacity shadow-sm">
                         BODY: {body.region}
@@ -77,6 +84,7 @@ const HybridView: React.FC<HybridViewProps> = ({ parts }) => {
                         src={base.assets.parts.base} 
                         alt="Base Fragment"
                         className="h-24 object-contain w-36" 
+                        onError={handleImageError}
                      />
                      <div className="absolute bottom-0 right-[-140px] bg-white/90 p-2 text-xs font-mono text-earth-brown border-l-2 border-earth-brown hidden md:block opacity-0 group-hover:opacity-100 transition-opacity shadow-sm">
                         BASE: {base.region}
@@ -88,7 +96,7 @@ const HybridView: React.FC<HybridViewProps> = ({ parts }) => {
              <div className="mt-8 flex flex-col items-center gap-2 bg-white/50 p-4 rounded-xl backdrop-blur-sm border border-white/60 shadow-sm">
                 <h3 className="font-serif text-2xl text-earth-brown font-bold tracking-widest">HYBRID NO. {Math.floor(Math.random() * 9999)}</h3>
                 <div className="flex gap-2 text-xs font-sans text-earth-brown/80 uppercase tracking-widest font-semibold">
-                    <span>{neck?.period}</span> • <span>{body?.period}</span> • <span>{base?.period}</span>
+                    <span>{neck?.period || 'Unknown'}</span> • <span>{body?.period || 'Unknown'}</span> • <span>{base?.period || 'Unknown'}</span>
                 </div>
                 <button className="mt-4 flex items-center gap-2 px-6 py-2 bg-earth-brown text-white rounded-full hover:bg-earth-brown-light transition-colors text-sm font-sans shadow-md">
                     <Download size={14} /> SAVE ARTIFACT
