@@ -7,7 +7,7 @@
             "y": -23.68
         },
         "assets": {
-            "image_url": "/assets/images/original/africa10.jpg",
+            "image_url": "/assets/images/original/africa10.png",
             "depth_url": "/assets/images/depth/africa10.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa10.png",
@@ -24,7 +24,7 @@
             "y": 103.5829
         },
         "assets": {
-            "image_url": "/assets/images/original/africa11.jpg",
+            "image_url": "/assets/images/original/africa11.png",
             "depth_url": "/assets/images/depth/africa11.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa11.png",
@@ -41,7 +41,7 @@
             "y": -201.8352
         },
         "assets": {
-            "image_url": "/assets/images/original/africa14.jpg",
+            "image_url": "/assets/images/original/africa14.png",
             "depth_url": "/assets/images/depth/africa14.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa14.png",
@@ -58,7 +58,7 @@
             "y": -168.4631
         },
         "assets": {
-            "image_url": "/assets/images/original/africa16.jpg",
+            "image_url": "/assets/images/original/africa16.png",
             "depth_url": "/assets/images/depth/africa16.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa16.png",
@@ -75,7 +75,7 @@
             "y": -185.8543
         },
         "assets": {
-            "image_url": "/assets/images/original/africa18.jpg",
+            "image_url": "/assets/images/original/africa18.png",
             "depth_url": "/assets/images/depth/africa18.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa18.png",
@@ -92,7 +92,7 @@
             "y": 166.3493
         },
         "assets": {
-            "image_url": "/assets/images/original/africa2.jpg",
+            "image_url": "/assets/images/original/africa2.png",
             "depth_url": "/assets/images/depth/africa2.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa2.png",
@@ -109,7 +109,7 @@
             "y": -42.9193
         },
         "assets": {
-            "image_url": "/assets/images/original/africa20.jpg",
+            "image_url": "/assets/images/original/africa20.png",
             "depth_url": "/assets/images/depth/africa20.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa20.png",
@@ -126,7 +126,7 @@
             "y": -189.7846
         },
         "assets": {
-            "image_url": "/assets/images/original/africa21.jpg",
+            "image_url": "/assets/images/original/africa21.png",
             "depth_url": "/assets/images/depth/africa21.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa21.png",
@@ -143,7 +143,7 @@
             "y": -175.1962
         },
         "assets": {
-            "image_url": "/assets/images/original/africa22.jpg",
+            "image_url": "/assets/images/original/africa22.png",
             "depth_url": "/assets/images/depth/africa22.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa22.png",
@@ -160,7 +160,7 @@
             "y": -101.4067
         },
         "assets": {
-            "image_url": "/assets/images/original/africa23.jpg",
+            "image_url": "/assets/images/original/africa23.png",
             "depth_url": "/assets/images/depth/africa23.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa23.png",
@@ -177,7 +177,7 @@
             "y": 119.0706
         },
         "assets": {
-            "image_url": "/assets/images/original/africa24.jpg",
+            "image_url": "/assets/images/original/africa24.png",
             "depth_url": "/assets/images/depth/africa24.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa24.png",
@@ -194,7 +194,7 @@
             "y": -161.1409
         },
         "assets": {
-            "image_url": "/assets/images/original/africa25.jpg",
+            "image_url": "/assets/images/original/africa25.png",
             "depth_url": "/assets/images/depth/africa25.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa25.png",
@@ -211,7 +211,7 @@
             "y": -140.2328
         },
         "assets": {
-            "image_url": "/assets/images/original/africa26.jpg",
+            "image_url": "/assets/images/original/africa26.png",
             "depth_url": "/assets/images/depth/africa26.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa26.png",
@@ -228,7 +228,7 @@
             "y": -170.1366
         },
         "assets": {
-            "image_url": "/assets/images/original/africa28.jpg",
+            "image_url": "/assets/images/original/africa28.png",
             "depth_url": "/assets/images/depth/africa28.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa28.png",
@@ -245,7 +245,7 @@
             "y": -116.2158
         },
         "assets": {
-            "image_url": "/assets/images/original/africa30.jpg",
+            "image_url": "/assets/images/original/africa30.png",
             "depth_url": "/assets/images/depth/africa30.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa30.png",
@@ -262,7 +262,7 @@
             "y": 33.8149
         },
         "assets": {
-            "image_url": "/assets/images/original/africa31.jpg",
+            "image_url": "/assets/images/original/africa31.png",
             "depth_url": "/assets/images/depth/africa31.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa31.png",
@@ -279,7 +279,7 @@
             "y": 76.9575
         },
         "assets": {
-            "image_url": "/assets/images/original/africa34.jpg",
+            "image_url": "/assets/images/original/africa34.png",
             "depth_url": "/assets/images/depth/africa34.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa34.png",
@@ -296,7 +296,7 @@
             "y": -153.6137
         },
         "assets": {
-            "image_url": "/assets/images/original/africa35.jpg",
+            "image_url": "/assets/images/original/africa35.png",
             "depth_url": "/assets/images/depth/africa35.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa35.png",
@@ -313,7 +313,7 @@
             "y": 20.7532
         },
         "assets": {
-            "image_url": "/assets/images/original/africa37.jpg",
+            "image_url": "/assets/images/original/africa37.png",
             "depth_url": "/assets/images/depth/africa37.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa37.png",
@@ -330,7 +330,7 @@
             "y": 28.4187
         },
         "assets": {
-            "image_url": "/assets/images/original/africa38.jpg",
+            "image_url": "/assets/images/original/africa38.png",
             "depth_url": "/assets/images/depth/africa38.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa38.png",
@@ -347,7 +347,7 @@
             "y": -106.909
         },
         "assets": {
-            "image_url": "/assets/images/original/africa40.jpg",
+            "image_url": "/assets/images/original/africa40.png",
             "depth_url": "/assets/images/depth/africa40.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa40.png",
@@ -364,7 +364,7 @@
             "y": 40.4134
         },
         "assets": {
-            "image_url": "/assets/images/original/africa41.jpg",
+            "image_url": "/assets/images/original/africa41.png",
             "depth_url": "/assets/images/depth/africa41.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa41.png",
@@ -381,7 +381,7 @@
             "y": -14.1022
         },
         "assets": {
-            "image_url": "/assets/images/original/africa42.jpg",
+            "image_url": "/assets/images/original/africa42.png",
             "depth_url": "/assets/images/depth/africa42.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa42.png",
@@ -398,7 +398,7 @@
             "y": 1.6908
         },
         "assets": {
-            "image_url": "/assets/images/original/africa47.jpg",
+            "image_url": "/assets/images/original/africa47.png",
             "depth_url": "/assets/images/depth/africa47.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa47.png",
@@ -415,7 +415,7 @@
             "y": -142.2226
         },
         "assets": {
-            "image_url": "/assets/images/original/africa48.jpg",
+            "image_url": "/assets/images/original/africa48.png",
             "depth_url": "/assets/images/depth/africa48.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa48.png",
@@ -432,7 +432,7 @@
             "y": -113.8934
         },
         "assets": {
-            "image_url": "/assets/images/original/africa49.jpg",
+            "image_url": "/assets/images/original/africa49.png",
             "depth_url": "/assets/images/depth/africa49.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa49.png",
@@ -449,7 +449,7 @@
             "y": -96.1824
         },
         "assets": {
-            "image_url": "/assets/images/original/africa5.jpg",
+            "image_url": "/assets/images/original/africa5.png",
             "depth_url": "/assets/images/depth/africa5.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa5.png",
@@ -466,7 +466,7 @@
             "y": -6.3768
         },
         "assets": {
-            "image_url": "/assets/images/original/africa50.jpg",
+            "image_url": "/assets/images/original/africa50.png",
             "depth_url": "/assets/images/depth/africa50.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa50.png",
@@ -483,7 +483,7 @@
             "y": -167.3971
         },
         "assets": {
-            "image_url": "/assets/images/original/africa6.jpg",
+            "image_url": "/assets/images/original/africa6.png",
             "depth_url": "/assets/images/depth/africa6.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa6.png",
@@ -500,7 +500,7 @@
             "y": -179.3003
         },
         "assets": {
-            "image_url": "/assets/images/original/africa7.jpg",
+            "image_url": "/assets/images/original/africa7.png",
             "depth_url": "/assets/images/depth/africa7.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa7.png",
@@ -517,7 +517,7 @@
             "y": -142.354
         },
         "assets": {
-            "image_url": "/assets/images/original/africa8.jpg",
+            "image_url": "/assets/images/original/africa8.png",
             "depth_url": "/assets/images/depth/africa8.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa8.png",
@@ -534,7 +534,7 @@
             "y": -101.917
         },
         "assets": {
-            "image_url": "/assets/images/original/africa9.jpg",
+            "image_url": "/assets/images/original/africa9.png",
             "depth_url": "/assets/images/depth/africa9.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/africa9.png",
@@ -551,7 +551,7 @@
             "y": 95.6052
         },
         "assets": {
-            "image_url": "/assets/images/original/americas1.jpg",
+            "image_url": "/assets/images/original/americas1.png",
             "depth_url": "/assets/images/depth/americas1.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas1.png",
@@ -568,7 +568,7 @@
             "y": -150.8394
         },
         "assets": {
-            "image_url": "/assets/images/original/americas13.jpg",
+            "image_url": "/assets/images/original/americas13.png",
             "depth_url": "/assets/images/depth/americas13.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas13.png",
@@ -585,7 +585,7 @@
             "y": 71.6174
         },
         "assets": {
-            "image_url": "/assets/images/original/americas14.jpg",
+            "image_url": "/assets/images/original/americas14.png",
             "depth_url": "/assets/images/depth/americas14.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas14.png",
@@ -602,7 +602,7 @@
             "y": 15.9448
         },
         "assets": {
-            "image_url": "/assets/images/original/americas16.jpg",
+            "image_url": "/assets/images/original/americas16.png",
             "depth_url": "/assets/images/depth/americas16.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas16.png",
@@ -619,7 +619,7 @@
             "y": 44.8502
         },
         "assets": {
-            "image_url": "/assets/images/original/americas17.jpg",
+            "image_url": "/assets/images/original/americas17.png",
             "depth_url": "/assets/images/depth/americas17.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas17.png",
@@ -636,7 +636,7 @@
             "y": 167.8724
         },
         "assets": {
-            "image_url": "/assets/images/original/americas18.jpg",
+            "image_url": "/assets/images/original/americas18.png",
             "depth_url": "/assets/images/depth/americas18.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas18.png",
@@ -653,7 +653,7 @@
             "y": 116.4038
         },
         "assets": {
-            "image_url": "/assets/images/original/americas19.jpg",
+            "image_url": "/assets/images/original/americas19.png",
             "depth_url": "/assets/images/depth/americas19.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas19.png",
@@ -670,7 +670,7 @@
             "y": -24.3582
         },
         "assets": {
-            "image_url": "/assets/images/original/americas21.jpg",
+            "image_url": "/assets/images/original/americas21.png",
             "depth_url": "/assets/images/depth/americas21.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas21.png",
@@ -687,7 +687,7 @@
             "y": 119.8053
         },
         "assets": {
-            "image_url": "/assets/images/original/americas22.jpg",
+            "image_url": "/assets/images/original/americas22.png",
             "depth_url": "/assets/images/depth/americas22.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas22.png",
@@ -704,7 +704,7 @@
             "y": 120.2663
         },
         "assets": {
-            "image_url": "/assets/images/original/americas24.jpg",
+            "image_url": "/assets/images/original/americas24.png",
             "depth_url": "/assets/images/depth/americas24.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas24.png",
@@ -721,7 +721,7 @@
             "y": 122.428
         },
         "assets": {
-            "image_url": "/assets/images/original/americas25.jpg",
+            "image_url": "/assets/images/original/americas25.png",
             "depth_url": "/assets/images/depth/americas25.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas25.png",
@@ -738,7 +738,7 @@
             "y": 81.1098
         },
         "assets": {
-            "image_url": "/assets/images/original/americas26.jpg",
+            "image_url": "/assets/images/original/americas26.png",
             "depth_url": "/assets/images/depth/americas26.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas26.png",
@@ -755,7 +755,7 @@
             "y": 136.5159
         },
         "assets": {
-            "image_url": "/assets/images/original/americas27.jpg",
+            "image_url": "/assets/images/original/americas27.png",
             "depth_url": "/assets/images/depth/americas27.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas27.png",
@@ -772,7 +772,7 @@
             "y": 145.6471
         },
         "assets": {
-            "image_url": "/assets/images/original/americas28.jpg",
+            "image_url": "/assets/images/original/americas28.png",
             "depth_url": "/assets/images/depth/americas28.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas28.png",
@@ -789,7 +789,7 @@
             "y": -209.706
         },
         "assets": {
-            "image_url": "/assets/images/original/americas3.jpg",
+            "image_url": "/assets/images/original/americas3.png",
             "depth_url": "/assets/images/depth/americas3.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas3.png",
@@ -806,7 +806,7 @@
             "y": 60.9884
         },
         "assets": {
-            "image_url": "/assets/images/original/americas30.jpg",
+            "image_url": "/assets/images/original/americas30.png",
             "depth_url": "/assets/images/depth/americas30.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas30.png",
@@ -823,7 +823,7 @@
             "y": 146.6251
         },
         "assets": {
-            "image_url": "/assets/images/original/americas31.jpg",
+            "image_url": "/assets/images/original/americas31.png",
             "depth_url": "/assets/images/depth/americas31.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas31.png",
@@ -840,7 +840,7 @@
             "y": 123.6914
         },
         "assets": {
-            "image_url": "/assets/images/original/americas32.jpg",
+            "image_url": "/assets/images/original/americas32.png",
             "depth_url": "/assets/images/depth/americas32.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas32.png",
@@ -857,7 +857,7 @@
             "y": 28.5484
         },
         "assets": {
-            "image_url": "/assets/images/original/americas33.jpg",
+            "image_url": "/assets/images/original/americas33.png",
             "depth_url": "/assets/images/depth/americas33.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas33.png",
@@ -874,7 +874,7 @@
             "y": 67.1536
         },
         "assets": {
-            "image_url": "/assets/images/original/americas34.jpg",
+            "image_url": "/assets/images/original/americas34.png",
             "depth_url": "/assets/images/depth/americas34.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas34.png",
@@ -891,7 +891,7 @@
             "y": 110.7888
         },
         "assets": {
-            "image_url": "/assets/images/original/americas36.jpg",
+            "image_url": "/assets/images/original/americas36.png",
             "depth_url": "/assets/images/depth/americas36.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas36.png",
@@ -908,7 +908,7 @@
             "y": 112.212
         },
         "assets": {
-            "image_url": "/assets/images/original/americas38.jpg",
+            "image_url": "/assets/images/original/americas38.png",
             "depth_url": "/assets/images/depth/americas38.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas38.png",
@@ -925,7 +925,7 @@
             "y": 180.898
         },
         "assets": {
-            "image_url": "/assets/images/original/americas39.jpg",
+            "image_url": "/assets/images/original/americas39.png",
             "depth_url": "/assets/images/depth/americas39.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas39.png",
@@ -942,7 +942,7 @@
             "y": 101.3152
         },
         "assets": {
-            "image_url": "/assets/images/original/americas40.jpg",
+            "image_url": "/assets/images/original/americas40.png",
             "depth_url": "/assets/images/depth/americas40.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas40.png",
@@ -959,7 +959,7 @@
             "y": 50.3363
         },
         "assets": {
-            "image_url": "/assets/images/original/americas42.jpg",
+            "image_url": "/assets/images/original/americas42.png",
             "depth_url": "/assets/images/depth/americas42.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas42.png",
@@ -976,7 +976,7 @@
             "y": 148.3669
         },
         "assets": {
-            "image_url": "/assets/images/original/americas45.jpg",
+            "image_url": "/assets/images/original/americas45.png",
             "depth_url": "/assets/images/depth/americas45.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas45.png",
@@ -993,7 +993,7 @@
             "y": -17.1494
         },
         "assets": {
-            "image_url": "/assets/images/original/americas46.jpg",
+            "image_url": "/assets/images/original/americas46.png",
             "depth_url": "/assets/images/depth/americas46.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas46.png",
@@ -1010,7 +1010,7 @@
             "y": 150.6002
         },
         "assets": {
-            "image_url": "/assets/images/original/americas47.jpg",
+            "image_url": "/assets/images/original/americas47.png",
             "depth_url": "/assets/images/depth/americas47.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas47.png",
@@ -1027,7 +1027,7 @@
             "y": 133.483
         },
         "assets": {
-            "image_url": "/assets/images/original/americas49.jpg",
+            "image_url": "/assets/images/original/americas49.png",
             "depth_url": "/assets/images/depth/americas49.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas49.png",
@@ -1044,7 +1044,7 @@
             "y": 182.7337
         },
         "assets": {
-            "image_url": "/assets/images/original/americas5.jpg",
+            "image_url": "/assets/images/original/americas5.png",
             "depth_url": "/assets/images/depth/americas5.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas5.png",
@@ -1061,7 +1061,7 @@
             "y": 117.1594
         },
         "assets": {
-            "image_url": "/assets/images/original/americas7.jpg",
+            "image_url": "/assets/images/original/americas7.png",
             "depth_url": "/assets/images/depth/americas7.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas7.png",
@@ -1078,7 +1078,7 @@
             "y": 162.1464
         },
         "assets": {
-            "image_url": "/assets/images/original/americas9.jpg",
+            "image_url": "/assets/images/original/americas9.png",
             "depth_url": "/assets/images/depth/americas9.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/americas9.png",
@@ -1095,7 +1095,7 @@
             "y": -110.6714
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (11).jpg",
+            "image_url": "/assets/images/original/main-image (11).png",
             "depth_url": "/assets/images/depth/main-image (11).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (11).png",
@@ -1112,7 +1112,7 @@
             "y": 19.444
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (12).jpg",
+            "image_url": "/assets/images/original/main-image (12).png",
             "depth_url": "/assets/images/depth/main-image (12).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (12).png",
@@ -1129,7 +1129,7 @@
             "y": 194.3022
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (15).jpg",
+            "image_url": "/assets/images/original/main-image (15).png",
             "depth_url": "/assets/images/depth/main-image (15).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (15).png",
@@ -1146,7 +1146,7 @@
             "y": 67.3799
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (19).jpg",
+            "image_url": "/assets/images/original/main-image (19).png",
             "depth_url": "/assets/images/depth/main-image (19).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (19).png",
@@ -1163,7 +1163,7 @@
             "y": -35.3156
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (20).jpg",
+            "image_url": "/assets/images/original/main-image (20).png",
             "depth_url": "/assets/images/depth/main-image (20).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (20).png",
@@ -1180,7 +1180,7 @@
             "y": -236.2448
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (21).jpg",
+            "image_url": "/assets/images/original/main-image (21).png",
             "depth_url": "/assets/images/depth/main-image (21).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (21).png",
@@ -1197,7 +1197,7 @@
             "y": 117.0975
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (22).jpg",
+            "image_url": "/assets/images/original/main-image (22).png",
             "depth_url": "/assets/images/depth/main-image (22).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (22).png",
@@ -1214,7 +1214,7 @@
             "y": 373.9465
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (24).jpg",
+            "image_url": "/assets/images/original/main-image (24).png",
             "depth_url": "/assets/images/depth/main-image (24).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (24).png",
@@ -1231,7 +1231,7 @@
             "y": -46.6375
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (25).jpg",
+            "image_url": "/assets/images/original/main-image (25).png",
             "depth_url": "/assets/images/depth/main-image (25).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (25).png",
@@ -1248,7 +1248,7 @@
             "y": 258.4877
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (27).jpg",
+            "image_url": "/assets/images/original/main-image (27).png",
             "depth_url": "/assets/images/depth/main-image (27).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (27).png",
@@ -1265,7 +1265,7 @@
             "y": -25.1951
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (29).jpg",
+            "image_url": "/assets/images/original/main-image (29).png",
             "depth_url": "/assets/images/depth/main-image (29).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (29).png",
@@ -1282,7 +1282,7 @@
             "y": 369.3557
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (30).jpg",
+            "image_url": "/assets/images/original/main-image (30).png",
             "depth_url": "/assets/images/depth/main-image (30).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (30).png",
@@ -1299,7 +1299,7 @@
             "y": -18.661
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (31).jpg",
+            "image_url": "/assets/images/original/main-image (31).png",
             "depth_url": "/assets/images/depth/main-image (31).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (31).png",
@@ -1316,7 +1316,7 @@
             "y": 124.949
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (32).jpg",
+            "image_url": "/assets/images/original/main-image (32).png",
             "depth_url": "/assets/images/depth/main-image (32).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (32).png",
@@ -1333,7 +1333,7 @@
             "y": 204.0002
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (33).jpg",
+            "image_url": "/assets/images/original/main-image (33).png",
             "depth_url": "/assets/images/depth/main-image (33).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (33).png",
@@ -1350,7 +1350,7 @@
             "y": 244.2152
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (35).jpg",
+            "image_url": "/assets/images/original/main-image (35).png",
             "depth_url": "/assets/images/depth/main-image (35).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (35).png",
@@ -1367,7 +1367,7 @@
             "y": 327.8953
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (36).jpg",
+            "image_url": "/assets/images/original/main-image (36).png",
             "depth_url": "/assets/images/depth/main-image (36).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (36).png",
@@ -1384,7 +1384,7 @@
             "y": -129.1861
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (37).jpg",
+            "image_url": "/assets/images/original/main-image (37).png",
             "depth_url": "/assets/images/depth/main-image (37).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (37).png",
@@ -1401,7 +1401,7 @@
             "y": -301.6306
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (4).jpg",
+            "image_url": "/assets/images/original/main-image (4).png",
             "depth_url": "/assets/images/depth/main-image (4).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (4).png",
@@ -1418,7 +1418,7 @@
             "y": 181.5545
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (40).jpg",
+            "image_url": "/assets/images/original/main-image (40).png",
             "depth_url": "/assets/images/depth/main-image (40).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (40).png",
@@ -1435,7 +1435,7 @@
             "y": 339.1614
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (41).jpg",
+            "image_url": "/assets/images/original/main-image (41).png",
             "depth_url": "/assets/images/depth/main-image (41).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (41).png",
@@ -1452,7 +1452,7 @@
             "y": -353.0285
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (42).jpg",
+            "image_url": "/assets/images/original/main-image (42).png",
             "depth_url": "/assets/images/depth/main-image (42).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (42).png",
@@ -1469,7 +1469,7 @@
             "y": -148.0028
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (43).jpg",
+            "image_url": "/assets/images/original/main-image (43).png",
             "depth_url": "/assets/images/depth/main-image (43).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (43).png",
@@ -1486,7 +1486,7 @@
             "y": 280.0229
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (44).jpg",
+            "image_url": "/assets/images/original/main-image (44).png",
             "depth_url": "/assets/images/depth/main-image (44).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (44).png",
@@ -1503,7 +1503,7 @@
             "y": 135.0768
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (46).jpg",
+            "image_url": "/assets/images/original/main-image (46).png",
             "depth_url": "/assets/images/depth/main-image (46).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (46).png",
@@ -1520,7 +1520,7 @@
             "y": 193.5844
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (47).jpg",
+            "image_url": "/assets/images/original/main-image (47).png",
             "depth_url": "/assets/images/depth/main-image (47).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (47).png",
@@ -1537,7 +1537,7 @@
             "y": -210.9909
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (5).jpg",
+            "image_url": "/assets/images/original/main-image (5).png",
             "depth_url": "/assets/images/depth/main-image (5).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (5).png",
@@ -1554,7 +1554,7 @@
             "y": 332.6875
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (50).jpg",
+            "image_url": "/assets/images/original/main-image (50).png",
             "depth_url": "/assets/images/depth/main-image (50).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (50).png",
@@ -1571,7 +1571,7 @@
             "y": -142.8362
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (51).jpg",
+            "image_url": "/assets/images/original/main-image (51).png",
             "depth_url": "/assets/images/depth/main-image (51).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (51).png",
@@ -1588,7 +1588,7 @@
             "y": 239.0599
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (52).jpg",
+            "image_url": "/assets/images/original/main-image (52).png",
             "depth_url": "/assets/images/depth/main-image (52).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (52).png",
@@ -1605,7 +1605,7 @@
             "y": -340.7596
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (8).jpg",
+            "image_url": "/assets/images/original/main-image (8).png",
             "depth_url": "/assets/images/depth/main-image (8).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (8).png",
@@ -1622,7 +1622,7 @@
             "y": -142.4265
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image.jpg",
+            "image_url": "/assets/images/original/main-image.png",
             "depth_url": "/assets/images/depth/main-image.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image.png",
@@ -1639,7 +1639,7 @@
             "y": -105.4837
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (10).jpg",
+            "image_url": "/assets/images/original/main-image (10).png",
             "depth_url": "/assets/images/depth/main-image (10).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (10).png",
@@ -1656,7 +1656,7 @@
             "y": 198.3298
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (11).jpg",
+            "image_url": "/assets/images/original/main-image (11).png",
             "depth_url": "/assets/images/depth/main-image (11).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (11).png",
@@ -1673,7 +1673,7 @@
             "y": 124.1754
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (12).jpg",
+            "image_url": "/assets/images/original/main-image (12).png",
             "depth_url": "/assets/images/depth/main-image (12).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (12).png",
@@ -1690,7 +1690,7 @@
             "y": 187.9841
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (15).jpg",
+            "image_url": "/assets/images/original/main-image (15).png",
             "depth_url": "/assets/images/depth/main-image (15).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (15).png",
@@ -1707,7 +1707,7 @@
             "y": 116.4897
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (16).jpg",
+            "image_url": "/assets/images/original/main-image (16).png",
             "depth_url": "/assets/images/depth/main-image (16).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (16).png",
@@ -1724,7 +1724,7 @@
             "y": 192.0391
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (17).jpg",
+            "image_url": "/assets/images/original/main-image (17).png",
             "depth_url": "/assets/images/depth/main-image (17).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (17).png",
@@ -1741,7 +1741,7 @@
             "y": 180.9292
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (18).jpg",
+            "image_url": "/assets/images/original/main-image (18).png",
             "depth_url": "/assets/images/depth/main-image (18).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (18).png",
@@ -1758,7 +1758,7 @@
             "y": -308.7023
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (19).jpg",
+            "image_url": "/assets/images/original/main-image (19).png",
             "depth_url": "/assets/images/depth/main-image (19).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (19).png",
@@ -1775,7 +1775,7 @@
             "y": 111.9041
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (2).jpg",
+            "image_url": "/assets/images/original/main-image (2).png",
             "depth_url": "/assets/images/depth/main-image (2).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (2).png",
@@ -1792,7 +1792,7 @@
             "y": 189.5076
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (20).jpg",
+            "image_url": "/assets/images/original/main-image (20).png",
             "depth_url": "/assets/images/depth/main-image (20).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (20).png",
@@ -1809,7 +1809,7 @@
             "y": -160.0646
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (21).jpg",
+            "image_url": "/assets/images/original/main-image (21).png",
             "depth_url": "/assets/images/depth/main-image (21).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (21).png",
@@ -1826,7 +1826,7 @@
             "y": 141.5338
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (23).jpg",
+            "image_url": "/assets/images/original/main-image (23).png",
             "depth_url": "/assets/images/depth/main-image (23).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (23).png",
@@ -1843,7 +1843,7 @@
             "y": 131.0394
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (26).jpg",
+            "image_url": "/assets/images/original/main-image (26).png",
             "depth_url": "/assets/images/depth/main-image (26).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (26).png",
@@ -1860,7 +1860,7 @@
             "y": 157.3004
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (3).jpg",
+            "image_url": "/assets/images/original/main-image (3).png",
             "depth_url": "/assets/images/depth/main-image (3).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (3).png",
@@ -1877,7 +1877,7 @@
             "y": 63.2101
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (30).jpg",
+            "image_url": "/assets/images/original/main-image (30).png",
             "depth_url": "/assets/images/depth/main-image (30).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (30).png",
@@ -1894,7 +1894,7 @@
             "y": -125.5261
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (31).jpg",
+            "image_url": "/assets/images/original/main-image (31).png",
             "depth_url": "/assets/images/depth/main-image (31).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (31).png",
@@ -1911,7 +1911,7 @@
             "y": 146.8838
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (32).jpg",
+            "image_url": "/assets/images/original/main-image (32).png",
             "depth_url": "/assets/images/depth/main-image (32).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (32).png",
@@ -1928,7 +1928,7 @@
             "y": -66.4376
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (33).jpg",
+            "image_url": "/assets/images/original/main-image (33).png",
             "depth_url": "/assets/images/depth/main-image (33).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (33).png",
@@ -1945,7 +1945,7 @@
             "y": 65.9763
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (35).jpg",
+            "image_url": "/assets/images/original/main-image (35).png",
             "depth_url": "/assets/images/depth/main-image (35).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (35).png",
@@ -1962,7 +1962,7 @@
             "y": 149.4792
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (36).jpg",
+            "image_url": "/assets/images/original/main-image (36).png",
             "depth_url": "/assets/images/depth/main-image (36).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (36).png",
@@ -1979,7 +1979,7 @@
             "y": 100.3542
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (37).jpg",
+            "image_url": "/assets/images/original/main-image (37).png",
             "depth_url": "/assets/images/depth/main-image (37).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (37).png",
@@ -1996,7 +1996,7 @@
             "y": 9.2351
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (39).jpg",
+            "image_url": "/assets/images/original/main-image (39).png",
             "depth_url": "/assets/images/depth/main-image (39).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (39).png",
@@ -2013,7 +2013,7 @@
             "y": -133.1553
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (5).jpg",
+            "image_url": "/assets/images/original/main-image (5).png",
             "depth_url": "/assets/images/depth/main-image (5).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (5).png",
@@ -2030,7 +2030,7 @@
             "y": 189.5088
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (6).jpg",
+            "image_url": "/assets/images/original/main-image (6).png",
             "depth_url": "/assets/images/depth/main-image (6).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (6).png",
@@ -2047,7 +2047,7 @@
             "y": 197.8397
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (7).jpg",
+            "image_url": "/assets/images/original/main-image (7).png",
             "depth_url": "/assets/images/depth/main-image (7).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (7).png",
@@ -2064,7 +2064,7 @@
             "y": -173.7595
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image.jpg",
+            "image_url": "/assets/images/original/main-image.png",
             "depth_url": "/assets/images/depth/main-image.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image.png",
@@ -2081,7 +2081,7 @@
             "y": 14.8038
         },
         "assets": {
-            "image_url": "/assets/images/original/restricted (3).jpg",
+            "image_url": "/assets/images/original/restricted (3).png",
             "depth_url": "/assets/images/depth/restricted (3).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/restricted (3).png",
@@ -2098,7 +2098,7 @@
             "y": -187.7744
         },
         "assets": {
-            "image_url": "/assets/images/original/restricted (5).jpg",
+            "image_url": "/assets/images/original/restricted (5).png",
             "depth_url": "/assets/images/depth/restricted (5).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/restricted (5).png",
@@ -2115,7 +2115,7 @@
             "y": 157.8435
         },
         "assets": {
-            "image_url": "/assets/images/original/restricted (6).jpg",
+            "image_url": "/assets/images/original/restricted (6).png",
             "depth_url": "/assets/images/depth/restricted (6).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/restricted (6).png",
@@ -2132,7 +2132,7 @@
             "y": 76.9846
         },
         "assets": {
-            "image_url": "/assets/images/original/restricted (7).jpg",
+            "image_url": "/assets/images/original/restricted (7).png",
             "depth_url": "/assets/images/depth/restricted (7).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/restricted (7).png",
@@ -2149,7 +2149,7 @@
             "y": 185.9781
         },
         "assets": {
-            "image_url": "/assets/images/original/restricted (8).jpg",
+            "image_url": "/assets/images/original/restricted (8).png",
             "depth_url": "/assets/images/depth/restricted (8).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/restricted (8).png",
@@ -2166,7 +2166,7 @@
             "y": 195.4158
         },
         "assets": {
-            "image_url": "/assets/images/original/restricted.jpg",
+            "image_url": "/assets/images/original/restricted.png",
             "depth_url": "/assets/images/depth/restricted.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/restricted.png",
@@ -2183,7 +2183,7 @@
             "y": -135.6146
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (1).jpg",
+            "image_url": "/assets/images/original/main-image (1).png",
             "depth_url": "/assets/images/depth/main-image (1).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (1).png",
@@ -2200,7 +2200,7 @@
             "y": 50.6982
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (10).jpg",
+            "image_url": "/assets/images/original/main-image (10).png",
             "depth_url": "/assets/images/depth/main-image (10).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (10).png",
@@ -2217,7 +2217,7 @@
             "y": -106.9073
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (11).jpg",
+            "image_url": "/assets/images/original/main-image (11).png",
             "depth_url": "/assets/images/depth/main-image (11).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (11).png",
@@ -2234,7 +2234,7 @@
             "y": 72.3358
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (13).jpg",
+            "image_url": "/assets/images/original/main-image (13).png",
             "depth_url": "/assets/images/depth/main-image (13).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (13).png",
@@ -2251,7 +2251,7 @@
             "y": 125.2576
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (14).jpg",
+            "image_url": "/assets/images/original/main-image (14).png",
             "depth_url": "/assets/images/depth/main-image (14).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (14).png",
@@ -2268,7 +2268,7 @@
             "y": -65.7933
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (17).jpg",
+            "image_url": "/assets/images/original/main-image (17).png",
             "depth_url": "/assets/images/depth/main-image (17).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (17).png",
@@ -2285,7 +2285,7 @@
             "y": 88.2865
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (18).jpg",
+            "image_url": "/assets/images/original/main-image (18).png",
             "depth_url": "/assets/images/depth/main-image (18).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (18).png",
@@ -2302,7 +2302,7 @@
             "y": -78.8272
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (19).jpg",
+            "image_url": "/assets/images/original/main-image (19).png",
             "depth_url": "/assets/images/depth/main-image (19).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (19).png",
@@ -2319,7 +2319,7 @@
             "y": -39.3474
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (20).jpg",
+            "image_url": "/assets/images/original/main-image (20).png",
             "depth_url": "/assets/images/depth/main-image (20).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (20).png",
@@ -2336,7 +2336,7 @@
             "y": -105.2362
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (22).jpg",
+            "image_url": "/assets/images/original/main-image (22).png",
             "depth_url": "/assets/images/depth/main-image (22).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (22).png",
@@ -2353,7 +2353,7 @@
             "y": -178.3628
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (23).jpg",
+            "image_url": "/assets/images/original/main-image (23).png",
             "depth_url": "/assets/images/depth/main-image (23).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (23).png",
@@ -2370,7 +2370,7 @@
             "y": -169.9884
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (24).jpg",
+            "image_url": "/assets/images/original/main-image (24).png",
             "depth_url": "/assets/images/depth/main-image (24).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (24).png",
@@ -2387,7 +2387,7 @@
             "y": -87.9936
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (29).jpg",
+            "image_url": "/assets/images/original/main-image (29).png",
             "depth_url": "/assets/images/depth/main-image (29).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (29).png",
@@ -2404,7 +2404,7 @@
             "y": -154.2255
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (3).jpg",
+            "image_url": "/assets/images/original/main-image (3).png",
             "depth_url": "/assets/images/depth/main-image (3).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (3).png",
@@ -2421,7 +2421,7 @@
             "y": 39.6074
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (31).jpg",
+            "image_url": "/assets/images/original/main-image (31).png",
             "depth_url": "/assets/images/depth/main-image (31).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (31).png",
@@ -2438,7 +2438,7 @@
             "y": -70.5255
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (32).jpg",
+            "image_url": "/assets/images/original/main-image (32).png",
             "depth_url": "/assets/images/depth/main-image (32).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (32).png",
@@ -2455,7 +2455,7 @@
             "y": -148.1152
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (33).jpg",
+            "image_url": "/assets/images/original/main-image (33).png",
             "depth_url": "/assets/images/depth/main-image (33).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (33).png",
@@ -2472,7 +2472,7 @@
             "y": -98.8517
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (35).jpg",
+            "image_url": "/assets/images/original/main-image (35).png",
             "depth_url": "/assets/images/depth/main-image (35).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (35).png",
@@ -2489,7 +2489,7 @@
             "y": 24.0645
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (36).jpg",
+            "image_url": "/assets/images/original/main-image (36).png",
             "depth_url": "/assets/images/depth/main-image (36).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (36).png",
@@ -2506,7 +2506,7 @@
             "y": -23.5425
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (39).jpg",
+            "image_url": "/assets/images/original/main-image (39).png",
             "depth_url": "/assets/images/depth/main-image (39).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (39).png",
@@ -2523,7 +2523,7 @@
             "y": -86.6625
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (40).jpg",
+            "image_url": "/assets/images/original/main-image (40).png",
             "depth_url": "/assets/images/depth/main-image (40).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (40).png",
@@ -2540,7 +2540,7 @@
             "y": -35.4956
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (41).jpg",
+            "image_url": "/assets/images/original/main-image (41).png",
             "depth_url": "/assets/images/depth/main-image (41).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (41).png",
@@ -2557,7 +2557,7 @@
             "y": -106.3329
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (42).jpg",
+            "image_url": "/assets/images/original/main-image (42).png",
             "depth_url": "/assets/images/depth/main-image (42).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (42).png",
@@ -2574,7 +2574,7 @@
             "y": 22.2114
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (43).jpg",
+            "image_url": "/assets/images/original/main-image (43).png",
             "depth_url": "/assets/images/depth/main-image (43).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (43).png",
@@ -2591,7 +2591,7 @@
             "y": -221.0714
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (44).jpg",
+            "image_url": "/assets/images/original/main-image (44).png",
             "depth_url": "/assets/images/depth/main-image (44).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (44).png",
@@ -2608,7 +2608,7 @@
             "y": -181.2589
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (47).jpg",
+            "image_url": "/assets/images/original/main-image (47).png",
             "depth_url": "/assets/images/depth/main-image (47).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (47).png",
@@ -2625,7 +2625,7 @@
             "y": -120.4089
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (5).jpg",
+            "image_url": "/assets/images/original/main-image (5).png",
             "depth_url": "/assets/images/depth/main-image (5).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (5).png",
@@ -2642,7 +2642,7 @@
             "y": -142.2015
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (6).jpg",
+            "image_url": "/assets/images/original/main-image (6).png",
             "depth_url": "/assets/images/depth/main-image (6).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (6).png",
@@ -2659,7 +2659,7 @@
             "y": -131.1887
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (7).jpg",
+            "image_url": "/assets/images/original/main-image (7).png",
             "depth_url": "/assets/images/depth/main-image (7).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (7).png",
@@ -2676,7 +2676,7 @@
             "y": -47.7613
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (8).jpg",
+            "image_url": "/assets/images/original/main-image (8).png",
             "depth_url": "/assets/images/depth/main-image (8).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (8).png",
@@ -2693,7 +2693,7 @@
             "y": -260.7921
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (9).jpg",
+            "image_url": "/assets/images/original/main-image (9).png",
             "depth_url": "/assets/images/depth/main-image (9).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (9).png",
@@ -2710,7 +2710,7 @@
             "y": 44.217
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image.jpg",
+            "image_url": "/assets/images/original/main-image.png",
             "depth_url": "/assets/images/depth/main-image.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image.png",
@@ -2727,7 +2727,7 @@
             "y": -326.6753
         },
         "assets": {
-            "image_url": "/assets/images/original/h1_1987.424.4.2.jpg",
+            "image_url": "/assets/images/original/h1_1987.424.4.2.png",
             "depth_url": "/assets/images/depth/h1_1987.424.4.2.png",
             "parts": {
                 "neck": "/assets/images/parts/neck/h1_1987.424.4.2.png",
@@ -2744,7 +2744,7 @@
             "y": -99.4278
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (1).jpg",
+            "image_url": "/assets/images/original/main-image (1).png",
             "depth_url": "/assets/images/depth/main-image (1).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (1).png",
@@ -2761,7 +2761,7 @@
             "y": -287.7032
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (12).jpg",
+            "image_url": "/assets/images/original/main-image (12).png",
             "depth_url": "/assets/images/depth/main-image (12).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (12).png",
@@ -2778,7 +2778,7 @@
             "y": -328.255
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (13).jpg",
+            "image_url": "/assets/images/original/main-image (13).png",
             "depth_url": "/assets/images/depth/main-image (13).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (13).png",
@@ -2795,7 +2795,7 @@
             "y": -372.2168
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (14).jpg",
+            "image_url": "/assets/images/original/main-image (14).png",
             "depth_url": "/assets/images/depth/main-image (14).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (14).png",
@@ -2812,7 +2812,7 @@
             "y": -273.862
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (15).jpg",
+            "image_url": "/assets/images/original/main-image (15).png",
             "depth_url": "/assets/images/depth/main-image (15).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (15).png",
@@ -2829,7 +2829,7 @@
             "y": -331.783
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (16).jpg",
+            "image_url": "/assets/images/original/main-image (16).png",
             "depth_url": "/assets/images/depth/main-image (16).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (16).png",
@@ -2846,7 +2846,7 @@
             "y": -340.3541
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (17).jpg",
+            "image_url": "/assets/images/original/main-image (17).png",
             "depth_url": "/assets/images/depth/main-image (17).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (17).png",
@@ -2863,7 +2863,7 @@
             "y": -219.0874
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (18).jpg",
+            "image_url": "/assets/images/original/main-image (18).png",
             "depth_url": "/assets/images/depth/main-image (18).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (18).png",
@@ -2880,7 +2880,7 @@
             "y": -325.9148
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (19).jpg",
+            "image_url": "/assets/images/original/main-image (19).png",
             "depth_url": "/assets/images/depth/main-image (19).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (19).png",
@@ -2897,7 +2897,7 @@
             "y": -292.7122
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (20).jpg",
+            "image_url": "/assets/images/original/main-image (20).png",
             "depth_url": "/assets/images/depth/main-image (20).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (20).png",
@@ -2914,7 +2914,7 @@
             "y": -28.4662
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (23).jpg",
+            "image_url": "/assets/images/original/main-image (23).png",
             "depth_url": "/assets/images/depth/main-image (23).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (23).png",
@@ -2931,7 +2931,7 @@
             "y": -389.254
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (24).jpg",
+            "image_url": "/assets/images/original/main-image (24).png",
             "depth_url": "/assets/images/depth/main-image (24).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (24).png",
@@ -2948,7 +2948,7 @@
             "y": -348.729
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (27).jpg",
+            "image_url": "/assets/images/original/main-image (27).png",
             "depth_url": "/assets/images/depth/main-image (27).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (27).png",
@@ -2965,7 +2965,7 @@
             "y": 121.9347
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (30).jpg",
+            "image_url": "/assets/images/original/main-image (30).png",
             "depth_url": "/assets/images/depth/main-image (30).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (30).png",
@@ -2982,7 +2982,7 @@
             "y": 115.0942
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (31).jpg",
+            "image_url": "/assets/images/original/main-image (31).png",
             "depth_url": "/assets/images/depth/main-image (31).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (31).png",
@@ -2999,7 +2999,7 @@
             "y": -298.182
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (33).jpg",
+            "image_url": "/assets/images/original/main-image (33).png",
             "depth_url": "/assets/images/depth/main-image (33).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (33).png",
@@ -3016,7 +3016,7 @@
             "y": -328.6943
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (36).jpg",
+            "image_url": "/assets/images/original/main-image (36).png",
             "depth_url": "/assets/images/depth/main-image (36).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (36).png",
@@ -3033,7 +3033,7 @@
             "y": -205.8029
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (37).jpg",
+            "image_url": "/assets/images/original/main-image (37).png",
             "depth_url": "/assets/images/depth/main-image (37).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (37).png",
@@ -3050,7 +3050,7 @@
             "y": -224.5003
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (38).jpg",
+            "image_url": "/assets/images/original/main-image (38).png",
             "depth_url": "/assets/images/depth/main-image (38).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (38).png",
@@ -3067,7 +3067,7 @@
             "y": -372.3453
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (40).jpg",
+            "image_url": "/assets/images/original/main-image (40).png",
             "depth_url": "/assets/images/depth/main-image (40).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (40).png",
@@ -3084,7 +3084,7 @@
             "y": -387.8656
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (41).jpg",
+            "image_url": "/assets/images/original/main-image (41).png",
             "depth_url": "/assets/images/depth/main-image (41).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (41).png",
@@ -3101,7 +3101,7 @@
             "y": -376.326
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (42).jpg",
+            "image_url": "/assets/images/original/main-image (42).png",
             "depth_url": "/assets/images/depth/main-image (42).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (42).png",
@@ -3118,7 +3118,7 @@
             "y": 50.8994
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (44).jpg",
+            "image_url": "/assets/images/original/main-image (44).png",
             "depth_url": "/assets/images/depth/main-image (44).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (44).png",
@@ -3135,7 +3135,7 @@
             "y": -183.8825
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (45).jpg",
+            "image_url": "/assets/images/original/main-image (45).png",
             "depth_url": "/assets/images/depth/main-image (45).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (45).png",
@@ -3152,7 +3152,7 @@
             "y": -74.1527
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (47).jpg",
+            "image_url": "/assets/images/original/main-image (47).png",
             "depth_url": "/assets/images/depth/main-image (47).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (47).png",
@@ -3169,7 +3169,7 @@
             "y": -232.4146
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (5).jpg",
+            "image_url": "/assets/images/original/main-image (5).png",
             "depth_url": "/assets/images/depth/main-image (5).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (5).png",
@@ -3186,7 +3186,7 @@
             "y": -291.8904
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (6).jpg",
+            "image_url": "/assets/images/original/main-image (6).png",
             "depth_url": "/assets/images/depth/main-image (6).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (6).png",
@@ -3203,7 +3203,7 @@
             "y": -330.3638
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (8).jpg",
+            "image_url": "/assets/images/original/main-image (8).png",
             "depth_url": "/assets/images/depth/main-image (8).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (8).png",
@@ -3220,7 +3220,7 @@
             "y": -387.9122
         },
         "assets": {
-            "image_url": "/assets/images/original/main-image (9).jpg",
+            "image_url": "/assets/images/original/main-image (9).png",
             "depth_url": "/assets/images/depth/main-image (9).png",
             "parts": {
                 "neck": "/assets/images/parts/neck/main-image (9).png",
