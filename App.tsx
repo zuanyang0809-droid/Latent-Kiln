@@ -202,11 +202,12 @@ const App: React.FC = () => {
             </div>
         </section>
 
-        <section className="h-[60vh] md:h-full md:w-[60%] relative bg-gradient-to-br from-soft-green to-[#a6d8a5]/50 overflow-hidden">
+       {/* 核心修改：这里修改了 className 里的背景渐变 bg-gradient-to-b from-white to-[#dcfce7] */}
+        <section className="h-[60vh] md:h-full md:w-[60%] relative bg-gradient-to-b from-white to-[#dcfce7] overflow-hidden">
             <div className="absolute inset-0 z-0">
-                {/* 这里的 DATA 已经是没有重复项的了 */}
                 <UniverseView data={DATA} selectedVases={selectedVases} />
             </div>
+
 
             {mode === AppMode.HYBRID && (
                 <div className="absolute inset-0 z-10 pointer-events-none w-full h-full">
