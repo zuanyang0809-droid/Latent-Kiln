@@ -94,7 +94,7 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
                 url={vase.assets.image_url} 
                 transparent 
                 opacity={opacity}
-                scale={[3, 4]} 
+                scale={[4, 4]} 
                 radius={0.1}
                 // 如果图片路径不对，这里会抛出错误被 ErrorBoundary 捕获
             />
