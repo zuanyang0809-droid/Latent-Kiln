@@ -1,8 +1,7 @@
 # LATENT KILN: The Machinic Curator
 
 > **"Unearthing the morphological universe of ceramics through the lens of machine vision."**
-
-[Latent Kiln Try it] Latent Kiln TryLatent Kiln TryLatent Kiln TrL(https:
+[Latent Kiln try it](https://zuanyang0809-droid.github.io/Latent-Kiln/)
 
 ## 📖 Abstract
 
