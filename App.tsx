@@ -6,12 +6,11 @@ import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
 import { Box, Layers, Info } from 'lucide-react';
 
-// === 1. 路径修复逻辑 (解决 GitHub Pages 图片不显示问题) ===
-const BASE_URL = import.meta.env.BASE_URL; // 获取 vite.config.ts 里的 base
+// 强制写死你的仓库名 (注意大小写要和浏览器地址栏里完全一样！)
+const BASE_URL = "/Latent-Kiln/"; 
 
 const fixUrl = (url: string) => {
   if (!url) return '';
-  // 去掉开头的 ./ 或 /，然后加上 base 路径
   const cleanPath = url.replace(/^\.?\//, '');
   return `${BASE_URL}${cleanPath}`;
 };
