@@ -79,16 +79,48 @@ const App: React.FC = () => {
     setSelectedVases(matches);
   };
 
-  // Mode 2: 拼贴逻辑
+// === Mode 2: 智能拼贴逻辑 (自动过滤缺失零件) ===
   const handleGenerateHybrid = () => {
-    const shuffled = [...DATA].sort(() => 0.5 - Math.random());
+    // 1. 筛选出所有拥有 "Neck" (瓶口) 的花瓶
+    // 逻辑：检查路径是否为空，且不仅是 Base URL
+    const validNecks = DATA.filter((v: Vase) => 
+        v.assets.parts.neck && 
+        v.assets.parts.neck.length > BASE_URL.length &&
+        !v.assets.parts.neck.endsWith('/') // 防止只有路径没有文件名
+    );
+
+    // 2. 筛选出所有拥有 "Body" (瓶身) 的花瓶
+    const validBodies = DATA.filter((v: Vase) => 
+        v.assets.parts.body && 
+        v.assets.parts.body.length > BASE_URL.length &&
+        !v.assets.parts.body.endsWith('/')
+    );
+
+    // 3. 筛选出所有拥有 "Base" (底座) 的花瓶
+    const validBases = DATA.filter((v: Vase) => 
+        v.assets.parts.base && 
+        v.assets.parts.base.length > BASE_URL.length &&
+        !v.assets.parts.base.endsWith('/')
+    );
+
+    // 如果数据太少，防止崩溃
+    if (validNecks.length === 0 || validBodies.length === 0 || validBases.length === 0) {
+        console.error("没有足够的零件库！");
+        return;
+    }
+
+    // 4. 从各自的池子里随机抽取
+    // 这样即使花瓶A没有头，它的身子依然可以被用在拼贴里
+    const randomNeck = validNecks[Math.floor(Math.random() * validNecks.length)];
+    const randomBody = validBodies[Math.floor(Math.random() * validBodies.length)];
+    const randomBase = validBases[Math.floor(Math.random() * validBases.length)];
+
     setHybridParts({
-        neck: shuffled[0],
-        body: shuffled[1],
-        base: shuffled[2]
+        neck: randomNeck,
+        body: randomBody,
+        base: randomBase
     });
   };
-
   const handleModeSwitch = (newMode: AppMode) => {
     setMode(newMode);
     if (newMode === AppMode.HYBRID) {
