@@ -33,7 +33,7 @@ class TextureErrorBoundary extends React.Component<
   }
 }
 
-// --- 新增组件：VaseMesh ---
+// --- VaseMesh 组件 ---
 // 这是一个“诚实”的 Mesh，完全根据图片比例生成几何体，杜绝裁剪
 const VaseMesh = ({ url, opacity, maxSide = 4 }: { url: string; opacity: number; maxSide?: number }) => {
   // 1. 加载纹理
@@ -130,7 +130,6 @@ const VaseNode: React.FC<{ vase: Vase; isSelected: boolean; isAnySelected: boole
     <group ref={meshRef} position={position as [number, number, number]}>
       <Billboard follow={true}>
         <TextureErrorBoundary fallback={FallbackMesh}>
-          {/* 这里替换为新的 VaseMesh */}
           <VaseMesh 
             url={vase.assets.image_url} 
             opacity={opacity}
@@ -166,6 +165,21 @@ const CameraController: React.FC<{ selectedVases: Vase[] }> = ({ selectedVases }
 const UniverseView: React.FC<UniverseViewProps> = ({ data, selectedVases }) => {
   const isAnySelected = selectedVases.length > 0;
 
+  // --- 关键修改：去重逻辑 ---
+  // 使用 useMemo 确保只在 data 变化时计算，防止每一帧都重算
+  const uniqueData = useMemo(() => {
+    const seen = new Set();
+    return data.filter(vase => {
+      // 检查 id 是否已经存在
+      // 如果 vase.id 为空，则暂时不过滤（防止误删），但建议数据源确保有 id
+      if (vase.id && seen.has(vase.id)) {
+        return false; // 如果已经见过这个 id，就丢弃
+      }
+      if (vase.id) seen.add(vase.id);
+      return true; // 如果是新 id，保留
+    });
+  }, [data]);
+
   return (
     <div className="w-full h-full relative">
       <Canvas camera={{ position: [0, 0, 35], fov: 45 }}>
@@ -177,9 +191,10 @@ const UniverseView: React.FC<UniverseViewProps> = ({ data, selectedVases }) => {
         {/* 数据云 (花瓶集合) */}
         <Suspense fallback={null}>
             <group>
-                {data.map((vase, idx) => (
+                {/* 注意：这里改成了遍历 uniqueData */}
+                {uniqueData.map((vase, idx) => (
                 <VaseNode 
-                    key={vase.id || idx}  // 防止 id 重复
+                    key={vase.id || idx}
                     vase={vase} 
                     isSelected={selectedVases.some(v => v.id === vase.id)}
                     isAnySelected={isAnySelected}
