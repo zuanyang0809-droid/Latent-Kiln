@@ -4,42 +4,35 @@ import csv
 import json
 import re
 
-# ================= 配置区域 (请仔细核对！) =================
-# 1. CSV 文件
+# ================= 配置区域 (保持你之前的路径) =================
 CSV_FILE = r"C:\GSD\SCI\Final\web_database.csv"
 
-# 2. 源素材文件夹 (请核对这些路径是否真的存在！)
-# 你的图片到底在哪？如果是 Final/Final_Data_Packages/Photos_NoBG/train/... 请把 /train 加上
-SRC_NOBG_ROOT = r"C:\GSD\SCI\Final\Final_Data_Packages\Photos_NoBG\train" 
-SRC_DEPTH_ROOT = r"C:\GSD\SCI\Final\Final_Data_Packages\Depth\train"
+# 请确认这些路径是对的
+SRC_NOBG_ROOT = r"C:\GSD\SCI\Final\Final_Data_Packages\Photos_NoBG" 
+SRC_DEPTH_ROOT = r"C:\GSD\SCI\Final\Final_Data_Packages\Depth"
 SRC_PARTS_ROOT = r"C:\GSD\SCI\Final\Vase_Parts_Library_Drag" 
 
-# 3. 目标输出文件夹 (当前 VS Code 项目里的 public)
+# 输出位置
 DEST_ROOT = r"public/assets/images"
-
-# 4. 输出的 JSON (为了保险，我们先输出到根目录，防止找不到 src)
 OUTPUT_JSON = "frontend_master_db.json"
 # ===========================================
 
-# 检查源路径是否存在
-if not os.path.exists(SRC_NOBG_ROOT):
-    print(f"❌ 致命错误：找不到源文件夹 {SRC_NOBG_ROOT}")
-    print("请去文件夹里确认一下路径到底是什么！")
-    exit()
-
-# 清理并重建目标目录
+# 清理目标目录
 if os.path.exists(DEST_ROOT):
-    shutil.rmtree(DEST_ROOT)
-    print(f"🧹 已清空旧文件夹: {DEST_ROOT}")
+    try:
+        shutil.rmtree(DEST_ROOT)
+        print(f"🧹 已清空旧文件夹: {DEST_ROOT}")
+    except:
+        print("⚠️ 无法自动清空文件夹，请手动删除 public/assets/images 后再运行！")
 
 for sub in ["original", "depth", "parts/neck", "parts/body", "parts/base"]:
     os.makedirs(os.path.join(DEST_ROOT, sub), exist_ok=True)
 
-print("🚀 开始搬运...")
+print("🚀 开始带【黑名单过滤】的搬运...")
 
 # 读取 CSV
 if not os.path.exists(CSV_FILE):
-    print(f"❌ 找不到 CSV: {CSV_FILE}")
+    print("❌ 找不到 CSV")
     exit()
 
 with open(CSV_FILE, 'r', encoding='utf-8') as f:
@@ -54,11 +47,21 @@ def sanitize_name(name):
     name = re.sub(r'[()\s]+', '_', name)
     return name.strip('_')
 
-def find_source_file(root_folder, filename_stem):
-    # 递归查找文件
-    for root, _, files in os.walk(root_folder):
+# === 关键修改：增加 ignore_keywords 参数 ===
+def find_source_file(root_folder, filename_stem, ignore_keywords=None):
+    if ignore_keywords is None:
+        ignore_keywords = []
+        
+    for root, dirs, files in os.walk(root_folder):
+        # 1. 过滤掉不想进入的文件夹 (比如 parts, neck, body)
+        # 这一步能防止脚本误入歧途
+        dirs[:] = [d for d in dirs if not any(bad in d.lower() for bad in ignore_keywords)]
+        
+        # 2. 检查当前路径是否包含关键词 (双重保险)
+        if any(bad in root.lower() for bad in ignore_keywords):
+            continue
+
         for f in files:
-            # 只要文件名包含 stem 且是图片
             if os.path.splitext(f)[0] == filename_stem and f.lower().endswith(('.png', '.jpg', '.jpeg')):
                 return os.path.join(root, f)
     return None
@@ -68,25 +71,25 @@ for row in csv_data:
     region = row['region']
     name_stem = os.path.splitext(original_filename)[0]
     
-    # 新名字：Region_Name.png
     clean_stem = sanitize_name(name_stem)
     unique_name = f"{region}_{clean_stem}.png"
+    unique_id = f"{region}_{clean_stem}" # ID 也要加上地区
     
-    # 1. 搬运 Original
-    src_img = find_source_file(SRC_NOBG_ROOT, name_stem)
+    # 1. 搬运 Original (关键：忽略 parts 文件夹)
+    # 我们告诉脚本：找原图时，千万别去 neck, body, base 里面找！
+    src_img = find_source_file(SRC_NOBG_ROOT, name_stem, ignore_keywords=["part", "neck", "body", "base", "mask", "edge"])
+    
     if src_img:
         shutil.copy(src_img, os.path.join(DEST_ROOT, "original", unique_name))
     else:
-        # 如果找不到图，为了防止网页报错，我们跳过这条数据
-        # print(f"⚠️ 缺图跳过: {name_stem}")
-        continue 
+        continue # 没原图就跳过
 
     # 2. 搬运 Depth
     src_depth = find_source_file(SRC_DEPTH_ROOT, name_stem)
     if src_depth:
         shutil.copy(src_depth, os.path.join(DEST_ROOT, "depth", unique_name))
     
-    # 3. 搬运 Parts (尝试找)
+    # 3. 搬运 Parts (这里不需要过滤，因为我们指定要去 parts 文件夹找)
     parts_paths = {"neck": "", "body": "", "base": ""}
     for part_name in ["neck", "body", "base"]:
         part_src_root = os.path.join(SRC_PARTS_ROOT, part_name)
@@ -97,18 +100,10 @@ for row in csv_data:
                 parts_paths[part_name] = f"/assets/images/parts/{part_name}/{unique_name}"
 
     # 4. 写入 JSON
-# === 5. 构建 JSON 条目 ===
-    # 让 ID 变成 "Europe_main_image_15" 这样的唯一ID
-    unique_id = f"{region}_{clean_stem}" 
-    
     entry = {
-        "id": unique_id, 
+        "id": unique_id,
         "region": region,
-        "globe_coordinates": {
-            "x": float(row['x']),
-            "y": float(row['y'])
-        },
-        # ... assets 部分保持不变 ...
+        "globe_coordinates": { "x": float(row['x']), "y": float(row['y']) },
         "assets": {
             "image_url": f"/assets/images/original/{unique_name}",
             "depth_url": f"/assets/images/depth/{unique_name}",
@@ -121,10 +116,9 @@ for row in csv_data:
     if processed_count % 50 == 0:
         print(f"已处理 {processed_count} 张...")
 
-# 保存 JSON
 with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
     json.dump(master_db, f, indent=4)
 
 print("-" * 30)
-print(f"✅ 成功搬运: {processed_count} 张图片！")
-print(f"JSON 已生成: {OUTPUT_JSON}")
+print(f"✅ 修复完成！共处理: {processed_count} 张")
+print("切片干扰已排除，现在 Original 文件夹里应该全是完整的花瓶了。")
