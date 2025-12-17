@@ -4,11 +4,12 @@ import vaseData from './frontend_master_db.json';
 import DrawingCanvas from './components/DrawingCanvas';
 import UniverseView from './components/UniverseView';
 import HybridView from './components/HybridView';
-import { Box, Layers, Info, Loader2 } from 'lucide-react'; // 引入 Loader 图标
-import { calculateAlignment, AlignmentData } from './autoAlign'; // 【新增引入】
+import { Box, Layers, Info, Loader2 } from 'lucide-react';
+// 如果你本地没有 autoAlign.ts，请暂时注释掉下面这一行，并把 handleGenerateHybrid 里的相关逻辑删掉
+import { calculateAlignment, AlignmentData } from './autoAlign'; 
 
 // ==========================================
-// 核心修复区域：路径清洗机 (保持不变)
+// 1. 路径清洗机 (保持不变)
 // ==========================================
 const BASE_URL = "/Latent-Kiln/"; 
 const fixUrl = (url: string) => {
@@ -23,20 +24,48 @@ const fixUrl = (url: string) => {
 };
 
 // ==========================================
-// 数据预处理 (保持不变)
-const DATA = (vaseData as any[]).map(item => ({
-  ...item,
-  assets: {
-    image_url: fixUrl(item.assets.image_url),
-    depth_url: fixUrl(item.assets.depth_url),
-    parts: {
-      neck: fixUrl(item.assets.parts.neck),
-      body: fixUrl(item.assets.parts.body),
-      base: fixUrl(item.assets.parts.base),
-    }
-  }
-}));
+// 2. 数据预处理 & 去重 (核心修改区域)
+// ==========================================
+const processData = () => {
+  const seenIds = new Set(); // 记录出现过的 ID
+  const uniqueList: any[] = [];
 
+  (vaseData as any[]).forEach(item => {
+    // 【关键步骤】检查 ID 是否重复
+    // 如果没有 ID 或者是重复的 ID，直接跳过
+    if (!item.id || seenIds.has(item.id)) {
+      return; 
+    }
+
+    // 记录这个新 ID
+    seenIds.add(item.id);
+
+    // 处理图片路径
+    const processedItem = {
+      ...item,
+      assets: {
+        image_url: fixUrl(item.assets.image_url),
+        depth_url: fixUrl(item.assets.depth_url),
+        parts: {
+          neck: fixUrl(item.assets.parts.neck),
+          body: fixUrl(item.assets.parts.body),
+          base: fixUrl(item.assets.parts.base),
+        }
+      }
+    };
+
+    uniqueList.push(processedItem);
+  });
+
+  return uniqueList;
+};
+
+// 使用处理过的、唯一的数据集
+const DATA = processData();
+
+// ==========================================
+// 3. 主程序
+// ==========================================
 const App: React.FC = () => {
   const [mode, setMode] = useState<AppMode>(AppMode.UNIVERSE);
   const [selectedVases, setSelectedVases] = useState<Vase[]>([]);
@@ -46,26 +75,30 @@ const App: React.FC = () => {
     neck: null, body: null, base: null
   });
 
-  // 【新增状态】对齐参数 & 计算加载状态
+  // 对齐参数
   const [alignment, setAlignment] = useState<AlignmentData>({ neckScale: 1, baseScale: 1 });
   const [isAligning, setIsAligning] = useState(false);
 
-  // Mode 1: 搜索逻辑 (保持不变)
+  // === Mode 1: 搜索逻辑 ===
   const handleAnalyze = () => {
     const targetIds = ["africa10", "main-image (15)", "americas22"]; 
+    // 在唯一的 DATA 里查找
     const matches = DATA.filter((item: Vase) => targetIds.includes(item.id));
+    
+    // 如果找不到足够的，随机补齐
     if (matches.length < 3) {
         const remaining = DATA.filter((item: Vase) => !targetIds.includes(item.id))
                               .sort(() => 0.5 - Math.random())
                               .slice(0, 3 - matches.length);
         matches.push(...remaining);
     }
+    // 只更新选中状态，不动 DATA
     setSelectedVases(matches);
   };
 
-  // === Mode 2: 智能拼贴逻辑 (修改为异步函数) ===
+  // === Mode 2: 智能拼贴逻辑 ===
   const handleGenerateHybrid = async () => {
-    // 1. 筛选逻辑 (保持不变)
+    // 1. 筛选逻辑
     const validNecks = DATA.filter((v: Vase) => 
         v.assets.parts.neck && v.assets.parts.neck.length > BASE_URL.length && !v.assets.parts.neck.endsWith('/')
     );
@@ -86,25 +119,28 @@ const App: React.FC = () => {
     const randomBody = validBodies[Math.floor(Math.random() * validBodies.length)];
     const randomBase = validBases[Math.floor(Math.random() * validBases.length)];
 
-    // 3. 先更新零件，让用户看到变化
+    // 3. 先更新零件
     setHybridParts({
         neck: randomNeck,
         body: randomBody,
         base: randomBase
     });
 
-    // 4. 【核心修改】计算对齐
-    setIsAligning(true); // 开始加载
-    
-    // 调用我们在 utils 里写的算法
-    const alignResult = await calculateAlignment(
-        randomNeck.assets.parts.neck, 
-        randomBody.assets.parts.body, 
-        randomBase.assets.parts.base
-    );
-    
-    setAlignment(alignResult); // 更新对齐数据
-    setIsAligning(false); // 结束加载
+    // 4. 计算对齐 (这里假设你有 autoAlign.ts)
+    setIsAligning(true);
+    try {
+        const alignResult = await calculateAlignment(
+            randomNeck.assets.parts.neck, 
+            randomBody.assets.parts.body, 
+            randomBase.assets.parts.base
+        );
+        setAlignment(alignResult);
+    } catch (e) {
+        console.warn("自动对齐失败，使用默认值", e);
+        setAlignment({ neckScale: 1, baseScale: 1 });
+    } finally {
+        setIsAligning(false);
+    }
   };
 
   const handleModeSwitch = (newMode: AppMode) => {
@@ -168,23 +204,19 @@ const App: React.FC = () => {
 
         <section className="h-[60vh] md:h-full md:w-[60%] relative bg-gradient-to-br from-soft-green to-[#a6d8a5]/50 overflow-hidden">
             <div className="absolute inset-0 z-0">
+                {/* 这里的 DATA 已经是没有重复项的了 */}
                 <UniverseView data={DATA} selectedVases={selectedVases} />
             </div>
 
             {mode === AppMode.HYBRID && (
                 <div className="absolute inset-0 z-10 pointer-events-none w-full h-full">
-                    {/* 【修改】在这里处理 HybridView 的 Props */}
-                    {/* 注意：你需要修改 HybridView 组件来接收 alignment 和 isAligning */}
-                    {/* 如果无法修改 HybridView 内部代码，你需要在这里用 div 包装样式 */}
-                    
                     <HybridView 
                         parts={hybridParts} 
-                        // @ts-ignore (如果 HybridView 还没加这个类型定义，暂时忽略 TS 报错)
+                        // @ts-ignore
                         alignment={alignment} 
                         isAligning={isAligning}
                     />
 
-                    {/* 显示加载指示器 */}
                     {isAligning && (
                         <div className="absolute top-4 right-4 bg-white/80 p-2 rounded-full shadow-md animate-spin">
                             <Loader2 size={24} className="text-earth-brown" />
